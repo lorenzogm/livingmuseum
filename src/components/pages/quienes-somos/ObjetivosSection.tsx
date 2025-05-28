@@ -75,7 +75,7 @@ export default function ObjetivosSection() {
             <figure>
               <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
                 <Image 
-                  src="/images/quienes-somos/objetivos-1.jpg" 
+                  src="/quienes-somos/objetivos-1.jpg" 
                   alt="Artista en las residencias de Living Museum Madrid"
                   fill
                   className="object-cover"

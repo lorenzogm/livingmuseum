@@ -8,7 +8,7 @@ export default function FamiliaSection() {
   const teamMembers = [
     {
       name: "Laura Carmona Ayuso",
-      image: "/images/team/laura-carmona.jpg",
+      image: "/quienes-somos/team/laura-carmona.jpg",
       description: [
         "Arteterapeuta especializada en el ámbito clínico en salud mental (PDAG), Suiza",
         "Madre de dos niños y una niña",
@@ -21,7 +21,7 @@ export default function FamiliaSection() {
     },
     {
       name: "Dra. Julia Morla",
-      image: "/images/team/julia-morla.jpg",
+      image: "/quienes-somos/team/julia-morla.jpg",
       description: [
         "Arteterapeuta",
         "Doctora en Estudios Feministas y de Género",
@@ -35,7 +35,7 @@ export default function FamiliaSection() {
     },
     {
       name: "Javier Lapuerta Laorden",
-      image: "/images/team/javier-lapuerta.jpg",
+      image: "/quienes-somos/team/javier-lapuerta.jpg",
       description: [
         "Activista cultural dedicado a la promoción del acceso al arte y la participación ciudadana.",
         "Fundador de Living Museum Madrid"
@@ -46,7 +46,7 @@ export default function FamiliaSection() {
     },
     {
       name: "Piedad García-Murga",
-      image: "/images/team/piedad-garcia.jpg",
+      image: "/quienes-somos/team/piedad-garcia.jpg",
       description: [
         "Arteterapeuta",
         "Docente e investigadora predoctoral (Universidad Complutense de Madrid)",
@@ -60,7 +60,7 @@ export default function FamiliaSection() {
     },
     {
       name: "Dra. Marta Lage",
-      image: "/images/team/marta-lage.jpg", // Placeholder - replace with actual image
+      image: "/quienes-somos/team/marta-lage.jpg", // Placeholder - replace with actual image
       description: [
         "Doctora en Bellas Artes",
         "Docente e investigadora (Universidad Complutense de Madrid)",
@@ -74,7 +74,7 @@ export default function FamiliaSection() {
     },
     {
       name: "Máriam Cáliz Cáceres",
-      image: "/images/team/mariam-caliz.jpg", // Placeholder - replace with actual image
+      image: "/quienes-somos/team/mariam-caliz.jpg", // Placeholder - replace with actual image
       description: [
         "Artista",
         "Arteteterapeuta en formación",
@@ -87,15 +87,15 @@ export default function FamiliaSection() {
   ];
 
   const artists = [
-    { name: "ZARCO", url: "https://livingmuseum.madrid/zarco/", image: "/images/artists/zarco.jpg" },
-    { name: "CARLOS MOLINA VALLEJO", url: "https://livingmuseum.madrid/carlos-molina-vallejo/", image: "/images/artists/carlos-molina.jpg" },
-    { name: "Blanca Valcarce Quiroga", url: "https://livingmuseum.madrid/blanca-valcarce-quiroga/", image: "/images/artists/blanca-valcarce.jpg" },
-    { name: "Miguel Ángel Ruiz", url: "https://livingmuseum.madrid/miguel-angel-ruiz/", image: "/images/artists/miguel-angel.jpg" },
-    { name: "Gustavo Pannullo (G.A.P.)", url: "https://livingmuseum.madrid/gustavo-pannullo-gap/", image: "/images/artists/gustavo-pannullo.jpg" },
-    { name: "Jose Manuel López", url: "https://livingmuseum.madrid/jose-manuel-lopez/", image: "/images/artists/jose-manuel.jpg" },
-    { name: "Fernando José Escriña", url: "https://livingmuseum.madrid/fernando-jose-escrina/", image: "/images/artists/fernando-escrina.jpg" },
-    { name: "Gabriel Pastor Guzmán", url: "https://livingmuseum.madrid/gabriel-pastor-guzman/", image: "/images/artists/gabriel-pastor.jpg" },
-    { name: "Manuel Vela", url: "https://livingmuseum.madrid/manuel-vela/", image: "/images/artists/manuel-vela.jpg" }
+    { name: "ZARCO", url: "https://livingmuseum.madrid/zarco/", image: "/quienes-somos/artists/zarco.jpg" },
+    { name: "CARLOS MOLINA VALLEJO", url: "https://livingmuseum.madrid/carlos-molina-vallejo/", image: "/quienes-somos/artists/carlos-molina.jpg" },
+    { name: "Blanca Valcarce Quiroga", url: "https://livingmuseum.madrid/blanca-valcarce-quiroga/", image: "/quienes-somos/artists/blanca-valcarce.jpg" },
+    { name: "Miguel Ángel Ruiz", url: "https://livingmuseum.madrid/miguel-angel-ruiz/", image: "/quienes-somos/artists/miguel-angel.jpg" },
+    { name: "Gustavo Pannullo (G.A.P.)", url: "https://livingmuseum.madrid/gustavo-pannullo-gap/", image: "/quienes-somos/artists/gustavo-pannullo.jpg" },
+    { name: "Jose Manuel López", url: "https://livingmuseum.madrid/jose-manuel-lopez/", image: "/quienes-somos/artists/jose-manuel.jpg" },
+    { name: "Fernando José Escriña", url: "https://livingmuseum.madrid/fernando-jose-escrina/", image: "/quienes-somos/artists/fernando-escrina.jpg" },
+    { name: "Gabriel Pastor Guzmán", url: "https://livingmuseum.madrid/gabriel-pastor-guzman/", image: "/quienes-somos/artists/gabriel-pastor.jpg" },
+    { name: "Manuel Vela", url: "https://livingmuseum.madrid/manuel-vela/", image: "/quienes-somos/artists/manuel-vela.jpg" }
   ];
 
   return (

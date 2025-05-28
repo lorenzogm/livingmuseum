@@ -40,7 +40,7 @@ export default function ConceptoSection() {
             <figure>
               <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                 <Image 
-                  src="/images/quienes-somos/concepto-hall.jpg" 
+                  src="/quienes-somos/concepto-hall.jpg" 
                   alt="Hall de Living Museum Nueva York"
                   fill
                   className="object-cover"

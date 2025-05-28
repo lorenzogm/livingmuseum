@@ -50,7 +50,7 @@ export default function MadridSection() {
             <figure>
               <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
                 <Image 
-                  src="/images/quienes-somos/madrid-gabriel.webp" 
+                  src="/quienes-somos/madrid-gabriel.webp" 
                   alt="Artista Gabriel Pastor Guzmán en las segundas residencias de Living Museum Madrid"
                   fill
                   className="object-cover"

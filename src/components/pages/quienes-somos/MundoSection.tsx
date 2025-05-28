@@ -45,7 +45,7 @@ export default function MundoSection() {
             <figure>
               <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                 <Image 
-                  src="/images/quienes-somos/mundo-transutopia.jpg" 
+                  src="/quienes-somos/mundo-transutopia.jpg" 
                   alt="Living Museum en el mundo"
                   fill
                   className="object-cover"
