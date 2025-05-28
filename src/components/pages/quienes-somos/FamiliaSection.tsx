@@ -8,7 +8,7 @@ export default function FamiliaSection() {
   const teamMembers = [
     {
       name: "Laura Carmona Ayuso",
-      image: "/images/team/laura-carmona.jpg", // Placeholder - replace with actual image
+      image: "/images/team/laura-carmona.jpg",
       description: [
         "Arteterapeuta especializada en el ámbito clínico en salud mental (PDAG), Suiza",
         "Madre de dos niños y una niña",
@@ -21,7 +21,7 @@ export default function FamiliaSection() {
     },
     {
       name: "Dra. Julia Morla",
-      image: "/images/team/julia-morla.jpg", // Placeholder - replace with actual image
+      image: "/images/team/julia-morla.jpg",
       description: [
         "Arteterapeuta",
         "Doctora en Estudios Feministas y de Género",
@@ -35,7 +35,7 @@ export default function FamiliaSection() {
     },
     {
       name: "Javier Lapuerta Laorden",
-      image: "/images/team/javier-lapuerta.jpg", // Placeholder - replace with actual image
+      image: "/images/team/javier-lapuerta.jpg",
       description: [
         "Activista cultural dedicado a la promoción del acceso al arte y la participación ciudadana.",
         "Fundador de Living Museum Madrid"
@@ -46,7 +46,7 @@ export default function FamiliaSection() {
     },
     {
       name: "Piedad García-Murga",
-      image: "/images/team/piedad-garcia.jpg", // Placeholder - replace with actual image
+      image: "/images/team/piedad-garcia.jpg",
       description: [
         "Arteterapeuta",
         "Docente e investigadora predoctoral (Universidad Complutense de Madrid)",
@@ -99,22 +99,22 @@ export default function FamiliaSection() {
   ];
 
   return (
-    <section id="familia" className="py-24 px-10">
-      <div className="max-w-6xl mx-auto">
-        <Text variant="section" className="mb-12 text-center">
+    <section id="familia" className="py-16 px-6 md:px-10 border-b border-white/10">
+      <div className="max-w-7xl mx-auto">
+        <Text variant="heading" className="mb-12 text-center">
           FAMILIA LIVING MUSEUM
         </Text>
         
-        <div className="bg-gray-900/30 p-8 rounded-lg">
+        <div className="bg-gray-900/30 p-8 rounded-lg border border-white/10">
           {/* Tab Navigation */}
           <div className="flex justify-center mb-8">
-            <div className="inline-flex border-b-2 border-yellow-400">
+            <div className="inline-flex border border-white/20 rounded-lg overflow-hidden">
               <button
                 onClick={() => setActiveTab('equipo')}
                 className={`px-8 py-3 font-medium transition-colors ${
                   activeTab === 'equipo'
-                    ? 'text-white bg-yellow-400/20 rounded-t-lg'
-                    : 'text-white/70 hover:text-white/90'
+                    ? 'text-black bg-yellow-400'
+                    : 'text-white hover:bg-white/10'
                 }`}
               >
                 EL EQUIPO
@@ -137,24 +137,14 @@ export default function FamiliaSection() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
               {teamMembers.map((member, index) => (
                 <div key={index} className="text-center space-y-4">
-                  <div className="aspect-square bg-gray-800/50 rounded-full w-32 h-32 mx-auto overflow-hidden relative flex items-center justify-center">
+                  <div className="aspect-square bg-gray-800/50 rounded-full w-32 h-32 mx-auto overflow-hidden relative">
                     <Image 
                       src={member.image} 
                       alt={member.name}
                       fill
                       className="object-cover"
                       sizes="128px"
-                      onError={(e) => {
-                        // Fallback to placeholder if image fails to load
-                        e.currentTarget.style.display = 'none';
-                      }}
                     />
-                    {/* Placeholder content */}
-                    <div className="absolute inset-0 flex items-center justify-center text-white/50">
-                      <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                      </svg>
-                    </div>
                   </div>
                   <Text variant="heading" className="text-lg">
                     {member.name}
@@ -207,24 +197,14 @@ export default function FamiliaSection() {
                   rel="noopener noreferrer"
                   className="group text-center space-y-4 hover:opacity-80 transition-opacity"
                 >
-                  <div className="aspect-square bg-gray-800/50 rounded-lg overflow-hidden relative flex items-center justify-center">
+                  <div className="aspect-square bg-gray-800/50 rounded-lg overflow-hidden relative">
                     <Image 
                       src={artist.image} 
                       alt={artist.name}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                       sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                      onError={(e) => {
-                        // Fallback to placeholder if image fails to load
-                        e.currentTarget.style.display = 'none';
-                      }}
                     />
-                    {/* Placeholder content */}
-                    <div className="absolute inset-0 flex items-center justify-center text-white/50">
-                      <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.1 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
-                      </svg>
-                    </div>
                   </div>
                   <Text variant="heading" className="text-lg group-hover:text-yellow-400 transition-colors">
                     {artist.name}

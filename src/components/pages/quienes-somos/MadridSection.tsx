@@ -1,16 +1,18 @@
 import Text from '../../elements/Text';
+import Image from 'next/image';
 
 export default function MadridSection() {
   return (
-    <section id="madrid" className="py-24 px-10 bg-gray-900/30">
-      <div className="max-w-6xl mx-auto">
-        <Text variant="section" className="mb-12 text-center">
-          LIVING MUSEUM MADRID
-        </Text>
-        
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="space-y-8">
-            <Text variant="body" className="leading-relaxed">
+    <section id="madrid" className="py-16 px-6 md:px-10 border-b border-white/10">
+      <div className="max-w-7xl mx-auto">
+        <div className="two-column-grid">
+          {/* Text Column - Left */}
+          <div className="space-y-6 order-1 lg:order-1">
+            <Text variant="heading" className="mb-6">
+              LIVING MUSEUM MADRID
+            </Text>
+            
+            <Text variant="body" className="leading-relaxed text-gray-200">
               Living Museum Madrid nace en 2022 con el objetivo de traer la filosofía y los
               beneficios de Living Museum a España. Se basa en el proyecto original fundado en
               Nueva York en 1983, un movimiento que apuesta por la creación de talleres
@@ -20,7 +22,7 @@ export default function MadridSection() {
               reducción del estigma asociado a la enfermedad mental.
             </Text>
             
-            <Text variant="body" className="leading-relaxed">
+            <Text variant="body" className="leading-relaxed text-gray-200">
               Actualmente llevamos a cabo las residencias artísticas todos los miércoles de
               10:30 a 14:00 horas en el Centro de Cultura Contemporánea Condeduque. El taller
               artístico es un espacio donde las personas desarrollan sus proyectos creativos,
@@ -34,32 +36,30 @@ export default function MadridSection() {
               <Text variant="heading" className="text-yellow-400 mb-4">
                 Horarios y Ubicación
               </Text>
-              <Text variant="body" className="mb-2">
+              <Text variant="body" className="mb-2 text-gray-200">
                 <strong>Cuándo:</strong> Todos los miércoles de 10:30 a 14:00 horas
               </Text>
-              <Text variant="body">
+              <Text variant="body" className="text-gray-200">
                 <strong>Dónde:</strong> Centro de Cultura Contemporánea Condeduque
               </Text>
             </div>
           </div>
           
-          <div className="relative">
-            <div className="aspect-[4/3] relative rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center mb-4">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                  </svg>
-                </div>
-                <Text variant="small" className="opacity-70">
-                  Artista en residencia<br />
-                  Living Museum Madrid
-                </Text>
+          {/* Image Column - Right */}
+          <div className="image-with-caption order-2 lg:order-2">
+            <figure>
+              <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
+                <Image 
+                  src="/images/madrid-gabriel-pastor.jpg" 
+                  alt="Artista Gabriel Pastor Guzmán en las segundas residencias de Living Museum Madrid"
+                  fill
+                  className="object-cover"
+                />
               </div>
-            </div>
-            <Text variant="small" className="text-center opacity-70">
-              Artista Gabriel Pastor Guzmán en las segundas residencias de Living Museum Madrid
-            </Text>
+              <figcaption className="image-caption">
+                Artista Gabriel Pastor Guzmán en las segundas residencias de Living Museum Madrid
+              </figcaption>
+            </figure>
           </div>
         </div>
       </div>

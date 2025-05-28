@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Roboto, DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ 
+const roboto = Roboto({ 
   subsets: ["latin"],
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['100', '300', '400', '500', '700', '900'],
   display: 'swap',
+  variable: '--font-roboto',
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  display: 'swap',
+  variable: '--font-dm-sans',
 });
 
 export const metadata: Metadata = {
@@ -21,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${roboto.variable} ${dmSans.variable} ${roboto.className} antialiased`}>
         {children}
       </body>
     </html>

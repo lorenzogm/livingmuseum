@@ -36,18 +36,18 @@ export interface TextProps {
   as?: ElementType;
 }
 
-// Define base styles for each variant
+// Define base styles for each variant - Updated for Living Museum style
 const variantStyles: Record<TextVariant, string> = {
-  hero: 'text-5xl md:text-7xl lg:text-8xl font-light tracking-tight leading-none',
-  section: 'text-4xl md:text-6xl lg:text-7xl font-light tracking-tight',
-  heading: 'text-2xl md:text-3xl lg:text-4xl font-light tracking-tight',
-  body: 'text-base font-normal leading-relaxed',
+  hero: 'text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-none uppercase',
+  section: 'text-2xl md:text-3xl lg:text-4xl font-normal tracking-tight leading-relaxed',
+  heading: 'text-lg md:text-xl lg:text-2xl font-bold tracking-wider uppercase',
+  body: 'text-base font-light leading-relaxed',
   small: 'text-sm font-light tracking-wider',
-  button: 'text-base font-normal tracking-wider transition-opacity duration-300 hover:opacity-70',
-  nav: 'text-sm font-light uppercase tracking-wider',
-  footer: 'text-sm font-normal',
-  copyright: 'text-base font-normal',
-  link: 'text-sm transition-opacity hover:opacity-70 cursor-pointer'
+  button: 'text-base font-normal tracking-wider transition-all duration-300 hover:opacity-70',
+  nav: 'text-sm font-normal uppercase tracking-wider',
+  footer: 'text-sm font-light',
+  copyright: 'text-sm font-light',
+  link: 'text-sm transition-colors hover:text-gray-300 cursor-pointer'
 };
 
 // Define color styles
