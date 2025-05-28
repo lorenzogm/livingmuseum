@@ -3,16 +3,16 @@ import Image from 'next/image';
 
 export default function MadridSection() {
   return (
-    <section id="madrid" className="py-16 px-6 md:px-10 border-b border-white/10">
+    <section id="madrid" className="py-20 px-6 md:px-10 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="two-column-grid">
           {/* Text Column - Left */}
           <div className="space-y-6 order-1 lg:order-1">
-            <Text variant="heading" className="mb-6">
+            <Text variant="heading" className="mb-8 text-yellow-500" transform="uppercase">
               LIVING MUSEUM MADRID
             </Text>
             
-            <Text variant="body" className="leading-relaxed text-gray-200">
+            <Text variant="body" className="leading-relaxed mb-6">
               Living Museum Madrid nace en 2022 con el objetivo de traer la filosofía y los
               beneficios de Living Museum a España. Se basa en el proyecto original fundado en
               Nueva York en 1983, un movimiento que apuesta por la creación de talleres
@@ -22,7 +22,7 @@ export default function MadridSection() {
               reducción del estigma asociado a la enfermedad mental.
             </Text>
             
-            <Text variant="body" className="leading-relaxed text-gray-200">
+            <Text variant="body" className="leading-relaxed mb-8">
               Actualmente llevamos a cabo las residencias artísticas todos los miércoles de
               10:30 a 14:00 horas en el Centro de Cultura Contemporánea Condeduque. El taller
               artístico es un espacio donde las personas desarrollan sus proyectos creativos,
@@ -32,14 +32,14 @@ export default function MadridSection() {
               intercambio artístico, y la creación de redes de apoyo.
             </Text>
             
-            <div className="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded">
-              <Text variant="heading" className="text-yellow-400 mb-4">
+            <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-lg">
+              <Text variant="heading" className="text-yellow-500 mb-4" transform="uppercase">
                 Horarios y Ubicación
               </Text>
-              <Text variant="body" className="mb-2 text-gray-200">
+              <Text variant="body" className="mb-2">
                 <strong>Cuándo:</strong> Todos los miércoles de 10:30 a 14:00 horas
               </Text>
-              <Text variant="body" className="text-gray-200">
+              <Text variant="body">
                 <strong>Dónde:</strong> Centro de Cultura Contemporánea Condeduque
               </Text>
             </div>
@@ -50,7 +50,7 @@ export default function MadridSection() {
             <figure>
               <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
                 <Image 
-                  src="/images/madrid-gabriel-pastor.jpg" 
+                  src="/images/quienes-somos/madrid-gabriel.webp" 
                   alt="Artista Gabriel Pastor Guzmán en las segundas residencias de Living Museum Madrid"
                   fill
                   className="object-cover"

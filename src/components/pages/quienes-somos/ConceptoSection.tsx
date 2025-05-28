@@ -3,16 +3,16 @@ import Image from 'next/image';
 
 export default function ConceptoSection() {
   return (
-    <section id="concepto" className="py-16 px-6 md:px-10 border-b border-white/10">
+    <section id="concepto" className="py-20 px-6 md:px-10 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="two-column-grid">
           {/* Text Column - Left */}
           <div className="space-y-6 order-1 lg:order-1">
-            <Text variant="heading" className="mb-6">
+            <Text variant="heading" className="mb-8 text-yellow-500" transform="uppercase">
               EL CONCEPTO
             </Text>
             
-            <Text variant="body" className="leading-relaxed text-gray-200">
+            <Text variant="body" className="leading-relaxed mb-6">
               La filosofía de Living Museum no busca encontrar una nueva forma de tratamiento,
               sino apoyarse en un enfoque humano para construir un espacio acogedor e
               inclusivo a través del arte. La célebre frase de Bolek Greczynski &ldquo;let your
@@ -24,7 +24,7 @@ export default function ConceptoSection() {
               proceso creativo de la vida.
             </Text>
             
-            <Text variant="body" className="leading-relaxed text-gray-200">
+            <Text variant="body" className="leading-relaxed">
               El nacimiento del concepto se vio ampliamente influenciado por la escena
               artística europea del momento, especialmente por los planteamientos del artista alemán
               Joseph Beuys, por las experiencias artísticas de los y las artistas de la
@@ -38,15 +38,15 @@ export default function ConceptoSection() {
           {/* Image Column - Right */}
           <div className="image-with-caption order-2 lg:order-2">
             <figure>
-              <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                 <Image 
-                  src="/images/concepto-hall.jpg" 
+                  src="/images/quienes-somos/concepto-hall.jpg" 
                   alt="Hall de Living Museum Nueva York"
                   fill
                   className="object-cover"
                 />
               </div>
-              <figcaption className="image-caption">
+              <figcaption className="image-caption text-sm text-gray-600 mt-3 font-light leading-relaxed">
                 Hall de Living Museum Nueva York
               </figcaption>
             </figure>

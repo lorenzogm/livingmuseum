@@ -30,10 +30,10 @@ export default function CookieConsent() {
   return (
     <button
       onClick={handleManage}
-      className="fixed bottom-5 left-5 right-5 md:right-auto bg-black/90 border border-white/30 px-5 py-3 rounded-full cursor-pointer transition-all duration-300 hover:bg-white/10 z-50"
+      className="fixed bottom-5 left-5 right-5 md:right-auto bg-white/95 border border-gray-300 px-5 py-3 rounded-full cursor-pointer transition-all duration-300 hover:bg-gray-50 shadow-lg z-50"
       aria-label="Gestionar consentimiento"
     >
-      <Text variant="small">
+      <Text variant="small" className="text-gray-900">
         Gestionar consentimiento
       </Text>
     </button>

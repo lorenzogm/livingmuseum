@@ -42,11 +42,11 @@ export default function QuienesSomos() {
   }, []);
 
   return (
-    <div className="bg-black text-white overflow-x-hidden">
+    <div className="bg-white text-gray-900 overflow-x-hidden min-h-screen">
       {/* Skip to content link */}
       <a 
         href="#content" 
-        className="absolute -top-10 left-2 bg-black text-white px-2 py-1 rounded focus:top-2 z-50"
+        className="absolute -top-10 left-2 bg-gray-900 text-white px-2 py-1 rounded focus:top-2 z-50"
       >
         Ir al contenido
       </a>
@@ -54,7 +54,7 @@ export default function QuienesSomos() {
       <Header />
       <SideNavigation activeSection={activeSection} />
       
-      <main id="content" className="pt-24">
+      <main id="content" className="pt-24 bg-white">
         <QuienesSomosHero />
         <HistoriaSection />
         <ConceptoSection />

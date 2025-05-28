@@ -99,32 +99,32 @@ export default function FamiliaSection() {
   ];
 
   return (
-    <section id="familia" className="py-16 px-6 md:px-10 border-b border-white/10">
+    <section id="familia" className="py-20 px-6 md:px-10 bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        <Text variant="heading" className="mb-12 text-center">
+        <Text variant="heading" className="mb-12 text-center text-yellow-500" transform="uppercase">
           FAMILIA LIVING MUSEUM
         </Text>
         
-        <div className="bg-gray-900/30 p-8 rounded-lg border border-white/10">
+        <div className="bg-white p-8 rounded-lg border border-gray-200 shadow-lg">
           {/* Tab Navigation */}
           <div className="flex justify-center mb-8">
-            <div className="inline-flex border border-white/20 rounded-lg overflow-hidden">
+            <div className="inline-flex border border-gray-300 rounded-lg overflow-hidden">
               <button
                 onClick={() => setActiveTab('equipo')}
-                className={`px-8 py-3 font-medium transition-colors ${
+                className={`px-8 py-3 font-light transition-colors ${
                   activeTab === 'equipo'
-                    ? 'text-black bg-yellow-400'
-                    : 'text-white hover:bg-white/10'
+                    ? 'text-black bg-yellow-500'
+                    : 'text-gray-700 hover:bg-gray-100'
                 }`}
               >
                 EL EQUIPO
               </button>
               <button
                 onClick={() => setActiveTab('artistas')}
-                className={`px-8 py-3 font-medium transition-colors ${
+                className={`px-8 py-3 font-light transition-colors ${
                   activeTab === 'artistas'
-                    ? 'text-white bg-yellow-400/20 rounded-t-lg'
-                    : 'text-white/70 hover:text-white/90'
+                    ? 'text-black bg-yellow-500'
+                    : 'text-gray-700 hover:bg-gray-100'
                 }`}
               >
                 ARTISTAS
@@ -137,7 +137,7 @@ export default function FamiliaSection() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
               {teamMembers.map((member, index) => (
                 <div key={index} className="text-center space-y-4">
-                  <div className="aspect-square bg-gray-800/50 rounded-full w-32 h-32 mx-auto overflow-hidden relative">
+                  <div className="aspect-square bg-gray-100 rounded-full w-32 h-32 mx-auto overflow-hidden relative border border-gray-200">
                     <Image 
                       src={member.image} 
                       alt={member.name}
@@ -146,7 +146,7 @@ export default function FamiliaSection() {
                       sizes="128px"
                     />
                   </div>
-                  <Text variant="heading" className="text-lg">
+                  <Text variant="heading" className="text-lg text-gray-900">
                     {member.name}
                   </Text>
                   <div className="space-y-2">

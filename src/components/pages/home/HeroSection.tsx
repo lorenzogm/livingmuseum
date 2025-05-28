@@ -1,6 +1,6 @@
-import VideoBackground from '../../shared/VideoBackground';
 import Button from '../../elements/Button';
 import Text from '../../elements/Text';
+import VideoBackground from '../../shared/VideoBackground';
 
 export default function HeroSection() {
   return (
@@ -9,13 +9,13 @@ export default function HeroSection() {
       className="min-h-screen flex items-center justify-center px-10 py-20 relative overflow-hidden"
     >
       {/* Background Video */}
-      <VideoBackground src="/videos/quienes-somos.mp4" />
+      <VideoBackground src="/home/quienes-somos.mp4" />
       
-      {/* Dark overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/50 z-10"></div>
+      {/* Light overlay for better text readability */}
+      <div className="absolute inset-0 bg-white/60 z-10"></div>
       
       <div className="text-center max-w-4xl mx-auto relative z-20">
-        <Text variant="hero" align="center" className="mb-12">
+        <Text variant="hero" align="center" className="mb-12 text-yellow-500" transform="uppercase">
           Living Museum Madrid
         </Text>
         <Button href="#artistas">

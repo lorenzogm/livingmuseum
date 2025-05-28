@@ -20,7 +20,7 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md px-10 py-5">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md px-10 py-5 border-b border-gray-200">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         <div className="flex items-center gap-5">
           <Link href="/" className="block">
@@ -29,20 +29,20 @@ export default function Header() {
               alt="Living Museum Madrid"
               width={200}
               height={60}
-              className="h-10 w-auto"
+              className="h-10 w-auto brightness-0"
             />
           </Link>
-          <Text variant="nav" transform="uppercase">
+          <Text variant="nav" transform="uppercase" className="text-gray-900">
             {getPageTitle()}
           </Text>
         </div>
         
-        <nav className={`${isMenuOpen ? 'block' : 'hidden'} absolute top-full left-0 right-0 bg-black/95 backdrop-blur-md md:block md:static md:bg-transparent`}>
+        <nav className={`${isMenuOpen ? 'block' : 'hidden'} absolute top-full left-0 right-0 bg-white/95 backdrop-blur-md border-b border-gray-200 md:block md:static md:bg-transparent md:border-none`}>
           <div className="flex flex-col md:flex-row gap-6 p-6 md:p-0">
-            <Link href="/" className="text-white hover:text-yellow-400 transition-colors">
+            <Link href="/" className="text-gray-900 hover:text-yellow-500 transition-colors">
               <Text variant="nav" transform="uppercase">Inicio</Text>
             </Link>
-            <Link href="/quienes-somos" className="text-white hover:text-yellow-400 transition-colors">
+            <Link href="/quienes-somos" className="text-gray-900 hover:text-yellow-500 transition-colors">
               <Text variant="nav" transform="uppercase">Quiénes Somos</Text>
             </Link>
           </div>
@@ -54,17 +54,17 @@ export default function Header() {
           aria-label="Alternar menú"
         >
           <span 
-            className={`w-6 h-0.5 bg-white transition-all duration-300 ${
+            className={`w-6 h-0.5 bg-gray-900 transition-all duration-300 ${
               isMenuOpen ? 'rotate-45 translate-y-1.5' : ''
             }`}
           />
           <span 
-            className={`w-6 h-0.5 bg-white transition-all duration-300 ${
+            className={`w-6 h-0.5 bg-gray-900 transition-all duration-300 ${
               isMenuOpen ? 'opacity-0' : ''
             }`}
           />
           <span 
-            className={`w-6 h-0.5 bg-white transition-all duration-300 ${
+            className={`w-6 h-0.5 bg-gray-900 transition-all duration-300 ${
               isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''
             }`}
           />

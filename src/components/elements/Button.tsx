@@ -4,23 +4,40 @@ interface ButtonProps {
   children: React.ReactNode;
   target?: string;
   rel?: string;
+  variant?: 'primary' | 'secondary' | 'link';
+  className?: string;
 }
 
-export default function Button({ href, onClick, children, target, rel }: ButtonProps) {
+export default function Button({ href, onClick, children, target, rel, variant = 'primary', className = '' }: ButtonProps) {
   const baseStyles = {
-    background: 'transparent',
+    fontFamily: 'Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+    fontWeight: '300',
+    fontSize: '16px',
+    letterSpacing: '-0.3px',
+    textTransform: 'uppercase' as const,
+    lineHeight: '1.3em',
+    padding: '12px 24px',
     border: 'none',
     textDecoration: 'none',
-    padding: '0',
-    fontSize: '16px',
-    fontWeight: '400',
-    letterSpacing: '0.025em',
-    textTransform: 'none' as const,
-    fontFamily: 'inherit',
-    lineHeight: '1.5'
+    transition: 'all 0.3s ease',
+    cursor: 'pointer',
+    display: 'inline-block'
   };
 
-  const className = "text-white font-normal text-base tracking-wider normal-case transition-opacity duration-300 hover:opacity-70 cursor-pointer";
+  const getVariantStyles = () => {
+    switch (variant) {
+      case 'primary':
+        return 'bg-yellow-500 text-black hover:bg-yellow-400 hover:shadow-lg';
+      case 'secondary':
+        return 'bg-transparent border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black';
+      case 'link':
+        return 'bg-transparent text-yellow-500 hover:text-yellow-400 p-0';
+      default:
+        return 'bg-yellow-500 text-black hover:bg-yellow-400';
+    }
+  };
+
+  const buttonClass = `${getVariantStyles()} transition-all duration-300 ${className}`;
 
   if (href) {
     return (
@@ -28,7 +45,7 @@ export default function Button({ href, onClick, children, target, rel }: ButtonP
         href={href}
         target={target}
         rel={rel}
-        className={className}
+        className={buttonClass}
         style={baseStyles}
       >
         {children}
@@ -39,7 +56,7 @@ export default function Button({ href, onClick, children, target, rel }: ButtonP
   return (
     <button 
       onClick={onClick}
-      className={className}
+      className={buttonClass}
       style={baseStyles}
     >
       {children}

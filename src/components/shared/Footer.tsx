@@ -7,7 +7,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-black border-t border-white/10 px-10 py-16">
+    <footer className="bg-white border-t border-gray-200 px-10 py-16">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-10 mb-10">
           {/* Logo and Social Links */}
@@ -18,7 +18,7 @@ export default function Footer() {
                 alt="Living Museum Madrid"
                 width={150}
                 height={50}
-                className="h-15 w-auto"
+                className="h-15 w-auto brightness-0"
               />
             </a>
             <div className="flex gap-5 justify-center md:justify-start">
@@ -26,7 +26,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/living-museum-madrid/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-white text-sm transition-opacity hover:opacity-70"
+                className="flex items-center gap-2 text-gray-900 text-sm transition-colors hover:text-yellow-500"
               >
                 <span>LinkedIn</span>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -37,7 +37,7 @@ export default function Footer() {
                 href="https://www.instagram.com/livingmuseum.madrid/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-white text-sm transition-opacity hover:opacity-70"
+                className="flex items-center gap-2 text-gray-900 text-sm transition-colors hover:text-yellow-500"
               >
                 <span>Instagram</span>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -59,10 +59,10 @@ export default function Footer() {
               />
             </div>
             <div className="flex gap-4">
-              <Text variant="link" color="white-muted" className="hover:text-white transition-colors">
+              <Text variant="link" color="muted" className="hover:text-yellow-500 transition-colors">
                 English
               </Text>
-              <Text variant="link" color="white">
+              <Text variant="link" color="primary">
                 Español
               </Text>
             </div>
@@ -83,22 +83,22 @@ export default function Footer() {
         </div>
 
         {/* Footer Bottom */}
-        <div className="text-center pt-10 border-t border-white/10">
+        <div className="text-center pt-10 border-t border-gray-200">
           <nav className="mb-5">
-            <Text variant="link" color="white-muted" className="hover:text-white transition-colors">
+            <Text variant="link" color="muted" className="hover:text-yellow-500 transition-colors">
               Política de Privacidad y Cookies (EU)
             </Text>
           </nav>
           <Text variant="copyright" className="mb-2">
             ©2025 Todos los derechos reservados
           </Text>
-          <Text variant="footer" color="white-muted">
+          <Text variant="footer" color="muted">
             Diseñado por{' '}
             <a 
               href="https://agencia.dafy.es/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-white hover:opacity-70 transition-opacity"
+              className="text-primary hover:text-yellow-500 transition-colors"
             >
               dafy.agencia
             </a>

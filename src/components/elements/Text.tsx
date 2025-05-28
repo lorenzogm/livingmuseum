@@ -15,9 +15,11 @@ export type TextVariant =
 
 // Define color variants
 export type TextColor = 
-  | 'white'
-  | 'white-muted'    // white/70
-  | 'white-subtle'   // white/30
+  | 'primary'        // Black/Dark text
+  | 'secondary'      // Yellow accent
+  | 'muted'          // Gray text
+  | 'light'          // Light gray text
+  | 'white'          // White text (for dark backgrounds)
   | 'inherit';
 
 // Define text alignment
@@ -36,25 +38,27 @@ export interface TextProps {
   as?: ElementType;
 }
 
-// Define base styles for each variant - Updated for Living Museum style
+// Define base styles for each variant - Updated to match original site
 const variantStyles: Record<TextVariant, string> = {
-  hero: 'text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-none uppercase',
-  section: 'text-2xl md:text-3xl lg:text-4xl font-normal tracking-tight leading-relaxed',
-  heading: 'text-lg md:text-xl lg:text-2xl font-bold tracking-wider uppercase',
+  hero: 'text-4xl md:text-6xl lg:text-8xl font-normal tracking-tight leading-none',
+  section: 'text-xl md:text-2xl lg:text-3xl font-light leading-relaxed',
+  heading: 'text-lg md:text-xl font-light tracking-wide',
   body: 'text-base font-light leading-relaxed',
-  small: 'text-sm font-light tracking-wider',
-  button: 'text-base font-normal tracking-wider transition-all duration-300 hover:opacity-70',
-  nav: 'text-sm font-normal uppercase tracking-wider',
+  small: 'text-sm font-light',
+  button: 'text-base font-light tracking-wide transition-all duration-300',
+  nav: 'text-sm font-light tracking-wide',
   footer: 'text-sm font-light',
   copyright: 'text-sm font-light',
-  link: 'text-sm transition-colors hover:text-gray-300 cursor-pointer'
+  link: 'text-sm font-light transition-colors hover:text-yellow-500 cursor-pointer'
 };
 
 // Define color styles
 const colorStyles: Record<TextColor, string> = {
+  primary: 'text-gray-900',
+  secondary: 'text-yellow-500',
+  muted: 'text-gray-600',
+  light: 'text-gray-400',
   white: 'text-white',
-  'white-muted': 'text-white/70',
-  'white-subtle': 'text-white/30',
   inherit: ''
 };
 
@@ -89,7 +93,7 @@ const defaultElements: Record<TextVariant, ElementType> = {
 
 export default function Text({
   variant = 'body',
-  color = 'white',
+  color = 'primary',
   align = 'left',
   transform = 'none',
   className = '',

@@ -40,11 +40,11 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-black text-white overflow-x-hidden">
+    <div className="bg-white text-gray-900 overflow-x-hidden">
       {/* Skip to content link */}
       <a 
         href="#content" 
-        className="absolute -top-10 left-2 bg-black text-white px-2 py-1 rounded focus:top-2 z-50"
+        className="absolute -top-10 left-2 bg-gray-900 text-white px-2 py-1 rounded focus:top-2 z-50"
       >
         Ir al contenido
       </a>
