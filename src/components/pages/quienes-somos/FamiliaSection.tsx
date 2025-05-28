@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Image from 'next/image';
+import { Image }  from '@/components/elements/Image';
 import Text from '../../elements/Text';
 
 export default function FamiliaSection() {

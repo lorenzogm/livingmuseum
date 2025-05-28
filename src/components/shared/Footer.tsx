@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import {Image} from '../elements/Image';
 import Text from '../elements/Text';
 
 export default function Footer() {

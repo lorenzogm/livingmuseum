@@ -44,7 +44,7 @@ export default function VideoBackground({ src, className = '', poster }: VideoBa
       poster={poster}
       className={`absolute inset-0 w-full h-full object-cover z-0 ${className}`}
     >
-      <source src={src} type="video/mp4" />
+      <source src={`${process.env.NODE_ENV === 'production' ? '/livingmuseum' : ''}${src}`} type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   );

@@ -1,5 +1,5 @@
 import Text from '../../elements/Text';
-import Image from 'next/image';
+import { Image }  from '@/components/elements/Image';
 
 export default function MundoSection() {
   return (

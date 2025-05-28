@@ -1,5 +1,5 @@
 import Text from '../../elements/Text';
-import Image from 'next/image';
+import { Image }  from '@/components/elements/Image';
 
 export default function HistoriaSection() {
   return (
@@ -10,7 +10,7 @@ export default function HistoriaSection() {
           <div className="image-with-caption order-1 lg:order-1">
             <figure>
               <Image 
-                src="/images/quienes-somos/historia-fundadores.jpg" 
+                src="/quienes-somos/historia-fundadores.jpg" 
                 alt="Personas fundadoras de Living Museum, Nueva York, 1998"
                 width={600}
                 height={400}

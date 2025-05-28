@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
+import {Image} from '../elements/Image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Text from '../elements/Text';
@@ -27,9 +27,12 @@ export default function Header() {
             <Image
               src="/logo-white.svg"
               alt="Living Museum Madrid"
+              fill={false}
               width={200}
               height={60}
-              className="h-10 w-auto brightness-0"
+              rounded={false}
+              shadow="none"
+              imageClassName="h-10 w-auto brightness-0"
             />
           </Link>
           <Text variant="nav" transform="uppercase" className="text-gray-900">
