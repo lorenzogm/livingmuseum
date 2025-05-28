@@ -142,7 +142,8 @@ export default function FamiliaSection() {
                       src={member.image} 
                       alt={member.name}
                       fill
-                      className="object-cover"
+                      aspectRatio='1:1'
+                      className="object-cover object-top"
                       sizes="128px"
                     />
                   </div>
@@ -202,7 +203,8 @@ export default function FamiliaSection() {
                       src={artist.image} 
                       alt={artist.name}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      aspectRatio='1:1'
+                      className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
                       sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                     />
                   </div>
