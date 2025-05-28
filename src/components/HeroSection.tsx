@@ -1,16 +1,24 @@
+import VideoBackground from './VideoBackground';
+
 export default function HeroSection() {
   return (
     <section 
       id="top" 
-      className="min-h-screen flex items-center justify-center px-10 py-20 bg-gradient-to-br from-gray-800 to-black relative"
+      className="min-h-screen flex items-center justify-center px-10 py-20 relative overflow-hidden"
     >
-      <div className="text-center max-w-2xl mx-auto">
-        <h1 className="text-6xl md:text-8xl lg:text-9xl font-light mb-10 tracking-tight leading-none">
+      {/* Background Video */}
+      <VideoBackground src="/videos/quienes-somos.mp4" />
+      
+      {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/50 z-10"></div>
+      
+      <div className="text-center max-w-2xl mx-auto relative z-20">
+        <h1 className="text-6xl md:text-8xl lg:text-9xl font-light mb-10 tracking-tight leading-none text-white">
           Living Museum Madrid
         </h1>
         <a 
-          href="#" 
-          className="inline-block text-lg font-normal py-4 px-8 border border-white/30 rounded-full transition-all duration-300 hover:bg-white/10 hover:border-white hover:-translate-y-0.5 uppercase tracking-wider"
+          href="#artistas" 
+          className="inline-block text-lg font-normal py-4 px-8 border border-white/30 rounded-full transition-all duration-300 hover:bg-white/10 hover:border-white hover:-translate-y-0.5 uppercase tracking-wider text-white"
         >
           Quiénes somos
         </a>
