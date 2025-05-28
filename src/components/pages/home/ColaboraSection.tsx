@@ -1,8 +1,8 @@
 'use client';
 
-import VideoBackground from './VideoBackground';
-import Button from './Button';
-import Text from './Text';
+import VideoBackground from '../../shared/VideoBackground';
+import Button from '../../elements/Button';
+import Text from '../../elements/Text';
 
 export default function ColaboraSection() {
   const handleContactClick = () => {

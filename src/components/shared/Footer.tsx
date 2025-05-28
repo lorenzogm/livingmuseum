@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Text from './Text';
+import Text from '../elements/Text';
 
 export default function Footer() {
   const scrollToTop = () => {

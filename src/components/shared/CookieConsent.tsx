@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Text from './Text';
+import Text from '../elements/Text';
 
 export default function CookieConsent() {
   const [isVisible, setIsVisible] = useState(false);

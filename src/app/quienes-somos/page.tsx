@@ -3,20 +3,22 @@
 import { useState, useEffect } from "react";
 import Header from "@/components/shared/Header";
 import SideNavigation from "@/components/shared/SideNavigation";
-import HeroSection from "@/components/pages/home/HeroSection";
-import ArtistasSection from "@/components/pages/home/ArtistasSection";
-import NoticiasSection from "@/components/pages/home/NoticiasSection";
-import ProyectosSection from "@/components/pages/home/ProyectosSection";
-import ColaboraSection from "@/components/pages/home/ColaboraSection";
 import Footer from "@/components/shared/Footer";
 import CookieConsent from "@/components/shared/CookieConsent";
+import QuienesSomosHero from "@/components/pages/quienes-somos/QuienesSomosHero";
+import HistoriaSection from "@/components/pages/quienes-somos/HistoriaSection";
+import ConceptoSection from "@/components/pages/quienes-somos/ConceptoSection";
+import MundoSection from "@/components/pages/quienes-somos/MundoSection";
+import MadridSection from "@/components/pages/quienes-somos/MadridSection";
+import ObjetivosSection from "@/components/pages/quienes-somos/ObjetivosSection";
+import FamiliaSection from "@/components/pages/quienes-somos/FamiliaSection";
 
-export default function Home() {
+export default function QuienesSomos() {
   const [activeSection, setActiveSection] = useState('top');
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['top', 'artistas', 'actualidad', 'proyectos', 'colabora'];
+      const sections = ['top', 'historia', 'concepto', 'mundo', 'madrid', 'objetivos', 'familia'];
       const scrollPosition = window.scrollY + 150;
 
       for (const sectionId of sections) {
@@ -53,11 +55,13 @@ export default function Home() {
       <SideNavigation activeSection={activeSection} />
       
       <main id="content" className="pt-24">
-        <HeroSection />
-        <ArtistasSection />
-        <NoticiasSection />
-        <ProyectosSection />
-        <ColaboraSection />
+        <QuienesSomosHero />
+        <HistoriaSection />
+        <ConceptoSection />
+        <MundoSection />
+        <MadridSection />
+        <ObjetivosSection />
+        <FamiliaSection />
       </main>
       
       <Footer />
