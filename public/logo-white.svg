@@ -1,0 +1,7 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="60" fill="transparent"/>
+  <text x="10" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="300" fill="white">LIVING MUSEUM</text>
+  <text x="10" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="200" fill="white">MADRID</text>
+  <circle cx="170" cy="30" r="15" stroke="white" stroke-width="2" fill="none"/>
+  <circle cx="170" cy="30" r="8" fill="white"/>
+</svg>

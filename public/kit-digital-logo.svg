@@ -1,0 +1,9 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="40" fill="white" rx="5"/>
+  <text x="10" y="15" font-family="Arial, sans-serif" font-size="8" font-weight="600" fill="#000">KIT DIGITAL</text>
+  <text x="10" y="25" font-family="Arial, sans-serif" font-size="6" font-weight="400" fill="#666">PROGRAMA DE DIGITALIZACIÓN</text>
+  <text x="10" y="32" font-family="Arial, sans-serif" font-size="6" font-weight="400" fill="#666">PARA PYMES</text>
+  <rect x="90" y="8" width="20" height="24" fill="#0066cc" rx="2"/>
+  <text x="93" y="18" font-family="Arial, sans-serif" font-size="6" font-weight="600" fill="white">UE</text>
+  <text x="93" y="25" font-family="Arial, sans-serif" font-size="4" font-weight="400" fill="white">2024</text>
+</svg>
