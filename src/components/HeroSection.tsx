@@ -1,5 +1,6 @@
 import VideoBackground from './VideoBackground';
 import Button from './Button';
+import Text from './Text';
 
 export default function HeroSection() {
   return (
@@ -13,10 +14,10 @@ export default function HeroSection() {
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black/50 z-10"></div>
       
-      <div className="text-center max-w-2xl mx-auto relative z-20">
-        <h1 className="text-6xl md:text-8xl lg:text-9xl font-light mb-10 tracking-tight leading-none text-white">
+      <div className="text-center max-w-4xl mx-auto relative z-20">
+        <Text variant="hero" align="center" className="mb-12">
           Living Museum Madrid
-        </h1>
+        </Text>
         <Button href="#artistas">
           Quiénes somos
         </Button>

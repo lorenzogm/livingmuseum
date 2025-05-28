@@ -14,11 +14,13 @@ export default function Button({ href, onClick, children, target, rel }: ButtonP
     padding: '0',
     fontSize: '16px',
     fontWeight: '400',
-    letterSpacing: 'normal',
-    textTransform: 'none' as const
+    letterSpacing: '0.025em',
+    textTransform: 'none' as const,
+    fontFamily: 'inherit',
+    lineHeight: '1.5'
   };
 
-  const className = "text-white font-normal text-base tracking-normal normal-case transition-opacity duration-300 hover:opacity-70 cursor-pointer";
+  const className = "text-white font-normal text-base tracking-wider normal-case transition-opacity duration-300 hover:opacity-70 cursor-pointer";
 
   if (href) {
     return (

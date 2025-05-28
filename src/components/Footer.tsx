@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Text from './Text';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -58,12 +59,12 @@ export default function Footer() {
               />
             </div>
             <div className="flex gap-4">
-              <a href="#" className="text-white/70 text-sm hover:text-white transition-colors">
+              <Text variant="link" color="white-muted" className="hover:text-white transition-colors">
                 English
-              </a>
-              <a href="#" className="text-white text-sm">
+              </Text>
+              <Text variant="link" color="white">
                 Español
-              </a>
+              </Text>
             </div>
           </div>
 
@@ -84,14 +85,14 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="text-center pt-10 border-t border-white/10">
           <nav className="mb-5">
-            <a href="#" className="text-white/70 text-sm hover:text-white transition-colors">
+            <Text variant="link" color="white-muted" className="hover:text-white transition-colors">
               Política de Privacidad y Cookies (EU)
-            </a>
+            </Text>
           </nav>
-          <h2 className="text-base font-normal mb-2">
+          <Text variant="copyright" className="mb-2">
             ©2025 Todos los derechos reservados
-          </h2>
-          <p className="text-sm text-white/70">
+          </Text>
+          <Text variant="footer" color="white-muted">
             Diseñado por{' '}
             <a 
               href="https://agencia.dafy.es/" 
@@ -101,7 +102,7 @@ export default function Footer() {
             >
               dafy.agencia
             </a>
-          </p>
+          </Text>
         </div>
       </div>
     </footer>

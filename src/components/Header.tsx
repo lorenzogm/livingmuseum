@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Text from './Text';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,9 +24,9 @@ export default function Header() {
               className="h-10 w-auto"
             />
           </a>
-          <p className="text-sm text-white font-light uppercase tracking-wider">
+          <Text variant="nav" transform="uppercase">
             Portada
-          </p>
+          </Text>
         </div>
         
         <button

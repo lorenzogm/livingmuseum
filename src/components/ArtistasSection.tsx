@@ -1,5 +1,6 @@
 import VideoBackground from './VideoBackground';
 import Button from './Button';
+import Text from './Text';
 
 export default function ArtistasSection() {
   return (
@@ -13,10 +14,10 @@ export default function ArtistasSection() {
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black/50 z-10"></div>
       
-      <div className="text-center max-w-2xl mx-auto relative z-20">
-        <h2 className="text-5xl md:text-6xl lg:text-7xl font-light mb-10 tracking-tight text-white">
+      <div className="text-center max-w-4xl mx-auto relative z-20">
+        <Text variant="section" align="center" className="mb-12">
           Artistas
-        </h2>
+        </Text>
         <Button 
           href="https://livingmuseum.madrid/artistas/" 
           target="_blank"
