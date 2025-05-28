@@ -1,4 +1,5 @@
 import VideoBackground from './VideoBackground';
+import Button from './Button';
 
 export default function HeroSection() {
   return (
@@ -16,12 +17,9 @@ export default function HeroSection() {
         <h1 className="text-6xl md:text-8xl lg:text-9xl font-light mb-10 tracking-tight leading-none text-white">
           Living Museum Madrid
         </h1>
-        <a 
-          href="#artistas" 
-          className="inline-block text-lg font-normal py-4 px-8 border border-white/30 rounded-full transition-all duration-300 hover:bg-white/10 hover:border-white hover:-translate-y-0.5 uppercase tracking-wider text-white"
-        >
+        <Button href="#artistas">
           Quiénes somos
-        </a>
+        </Button>
       </div>
     </section>
   );

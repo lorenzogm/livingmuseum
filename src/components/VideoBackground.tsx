@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 interface VideoBackgroundProps {
   src: string;
@@ -10,7 +10,6 @@ interface VideoBackgroundProps {
 
 export default function VideoBackground({ src, className = '', poster }: VideoBackgroundProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [isInView, setIsInView] = useState(false);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -18,7 +17,6 @@ export default function VideoBackground({ src, className = '', poster }: VideoBa
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        setIsInView(entry.isIntersecting);
         if (entry.isIntersecting) {
           video.play();
         } else {
