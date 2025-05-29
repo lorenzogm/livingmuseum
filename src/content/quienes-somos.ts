@@ -1,5 +1,5 @@
 // Quienes Somos page content and types
-import quienesSomosContent from '../../public/pages/quienes-somos.es.json';
+import quienesSomosContent from '../../public/pages/quienes-somos/quienes-somos.es.json';
 
 // Quienes Somos page interfaces
 export interface HeroContent {

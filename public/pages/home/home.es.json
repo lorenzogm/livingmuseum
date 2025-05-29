@@ -8,8 +8,7 @@
   "artistas": {
     "title": "Artistas",
     "buttonText": "Conoce nuestros artistas",
-    "buttonHref": "https://livingmuseum.madrid/artistas/",
-    "buttonTarget": "_blank",
+    "buttonHref": "/artistas",
     "backgroundVideo": "/pages/home/artistas.mp4"
   },
   "proyectos": {

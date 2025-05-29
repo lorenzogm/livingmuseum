@@ -53,7 +53,6 @@ export default function HomePage() {
           title={content.artistas.title}
           buttonText={content.artistas.buttonText}
           buttonHref={content.artistas.buttonHref}
-          buttonTarget="_blank"
         />
         <VideoSection 
           id="actualidad"

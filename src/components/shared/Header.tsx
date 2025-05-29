@@ -35,6 +35,9 @@ export default function Header() {
             <Link href="/" className="text-gray-900 hover:text-yellow-500 transition-colors">
               <Text variant="nav" transform="uppercase">Inicio</Text>
             </Link>
+            <Link href="/artistas" className="text-gray-900 hover:text-yellow-500 transition-colors">
+              <Text variant="nav" transform="uppercase">Artistas</Text>
+            </Link>
             <Link href="/quienes-somos" className="text-gray-900 hover:text-yellow-500 transition-colors">
               <Text variant="nav" transform="uppercase">Quiénes Somos</Text>
             </Link>

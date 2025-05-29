@@ -1,7 +1,7 @@
-// Shared content and types (Header, Footer, etc.)
-import sharedContent from '../../public/pages/shared.es.json';
+// Layout/shared content and types (Header, Footer, etc.)
+import sharedContent from '../../public/pages/layout.es.json';
 
-// Shared interfaces
+// Layout interfaces
 export interface NavigationItem {
   label: string;
   href: string;
@@ -36,12 +36,12 @@ export interface FooterContent {
   copyright: string;
 }
 
-export interface SharedContent {
+export interface LayoutContent {
   header: HeaderContent;
   footer: FooterContent;
 }
 
-// Shared content loader
-export const getSharedContent = (): SharedContent => {
-  return sharedContent as SharedContent;
+// Layout content loader
+export const getLayoutContent = (): LayoutContent => {
+  return sharedContent as LayoutContent;
 };
