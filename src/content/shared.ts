@@ -1,5 +1,5 @@
 // Shared content and types (Header, Footer, etc.)
-import sharedContent from './shared.es.json';
+import sharedContent from '../../public/pages/shared.es.json';
 
 // Shared interfaces
 export interface NavigationItem {

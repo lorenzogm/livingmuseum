@@ -1,5 +1,5 @@
 // Home page content and types
-import homeContent from './home.es.json';
+import homeContent from '../../public/pages/home.es.json';
 
 // Home page interfaces
 export interface SectionContent {
