@@ -1,6 +1,6 @@
 import Text from '../../elements/Text';
 import {Image} from '../../elements/Image';
-import { ConceptoContent } from '@/content/types';
+import { ConceptoContent } from '@/content/quienes-somos';
 
 interface ConceptoSectionProps {
   content: ConceptoContent;

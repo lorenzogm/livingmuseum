@@ -1,6 +1,6 @@
 import Text from '../../elements/Text';
 import { Image }  from '@/components/elements/Image';
-import { ObjetivosContent } from '@/content/types';
+import { ObjetivosContent } from '@/content/quienes-somos';
 
 interface ObjetivosSectionProps {
   content: ObjetivosContent;

@@ -1,6 +1,6 @@
 'use client'
 
-import { VideoContent } from '@/content/types';
+import { VideoContent } from '@/content/quienes-somos';
 
 interface VideoWorldSectionProps {
   content: VideoContent;

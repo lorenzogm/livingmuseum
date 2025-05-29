@@ -7,7 +7,7 @@ import ArtistasSection from "./ArtistasSection";
 import NoticiasSection from "./NoticiasSection";
 import ProyectosSection from "./ProyectosSection";
 import ColaboraSection from "./ColaboraSection";
-import { getHomeContent } from "@/content";
+import { getHomeContent } from "@/content/home";
 
 export default function HomePage() {
   const [activeSection, setActiveSection] = useState('top');

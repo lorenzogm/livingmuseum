@@ -1,6 +1,6 @@
 import Text from '../../elements/Text';
 import { Image }  from '@/components/elements/Image';
-import { HistoriaContent } from '@/content/types';
+import { HistoriaContent } from '@/content/quienes-somos';
 
 interface HistoriaSectionProps {
   content: HistoriaContent;

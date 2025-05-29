@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Image }  from '../../elements/Image';
 import Text from '../../elements/Text';
-import { FamiliaContent } from '@/content/types';
+import { FamiliaContent } from '@/content/quienes-somos';
 
 interface FamiliaSectionProps {
   content: FamiliaContent;
