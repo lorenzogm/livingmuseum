@@ -1,15 +1,15 @@
-import Button from '../components/elements/Button';
-import Text from '../components/elements/Text';
+import Button from '../../elements/Button';
+import Text from '../../elements/Text';
 import VideoBackground from './VideoBackground';
 
-export default function ProyectosSection() {
+export default function ArtistasSection() {
   return (
     <section 
-      id="proyectos" 
+      id="artistas" 
       className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-10 py-12 sm:py-16 md:py-20 relative overflow-hidden"
     >
       {/* Background Video */}
-      <VideoBackground src="/home/proyectos.mp4" />
+      <VideoBackground src="/home/artistas.mp4" />
       
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black/30 z-10"></div>
@@ -21,15 +21,15 @@ export default function ProyectosSection() {
           className="mb-8 sm:mb-12 md:mb-16 text-white font-roboto font-normal tracking-wider drop-shadow-lg" 
           transform="uppercase"
         >
-          Proyectos
+          Artistas
         </Text>
         <Button 
-          href="https://livingmuseum.madrid/proyectos/" 
+          href="https://livingmuseum.madrid/artistas/" 
           target="_blank"
           rel="noopener noreferrer"
           className="font-roboto"
         >
-          Descubre más
+          Conoce nuestros artistas
         </Button>
       </div>
     </section>

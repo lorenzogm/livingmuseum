@@ -1,4 +1,4 @@
-import Text from '../../components/elements/Text';
+import Text from '../../elements/Text';
 
 export default function QuienesSomosHero() {
   return (

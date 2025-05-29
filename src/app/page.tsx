@@ -1,52 +1,10 @@
-'use client';
+import type { Metadata } from "next";
+import HomePage from "@/components/pages/home/HomePage";
 
-import { useState, useEffect } from "react";
-import SideNavigation from "./SideNavigation";
-import HeroSection from "./HeroSection";
-import ArtistasSection from "./ArtistasSection";
-import NoticiasSection from "./NoticiasSection";
-import ProyectosSection from "./ProyectosSection";
-import ColaboraSection from "./ColaboraSection";
+export const metadata: Metadata = {
+  title: "Inicio - Living Museum Madrid",
+  description: "Living Museum Madrid - Arte, salud mental y creación de espacios artísticos en Madrid, España",
+  keywords: "arte, salud mental, museo, madrid, artistas, creación, espacios artísticos",
+};
 
-export default function Home() {
-  const [activeSection, setActiveSection] = useState('top');
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = ['top', 'artistas', 'actualidad', 'proyectos', 'colabora'];
-      const scrollPosition = window.scrollY + 150;
-
-      for (const sectionId of sections) {
-        const element = document.getElementById(sectionId);
-        if (element) {
-          const offsetTop = element.offsetTop;
-          const offsetHeight = element.offsetHeight;
-          
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-            setActiveSection(sectionId);
-            break;
-          }
-        }
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Initial call
-    
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  return (
-    <>
-      <SideNavigation activeSection={activeSection} />
-      
-      <main id="content" className="pt-24">
-        <HeroSection />
-        <ArtistasSection />
-        <NoticiasSection />
-        <ProyectosSection />
-        <ColaboraSection />
-      </main>
-    </>
-  );
-}
+export default HomePage;

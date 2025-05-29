@@ -1,4 +1,4 @@
-import Text from '../../components/elements/Text';
+import Text from '../../elements/Text';
 import { Image }  from '@/components/elements/Image';
 
 export default function MundoSection() {
