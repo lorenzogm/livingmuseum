@@ -1,0 +1,23 @@
+{
+  "id": "fernando-jose-escrina",
+  "name": "FERNANDO JOSÉ ESCRIÑA",
+  "slug": "fernando-jose-escrina",
+  "featuredImage": "/content/artistas/fernando-jose-escrina/fernando-featured.jpg",
+  "quote": "Me planteé el arte de dibujar mis personajes de comics y otros confetis. Todo lo que es arte me gusta mucho, lo entiendo desde el concepto expresar cualquier cosa: un bolígrafo, un gato, un sentimiento…",
+  "biography": [
+    "Para Fernando Escriña el arte es una forma de expresar y de comunicar. A través de sus obras e iconografía personal comparte pensamientos, sentimientos, ideas, lugares y paisajes entre otros.",
+    "En algunas ocasiones sus obras surgen de garabatos donde selecciona curvas, campos de color y líneas. Otras obras están protagonizadas por personajes de cómic como Antonio, Fredy, Paco o el Comandante Extraterrestre Pitito. Según la personalidad de cada personaje Fernando los utiliza para expresar sentimientos. En sus propias palabras \"son como dobles que me invento para decir cosas que siento\".",
+    "Otro tema de expresión recurrente en sus obras es la Nada, donde la luz resulta fundamental para encontrar un nuevo sentido. \"Otra cosa que he encontrado es el vacío o la Nada en momentos de mucha crisis en donde no podía dibujar, no tenía ideas, ni pensamiento. Así encontré que haciendo sentidos nuevos podía ver en la luz todo y encontrar eso original que todavía nadie ha expresado. Otra cosa que encontré en la Nada es la posibilidad de sanarme y sanar mi entorno tomando de la luz todo\"."
+  ],
+  "artworks": [
+    {
+      "id": "el-payaso-rufo",
+      "title": "El Payaso Rufo",
+      "medium": "Acrílico sobre tabla",
+      "dimensions": "62 x 53 cm",
+      "year": "2024",
+      "image": "/content/artistas/fernando-jose-escrina/el-payaso-rufo.jpg"
+    }
+  ],
+  "profileUrl": "https://livingmuseum.madrid/fernando-jose-escrina/"
+}

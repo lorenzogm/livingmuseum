@@ -1,0 +1,25 @@
+{
+  "id": "gustavo-pannullo-gap",
+  "name": "GUSTAVO PANNULLO (G.A.P.)",
+  "slug": "gustavo-pannullo-gap",
+  "featuredImage": "/content/artistas/gustavo-pannullo-gap/gustavo-featured.jpg",
+  "quote": "Círculos, formas geométricas, manchas, ondulaciones que parecen vientos huracanados en miniatura… son una nueva etapa de la cual me siento encantado de formar parte.",
+  "biography": [
+    "(1966, Buenos Aires, Argentina) Artista autodidacta. Los intereses de Gustavo y su sensibilidad lo han llevado desde la cocina a la pintura, pasando por la jardinería creativa. Comenzó a dibujar con ordenador de una forma vital y optimista, y por puro placer creativo. El resultado derivó en obras digitales basadas en la figuración geométrica, el discurso meta-artístico y la transversalidad postmoderna con una abierta voluntad decorativa.",
+    "A través de Living Museum retoma una etapa explorada anteriormente. Son sus acuarelas, óleos o la tinta china, los que hoy por hoy ocupan su espacio creativo."
+  ],
+  "artworks": [
+    {
+      "id": "cocteau",
+      "title": "Cocteau",
+      "medium": "Tinta china sobre papel",
+      "dimensions": "29,7 x 42 cm",
+      "year": "2023",
+      "image": "/content/artistas/gustavo-pannullo-gap/cocteau.jpg"
+    }
+  ],
+  "profileUrl": "https://livingmuseum.madrid/gustavo-pannullo-gap/",
+  "social": {
+    "instagram": "https://www.instagram.com/g.a.p.2120/"
+  }
+}

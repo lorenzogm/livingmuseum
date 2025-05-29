@@ -1,0 +1,28 @@
+{
+  "id": "manuel-vela",
+  "name": "MANUEL VELA",
+  "slug": "manuel-vela",
+  "featuredImage": "/content/artistas/manuel-vela/manuel-featured.jpg",
+  "quote": "Lo que más me gusta del taller es dibujar casas, personas y caras. Me gusta el silencio y que no haya ruidos.",
+  "biography": [
+    "El proceso creativo de Manuel bebe del orden y la repetición. A través de sus obras se concentra en la forma de los objetos repitiendo sistemáticamente dicha forma a lo largo de filas y columnas.",
+    "Comienza sus composiciones eligiendo una zona determinada a partir de la que construye el resto de la figura. Siempre del detalle al conjunto, que paulatinamente se va llenando de color. Comenzó dibujando flores, casas y figuras geométricas. Sin embargo, también ha abierto su interés a la representación de personas, el desnudo y los retratos.",
+    "Manuel pertenece a Debajo del Sombrero desde 2017, habiendo llevado a cabo sus obras en los talleres en Matadero, La Casa Encendida y la Facultad de Bellas Artes de la Universidad Complutense de Madrid."
+  ],
+  "artworks": [
+    {
+      "id": "casas",
+      "title": "Casas",
+      "medium": "Lápices de colores y rotulador sobre madera",
+      "dimensions": "129 x 59 cm",
+      "year": "2020",
+      "image": "/content/artistas/manuel-vela/casas.jpg"
+    }
+  ],
+  "profileUrl": "https://livingmuseum.madrid/manuel-vela/",
+  "exhibitions": [
+    "2024 Cordially Invited VI, Make Studio, Baltimore",
+    "2023 V Internationale Art Brut Biennale. Edificio V&D, Hengelo",
+    "2022 El Estudio Debajo del Sombrero en la galería Aina Nowack. Galería Aina Nowack. Madrid"
+  ]
+}

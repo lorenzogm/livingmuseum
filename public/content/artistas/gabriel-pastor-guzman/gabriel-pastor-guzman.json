@@ -1,0 +1,39 @@
+{
+  "id": "gabriel-pastor-guzman",
+  "name": "GABRIEL PASTOR GUZMÁN",
+  "slug": "gabriel-pastor-guzman",
+  "featuredImage": "/content/artistas/gabriel-pastor-guzman/gabriel-featured.jpg",
+  "quote": "Dicen que William Burroughs empezó a escribir por un suceso terrible, el accidental asesinato de su mujer. Puede parecer de mal gusto que tengan que ocurrir tragedias así para que el mundo le brinde oportunidad a alguien a rehacer su vida mediante el arte.",
+  "biography": [
+    "Es un artista extraordinariamente prolífico, en cuya obra se refleja su gran bagaje cultural angloamericano. Sus creaciones presentan un espectro amplio de lo complejo de la realidad, donde la inocencia, el descaro o la controversia se revelan con crudeza, sentido del humor y naturalidad.",
+    "Si yo no hubiese sufrido una enfermedad mental quizás habría tenido una vida totalmente diferente. Quizás nunca habría tomado un pincel. Pero no, no hay nada positivo en una enfermedad, mental o del tipo que sea, no os equivoqueis. Esa idea del artista genial loco romantiza algo que no se corresponde para nada con la realidad.",
+    "Una realidad a la que nos enfrentamos no pocos y que luchamos día a día por superar. Como dice el refrán: 'donde se cierra una puerta, se abre otra'. Y ahí el arte juega un papel fundamental. Porque si bien hay una delgada línea entre actuar de manera loca, audaz o valiente, creo que estamos todos de acuerdo con que el arte, tan aparentemente innecesario, es algo que nos une como especie."
+  ],
+  "artworks": [
+    {
+      "id": "love-music-hate-racism",
+      "title": "LoveMusic: HateRacism",
+      "medium": "Óleo y pastel al óleo",
+      "dimensions": "65 x 50 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/love-music-hate-racism.jpg"
+    },
+    {
+      "id": "busto-frontal",
+      "title": "Busto",
+      "medium": "Pasta de secado al aire, acrílico/acuarela y barniz",
+      "dimensions": "16 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/busto-frontal.jpg"
+    },
+    {
+      "id": "busto-posterior",
+      "title": "Busto (Vista posterior)",
+      "medium": "Pasta de secado al aire, acrílico/acuarela y barniz",
+      "dimensions": "16 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/busto-posterior.jpg"
+    }
+  ],
+  "profileUrl": "https://livingmuseum.madrid/gabriel-pastor-guzman/"
+}
