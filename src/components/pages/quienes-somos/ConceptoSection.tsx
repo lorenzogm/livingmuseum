@@ -1,6 +1,6 @@
 import Text from '../../elements/Text';
 import {Image} from '../../elements/Image';
-import { ConceptoContent } from '@/content/quienes-somos';
+import type { ConceptoContent } from '@/api/apiSdk';
 
 interface ConceptoSectionProps {
   content: ConceptoContent;

@@ -6,10 +6,10 @@ import VideoWorldSection from "./VideoWorldSection";
 import MadridSection from "./MadridSection";
 import ObjetivosSection from "./ObjetivosSection";
 import FamiliaSection from "./FamiliaSection";
-import { getQuienesSomosContent } from "@/content/quienes-somos";
+import { apiSdk } from "@/api/apiSdk";
 
 export default function QuienesSomosPage() {
-  const content = getQuienesSomosContent();
+  const content = apiSdk.pages.quienesSomos();
 
   return (
     <main id="content" className="pt-24 bg-white">

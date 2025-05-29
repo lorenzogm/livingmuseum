@@ -1,6 +1,6 @@
 import Text from '../../elements/Text';
 import { Image }  from '@/components/elements/Image';
-import { MadridContent } from '@/content/quienes-somos';
+import type { MadridContent } from '@/api/apiSdk';
 
 interface MadridSectionProps {
   content: MadridContent;

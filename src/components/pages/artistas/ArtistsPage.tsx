@@ -1,6 +1,6 @@
 'use client';
 
-import { ArtistsPageContent } from '@/content/artists';
+import type { ArtistsPageContent } from '@/api/apiSdk';
 import ArtistCard from './ArtistCard';
 import Text from '@/components/elements/Text';
 

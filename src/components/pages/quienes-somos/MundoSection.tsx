@@ -1,6 +1,6 @@
 import Text from '../../elements/Text';
 import { Image }  from '@/components/elements/Image';
-import { MundoContent } from '@/content/quienes-somos';
+import type { MundoContent } from '@/api/apiSdk';
 
 interface MundoSectionProps {
   content: MundoContent;

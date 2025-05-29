@@ -3,11 +3,11 @@
 import { useState, useEffect } from "react";
 import SideNavigation from "./SideNavigation";
 import VideoSection from "./VideoSection";
-import { getHomeContent } from "@/content/home";
+import { apiSdk } from "@/api/apiSdk";
 
 export default function HomePage() {
   const [activeSection, setActiveSection] = useState('top');
-  const content = getHomeContent();
+  const content = apiSdk.pages.home();
 
   useEffect(() => {
     const handleScroll = () => {

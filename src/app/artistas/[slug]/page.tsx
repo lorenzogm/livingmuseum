@@ -1,4 +1,4 @@
-import { getArtistsContent, getArtistBySlug } from '@/content/artists';
+import { apiSdk } from '@/api/apiSdk';
 import ArtistProfile from '@/components/pages/artistas/ArtistProfile';
 import { notFound } from 'next/navigation';
 
@@ -10,7 +10,7 @@ interface ArtistPageProps {
 
 export default async function ArtistPage({ params }: ArtistPageProps) {
   const { slug } = await params;
-  const artist = getArtistBySlug(slug);
+  const artist = apiSdk.content.artistas.get(slug);
   
   if (!artist) {
     notFound();
@@ -20,7 +20,7 @@ export default async function ArtistPage({ params }: ArtistPageProps) {
 }
 
 export async function generateStaticParams() {
-  const content = getArtistsContent();
+  const content = apiSdk.pages.artistas();
   
   return content.artists.map((artist) => ({
     slug: artist.slug,
@@ -29,7 +29,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: ArtistPageProps) {
   const { slug } = await params;
-  const artist = getArtistBySlug(slug);
+  const artist = apiSdk.content.artistas.get(slug);
   
   if (!artist) {
     return {

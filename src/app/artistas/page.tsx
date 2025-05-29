@@ -1,8 +1,8 @@
-import { getArtistsContent } from '@/content/artists';
+import { apiSdk } from '@/api/apiSdk';
 import ArtistsPage from '@/components/pages/artistas/ArtistsPage';
 
 export default function Artistas() {
-  const content = getArtistsContent();
+  const content = apiSdk.pages.artistas();
   
   return <ArtistsPage content={content} />;
 }

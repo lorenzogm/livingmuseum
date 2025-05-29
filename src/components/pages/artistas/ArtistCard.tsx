@@ -1,6 +1,6 @@
 'use client';
 
-import { ArtistProfile } from '@/content/artists';
+import type { ArtistProfile } from '@/api/apiSdk';
 import { Image } from '@/components/elements/Image';
 import Text from '@/components/elements/Text';
 import Link from 'next/link';
