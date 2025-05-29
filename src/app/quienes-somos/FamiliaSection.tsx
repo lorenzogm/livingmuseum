@@ -1,6 +1,8 @@
+'use client';
+
 import { useState } from 'react';
-import { Image }  from '@/components/elements/Image';
-import Text from '../../elements/Text';
+import { Image }  from '../../components/elements/Image';
+import Text from '../../components/elements/Text';
 
 export default function FamiliaSection() {
   const [activeTab, setActiveTab] = useState<'equipo' | 'artistas'>('equipo');

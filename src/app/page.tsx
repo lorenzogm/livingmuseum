@@ -1,15 +1,12 @@
 'use client';
 
 import { useState, useEffect } from "react";
-import Header from "@/components/shared/Header";
-import SideNavigation from "@/components/shared/SideNavigation";
-import HeroSection from "@/components/pages/home/HeroSection";
-import ArtistasSection from "@/components/pages/home/ArtistasSection";
-import NoticiasSection from "@/components/pages/home/NoticiasSection";
-import ProyectosSection from "@/components/pages/home/ProyectosSection";
-import ColaboraSection from "@/components/pages/home/ColaboraSection";
-import Footer from "@/components/shared/Footer";
-import CookieConsent from "@/components/shared/CookieConsent";
+import SideNavigation from "./SideNavigation";
+import HeroSection from "./HeroSection";
+import ArtistasSection from "./ArtistasSection";
+import NoticiasSection from "./NoticiasSection";
+import ProyectosSection from "./ProyectosSection";
+import ColaboraSection from "./ColaboraSection";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('top');
@@ -40,16 +37,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-white text-gray-900 overflow-x-hidden">
-      {/* Skip to content link */}
-      <a 
-        href="#content" 
-        className="absolute -top-10 left-2 bg-gray-900 text-white px-2 py-1 rounded focus:top-2 z-50"
-      >
-        Ir al contenido
-      </a>
-      
-      <Header />
+    <>
       <SideNavigation activeSection={activeSection} />
       
       <main id="content" className="pt-24">
@@ -59,9 +47,6 @@ export default function Home() {
         <ProyectosSection />
         <ColaboraSection />
       </main>
-      
-      <Footer />
-      <CookieConsent />
-    </div>
+    </>
   );
 }

@@ -9,18 +9,12 @@ interface SideNavigationProps {
 export default function SideNavigation({ activeSection }: SideNavigationProps) {
   const pathname = usePathname();
   
+  // Hide navigation on quienes-somos page
+  if (pathname === '/quienes-somos') {
+    return null;
+  }
+  
   const getNavItems = () => {
-    if (pathname === '/quienes-somos') {
-      return [
-        { id: 'top', label: 'Inicio' },
-        { id: 'historia', label: 'Historia' },
-        { id: 'concepto', label: 'Concepto' },
-        { id: 'mundo', label: 'En el Mundo' },
-        { id: 'madrid', label: 'Madrid' },
-        { id: 'objetivos', label: 'Objetivos' }
-      ];
-    }
-    
     return [
       { id: 'top', label: 'Inicio' },
       { id: 'artistas', label: 'Artistas' },

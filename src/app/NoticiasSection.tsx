@@ -1,6 +1,6 @@
-import Button from '../../elements/Button';
-import Text from '../../elements/Text';
-import VideoBackground from '../../shared/VideoBackground';
+import Button from '../components/elements/Button';
+import Text from '../components/elements/Text';
+import VideoBackground from './VideoBackground';
 
 export default function NoticiasSection() {
   return (

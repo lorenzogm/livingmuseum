@@ -1,5 +1,5 @@
-import Text from '../../elements/Text';
-import {Image} from '../../elements/Image';
+import Text from '../../components/elements/Text';
+import {Image} from '../../components/elements/Image';
 
 export default function ConceptoSection() {
   return (

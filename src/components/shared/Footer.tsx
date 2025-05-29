@@ -1,11 +1,8 @@
 import {Image} from '../elements/Image';
 import Text from '../elements/Text';
+import ScrollToTopButton from './ScrollToTopButton';
 
 export default function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <footer className="bg-white border-t border-gray-200 px-4 sm:px-6 md:px-10 py-12 sm:py-14 md:py-16">
       <div className="max-w-6xl mx-auto">
@@ -49,15 +46,7 @@ export default function Footer() {
 
           {/* Back to Top */}
           <div className="text-center md:text-right">
-            <button 
-              onClick={scrollToTop}
-              className="inline-flex items-center justify-center w-12 h-12 bg-white/10 rounded-full hover:bg-white/20 transition-all duration-300 hover:-translate-y-0.5"
-              aria-label="Volver arriba"
-            >
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/>
-              </svg>
-            </button>
+            <ScrollToTopButton />
           </div>
         </div>
 

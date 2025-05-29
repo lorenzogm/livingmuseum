@@ -1,4 +1,4 @@
-import Text from '../../elements/Text';
+import Text from '../../components/elements/Text';
 
 export default function QuienesSomosHero() {
   return (
@@ -9,7 +9,7 @@ export default function QuienesSomosHero() {
           LIVING MUSEUM
         </Text>
         
-        <Text variant="section" className="mb-8 max-w-5xl mx-auto leading-relaxed text-gray-900 font-light">
+        <Text variant="body" className="mb-8 max-w-5xl mx-auto leading-relaxed text-gray-900 font-light text-lg md:text-xl">
           ES UN ESPACIO DE CREACIÓN ARTÍSTICA QUE PROMUEVE LA EXPRESIÓN, LA INCLUSIÓN Y LA TRANSFORMACIÓN SOCIAL PARA PERSONAS CON DOLENCIA PSÍQUICA Y/O DISCAPACIDAD EN UN ENTORNO ACOGEDOR
         </Text>
       </div>
