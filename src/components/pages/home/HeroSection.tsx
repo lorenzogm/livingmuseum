@@ -2,14 +2,21 @@ import Button from '../../elements/Button';
 import Text from '../../elements/Text';
 import VideoBackground from './VideoBackground';
 
-export default function HeroSection() {
+interface HeroSectionProps {
+  title: string;
+  buttonText: string;
+  buttonHref: string;
+  backgroundVideo: string;
+}
+
+export default function HeroSection({ title, buttonText, buttonHref, backgroundVideo }: HeroSectionProps) {
   return (
     <section 
       id="top" 
       className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-10 py-12 sm:py-16 md:py-20 relative overflow-hidden"
     >
       {/* Background Video */}
-      <VideoBackground src="/home/quienes-somos.mp4" />
+      <VideoBackground src={backgroundVideo} />
       
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black/30 z-10"></div>
@@ -21,10 +28,10 @@ export default function HeroSection() {
           className="mb-8 sm:mb-12 md:mb-16 text-white font-roboto font-normal leading-none tracking-wider drop-shadow-lg" 
           transform="uppercase"
         >
-          Living Museum Madrid
+          {title}
         </Text>
-        <Button href="/quienes-somos" className="font-roboto">
-          Quiénes somos
+        <Button href={buttonHref} className="font-roboto">
+          {buttonText}
         </Button>
       </div>
     </section>

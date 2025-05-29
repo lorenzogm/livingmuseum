@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "title": "Living Museum Madrid",
+    "buttonText": "Quiénes somos",
+    "buttonHref": "/quienes-somos",
+    "backgroundVideo": "/home/quienes-somos.mp4"
+  },
+  "artistas": {
+    "title": "Artistas",
+    "buttonText": "Conoce nuestros artistas",
+    "buttonHref": "https://livingmuseum.madrid/artistas/",
+    "buttonTarget": "_blank",
+    "backgroundVideo": "/home/artistas.mp4"
+  },
+  "proyectos": {
+    "title": "Proyectos",
+    "buttonText": "Descubre más",
+    "buttonHref": "https://livingmuseum.madrid/proyectos/",
+    "buttonTarget": "_blank",
+    "backgroundVideo": "/home/proyectos.mp4"
+  },
+  "noticias": {
+    "title": "Noticias",
+    "buttonText": "ÚLTIMAS NOVEDADES",
+    "buttonHref": "https://livingmuseum.madrid/actualidad/",
+    "buttonTarget": "_blank",
+    "backgroundVideo": "/home/noticias.mp4"
+  },
+  "colabora": {
+    "title": "Colabora",
+    "buttonText": "Contacta",
+    "backgroundVideo": "/home/colabora.mp4",
+    "contactMessage": "¡Gracias por tu interés! En una implementación real, esto abriría un formulario de contacto."
+  }
+}

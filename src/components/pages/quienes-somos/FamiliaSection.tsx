@@ -3,108 +3,20 @@
 import { useState } from 'react';
 import { Image }  from '../../elements/Image';
 import Text from '../../elements/Text';
+import { FamiliaContent } from '@/content/types';
 
-export default function FamiliaSection() {
+interface FamiliaSectionProps {
+  content: FamiliaContent;
+}
+
+export default function FamiliaSection({ content }: FamiliaSectionProps) {
   const [activeTab, setActiveTab] = useState<'equipo' | 'artistas'>('equipo');
-
-  const teamMembers = [
-    {
-      name: "Laura Carmona Ayuso",
-      image: "/quienes-somos/team/laura-carmona.jpg",
-      description: [
-        "Arteterapeuta especializada en el ámbito clínico en salud mental (PDAG), Suiza",
-        "Madre de dos niños y una niña",
-        "Fundadora de Living Museum Madrid"
-      ],
-      social: {
-        linkedin: "https://www.linkedin.com/in/laura-carmona-ayuso-487bb05a/",
-        instagram: "https://www.instagram.com/miss_on_the_road"
-      }
-    },
-    {
-      name: "Dra. Julia Morla",
-      image: "/quienes-somos/team/julia-morla.jpg",
-      description: [
-        "Arteterapeuta",
-        "Doctora en Estudios Feministas y de Género",
-        "Docente e investigadora (Universidad Complutense de Madrid)",
-        "Fundadora de Living Museum Madrid"
-      ],
-      social: {
-        linkedin: "https://www.linkedin.com/in/julia-morla-s%C3%A1nchez-17444a1a8/?originalSubdomain=es",
-        instagram: "https://www.instagram.com/julietta.morla"
-      }
-    },
-    {
-      name: "Javier Lapuerta Laorden",
-      image: "/quienes-somos/team/javier-lapuerta.jpg",
-      description: [
-        "Activista cultural dedicado a la promoción del acceso al arte y la participación ciudadana.",
-        "Fundador de Living Museum Madrid"
-      ],
-      social: {
-        instagram: "https://www.instagram.com/lapuerta"
-      }
-    },
-    {
-      name: "Piedad García-Murga",
-      image: "/quienes-somos/team/piedad-garcia.jpg",
-      description: [
-        "Arteterapeuta",
-        "Docente e investigadora predoctoral (Universidad Complutense de Madrid)",
-        "Creadora y experta en primera persona",
-        "Equipo de Living Museum Madrid"
-      ],
-      social: {
-        linkedin: "https://www.linkedin.com/in/piedadgms/",
-        instagram: "https://www.instagram.com/maripiedaita"
-      }
-    },
-    {
-      name: "Dra. Marta Lage",
-      image: "/quienes-somos/team/marta-lage.jpg", // Placeholder - replace with actual image
-      description: [
-        "Doctora en Bellas Artes",
-        "Docente e investigadora (Universidad Complutense de Madrid)",
-        "Coordinadora del Máster Arteterapia y Educación Artística para la Inclusión Social",
-        "Equipo de Living Museum Madrid"
-      ],
-      social: {
-        linkedin: "https://www.linkedin.com/in/martalagedelarosa/",
-        instagram: "https://www.instagram.com/martalagedelarosa"
-      }
-    },
-    {
-      name: "Máriam Cáliz Cáceres",
-      image: "/quienes-somos/team/mariam-caliz.jpg", // Placeholder - replace with actual image
-      description: [
-        "Artista",
-        "Arteteterapeuta en formación",
-        "(Universidad Complutense de Madrid)"
-      ],
-      social: {
-        instagram: "https://www.instagram.com/mariiammcc_"
-      }
-    }
-  ];
-
-  const artists = [
-    { name: "ZARCO", url: "https://livingmuseum.madrid/zarco/", image: "/quienes-somos/artists/zarco.jpg" },
-    { name: "CARLOS MOLINA VALLEJO", url: "https://livingmuseum.madrid/carlos-molina-vallejo/", image: "/quienes-somos/artists/carlos-molina.jpg" },
-    { name: "Blanca Valcarce Quiroga", url: "https://livingmuseum.madrid/blanca-valcarce-quiroga/", image: "/quienes-somos/artists/blanca-valcarce.jpg" },
-    { name: "Miguel Ángel Ruiz", url: "https://livingmuseum.madrid/miguel-angel-ruiz/", image: "/quienes-somos/artists/miguel-angel.jpg" },
-    { name: "Gustavo Pannullo (G.A.P.)", url: "https://livingmuseum.madrid/gustavo-pannullo-gap/", image: "/quienes-somos/artists/gustavo-pannullo.jpg" },
-    { name: "Jose Manuel López", url: "https://livingmuseum.madrid/jose-manuel-lopez/", image: "/quienes-somos/artists/jose-manuel.jpg" },
-    { name: "Fernando José Escriña", url: "https://livingmuseum.madrid/fernando-jose-escrina/", image: "/quienes-somos/artists/fernando-escrina.jpg" },
-    { name: "Gabriel Pastor Guzmán", url: "https://livingmuseum.madrid/gabriel-pastor-guzman/", image: "/quienes-somos/artists/gabriel-pastor.jpg" },
-    { name: "Manuel Vela", url: "https://livingmuseum.madrid/manuel-vela/", image: "/quienes-somos/artists/manuel-vela.jpg" }
-  ];
 
   return (
     <section id="familia" className="py-20 px-6 md:px-10 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <Text variant="heading" className="mb-12 text-center text-yellow-500" transform="uppercase">
-          FAMILIA LIVING MUSEUM
+          {content.title}
         </Text>
         
         <div className="bg-white p-8 border border-gray-200 shadow-lg">
@@ -119,7 +31,7 @@ export default function FamiliaSection() {
                     : 'text-gray-700 hover:bg-gray-100'
                 }`}
               >
-                EL EQUIPO
+                {content.tabs.equipo}
               </button>
               <button
                 onClick={() => setActiveTab('artistas')}
@@ -129,7 +41,7 @@ export default function FamiliaSection() {
                     : 'text-gray-700 hover:bg-gray-100'
                 }`}
               >
-                ARTISTAS
+                {content.tabs.artistas}
               </button>
             </div>
           </div>
@@ -137,7 +49,7 @@ export default function FamiliaSection() {
           {/* Tab Content */}
           {activeTab === 'equipo' && (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-              {teamMembers.map((member, index) => (
+              {content.teamMembers.map((member, index) => (
                 <div key={index} className="text-center space-y-4">
                   <div className="aspect-square bg-gray-100 rounded-full w-32 h-32 mx-auto overflow-hidden relative border border-gray-200">
                     <Image 
@@ -192,7 +104,7 @@ export default function FamiliaSection() {
 
           {activeTab === 'artistas' && (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {artists.map((artist, index) => (
+              {content.artists.map((artist, index) => (
                 <a 
                   key={index}
                   href={artist.url}
@@ -219,7 +131,7 @@ export default function FamiliaSection() {
           )}
           
           <Text variant="small" className="italic text-center mt-10 text-gray-400">
-            Fotografías de Marta Lage de la Rosa
+            {content.photoCredit}
           </Text>
         </div>
       </div>

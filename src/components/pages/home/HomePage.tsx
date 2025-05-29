@@ -7,9 +7,11 @@ import ArtistasSection from "./ArtistasSection";
 import NoticiasSection from "./NoticiasSection";
 import ProyectosSection from "./ProyectosSection";
 import ColaboraSection from "./ColaboraSection";
+import { getHomeContent } from "@/content";
 
 export default function HomePage() {
   const [activeSection, setActiveSection] = useState('top');
+  const content = getHomeContent();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,11 +43,38 @@ export default function HomePage() {
       <SideNavigation activeSection={activeSection} />
       
       <main id="content" className="pt-24">
-        <HeroSection />
-        <ArtistasSection />
-        <NoticiasSection />
-        <ProyectosSection />
-        <ColaboraSection />
+        <HeroSection 
+          title={content.hero.title}
+          buttonText={content.hero.buttonText}
+          buttonHref={content.hero.buttonHref}
+          backgroundVideo={content.hero.backgroundVideo}
+        />
+        <ArtistasSection 
+          videoSrc={content.artistas.backgroundVideo}
+          sectionId="artistas"
+          title={content.artistas.title}
+          buttonText={content.artistas.buttonText}
+          buttonLink={content.artistas.buttonHref}
+        />
+        <NoticiasSection 
+          videoSrc={content.noticias.backgroundVideo}
+          title={content.noticias.title}
+          buttonText={content.noticias.buttonText}
+          buttonLink={content.noticias.buttonHref}
+        />
+        <ProyectosSection 
+          title={content.proyectos.title}
+          buttonText={content.proyectos.buttonText}
+          buttonHref={content.proyectos.buttonHref}
+          buttonTarget={content.proyectos.buttonTarget}
+          backgroundVideo={content.proyectos.backgroundVideo}
+        />
+        <ColaboraSection 
+          videoSrc={content.colabora.backgroundVideo}
+          title={content.colabora.title}
+          buttonText={content.colabora.buttonText}
+          onButtonClick={() => alert(content.colabora.contactMessage)}
+        />
       </main>
     </>
   );
