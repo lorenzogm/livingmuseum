@@ -13,9 +13,9 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md px-10 py-5 border-b border-gray-200">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md px-6 py-3 border-b border-gray-200">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-3">
           <Link href="/" className="block">
             <Image
               src="/logo-living-museum.png"
@@ -25,13 +25,13 @@ export default function Header() {
               height={180}
               rounded={false}
               shadow="none"
-              imageClassName="h-28 w-auto"
+              imageClassName="h-20 w-auto"
             />
           </Link>
         </div>
         
         <nav className={`${isMenuOpen ? 'block' : 'hidden'} absolute top-full left-0 right-0 bg-white/95 backdrop-blur-md border-b border-gray-200 md:block md:static md:bg-transparent md:border-none`}>
-          <div className="flex flex-col md:flex-row gap-6 p-6 md:p-0">
+          <div className="flex flex-col md:flex-row gap-4 p-4 md:p-0">
             <Link href="/" className="text-gray-900 hover:text-yellow-500 transition-colors">
               <Text variant="nav" transform="uppercase">Inicio</Text>
             </Link>
