@@ -65,8 +65,11 @@ h1, h2, h3, h4, h5, h6 {
 button, .button {
   font-family: var(--lm-font-primary);
   font-weight: 300;
+  font-size: 1.6em;
   text-transform: uppercase;
   letter-spacing: -0.3px;
+  line-height: 1.1em;
+  border-radius: 40px;
 }
 
 /* Navigation text styling */

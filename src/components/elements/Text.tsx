@@ -45,7 +45,7 @@ const variantStyles: Record<TextVariant, string> = {
   heading: 'text-lg md:text-xl font-normal tracking-wide capitalize font-roboto',
   body: 'text-base font-light leading-relaxed font-roboto',
   small: 'text-sm font-light tracking-wide font-roboto',
-  button: 'text-sm font-normal tracking-wider transition-all duration-300 font-roboto',
+  button: 'text-base font-light tracking-tight transition-all duration-300 font-roboto uppercase',
   nav: 'text-sm font-light tracking-wide font-roboto',
   footer: 'text-xs font-light font-roboto',
   copyright: 'text-sm font-light font-roboto',
