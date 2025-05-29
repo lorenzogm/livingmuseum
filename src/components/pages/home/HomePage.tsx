@@ -2,11 +2,7 @@
 
 import { useState, useEffect } from "react";
 import SideNavigation from "./SideNavigation";
-import HeroSection from "./HeroSection";
-import ArtistasSection from "./ArtistasSection";
-import NoticiasSection from "./NoticiasSection";
-import ProyectosSection from "./ProyectosSection";
-import ColaboraSection from "./ColaboraSection";
+import VideoSection from "./VideoSection";
 import { getHomeContent } from "@/content/home";
 
 export default function HomePage() {
@@ -43,33 +39,40 @@ export default function HomePage() {
       <SideNavigation activeSection={activeSection} />
       
       <main id="content" className="pt-24">
-        <HeroSection 
+        <VideoSection 
+          id="top"
+          variant="hero"
+          videoSrc={content.hero.backgroundVideo}
           title={content.hero.title}
           buttonText={content.hero.buttonText}
           buttonHref={content.hero.buttonHref}
-          backgroundVideo={content.hero.backgroundVideo}
         />
-        <ArtistasSection 
+        <VideoSection 
+          id="artistas"
           videoSrc={content.artistas.backgroundVideo}
-          sectionId="artistas"
           title={content.artistas.title}
           buttonText={content.artistas.buttonText}
-          buttonLink={content.artistas.buttonHref}
+          buttonHref={content.artistas.buttonHref}
+          buttonTarget="_blank"
         />
-        <NoticiasSection 
+        <VideoSection 
+          id="actualidad"
           videoSrc={content.noticias.backgroundVideo}
           title={content.noticias.title}
           buttonText={content.noticias.buttonText}
-          buttonLink={content.noticias.buttonHref}
+          buttonHref={content.noticias.buttonHref}
+          buttonTarget="_blank"
         />
-        <ProyectosSection 
+        <VideoSection 
+          id="proyectos"
+          videoSrc={content.proyectos.backgroundVideo}
           title={content.proyectos.title}
           buttonText={content.proyectos.buttonText}
           buttonHref={content.proyectos.buttonHref}
           buttonTarget={content.proyectos.buttonTarget}
-          backgroundVideo={content.proyectos.backgroundVideo}
         />
-        <ColaboraSection 
+        <VideoSection 
+          id="colabora"
           videoSrc={content.colabora.backgroundVideo}
           title={content.colabora.title}
           buttonText={content.colabora.buttonText}
