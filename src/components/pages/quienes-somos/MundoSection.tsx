@@ -6,8 +6,8 @@ export default function MundoSection() {
     <section id="mundo" className="py-20 px-6 md:px-10 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="two-column-grid">
-          {/* Text Column - Left */}
-          <div className="space-y-6 order-2 lg:order-1">
+          {/* Text Column - Right */}
+          <div className="space-y-6 order-2 lg:order-2">
             <Text variant="heading" className="mb-8 text-yellow-500" transform="uppercase">
               LIVING MUSEUM EN EL MUNDO
             </Text>
@@ -40,8 +40,8 @@ export default function MundoSection() {
             </Text>
           </div>
           
-          {/* Image/Video Column - Right */}
-          <div className="image-with-caption order-1 lg:order-2">
+          {/* Image/Video Column - Left */}
+          <div className="image-with-caption order-1 lg:order-1">
             <figure>
               <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                 <Image 

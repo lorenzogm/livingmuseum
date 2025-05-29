@@ -23,7 +23,7 @@ export default function HeroSection() {
         >
           Living Museum Madrid
         </Text>
-        <Button href="#artistas" className="font-roboto">
+        <Button href="/quienes-somos" className="font-roboto">
           Quiénes somos
         </Button>
       </div>
