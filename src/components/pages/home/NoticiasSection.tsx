@@ -11,17 +11,23 @@ export default function NoticiasSection() {
       {/* Background Video */}
       <VideoBackground src="/home/noticias.mp4" />
       
-      {/* Light overlay for better text readability */}
-      <div className="absolute inset-0 z-10"></div>
+      {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/30 z-10"></div>
       
       <div className="text-center max-w-4xl mx-auto relative z-20">
-        <Text variant="section" align="center" className="mb-12 text-yellow-500 uppercase font-bold">
+        <Text 
+          variant="section" 
+          align="center" 
+          className="mb-16 text-white font-roboto font-normal tracking-wider drop-shadow-lg" 
+          transform="uppercase"
+        >
           Noticias
         </Text>
         <Button 
           href="https://livingmuseum.madrid/actualidad/" 
           target="_blank"
           rel="noopener noreferrer"
+          className="font-roboto"
         >
           ÚLTIMAS NOVEDADES
         </Button>

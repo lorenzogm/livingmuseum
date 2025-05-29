@@ -3,20 +3,13 @@
 import { useState } from 'react';
 import {Image} from '../elements/Image';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import Text from '../elements/Text';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const pathname = usePathname();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-  };
-
-  const getPageTitle = () => {
-    if (pathname === '/quienes-somos') return 'Quiénes Somos';
-    return 'Portada';
   };
 
   return (
@@ -25,19 +18,16 @@ export default function Header() {
         <div className="flex items-center gap-5">
           <Link href="/" className="block">
             <Image
-              src="/logo-white.svg"
+              src="/logo-living-museum.png"
               alt="Living Museum Madrid"
               fill={false}
-              width={200}
-              height={60}
+              width={600}
+              height={180}
               rounded={false}
               shadow="none"
-              imageClassName="h-10 w-auto brightness-0"
+              imageClassName="h-28 w-auto"
             />
           </Link>
-          <Text variant="nav" transform="uppercase" className="text-gray-900">
-            {getPageTitle()}
-          </Text>
         </div>
         
         <nav className={`${isMenuOpen ? 'block' : 'hidden'} absolute top-full left-0 right-0 bg-white/95 backdrop-blur-md border-b border-gray-200 md:block md:static md:bg-transparent md:border-none`}>

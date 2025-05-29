@@ -17,14 +17,22 @@ export default function ColaboraSection() {
       {/* Background Video */}
       <VideoBackground src="/home/colabora.mp4" />
       
-      {/* Light overlay for better text readability */}
-      <div className="absolute inset-0 z-10"></div>
+      {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/30 z-10"></div>
       
       <div className="text-center max-w-4xl mx-auto relative z-20">
-        <Text variant="section" align="center" className="mb-12 text-yellow-500 uppercase font-bold">
+        <Text 
+          variant="section" 
+          align="center" 
+          className="mb-16 text-white font-roboto font-normal tracking-wider drop-shadow-lg" 
+          transform="uppercase"
+        >
           Colabora
         </Text>
-        <Button onClick={handleContactClick}>
+        <Button 
+          onClick={handleContactClick}
+          className="font-roboto"
+        >
           Contacta
         </Button>
       </div>

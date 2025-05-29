@@ -2,8 +2,8 @@ import { ReactNode, ElementType } from 'react';
 
 // Define text variant types
 export type TextVariant = 
-  | 'hero'           // Large hero title (h1)
-  | 'section'        // Section headings (h2)
+  | 'hero'           // Large hero title (h1) - 120px
+  | 'section'        // Section headings (h2) - 80px
   | 'heading'        // Smaller headings (h3-h6)
   | 'body'           // Regular body text
   | 'small'          // Small text for labels, captions
@@ -38,18 +38,18 @@ export interface TextProps {
   as?: ElementType;
 }
 
-// Define base styles for each variant - Updated to match original site
+// Define base styles for each variant - Updated to match Living Museum Madrid exactly
 const variantStyles: Record<TextVariant, string> = {
-  hero: 'text-4xl md:text-6xl lg:text-8xl font-normal tracking-tight leading-none',
-  section: 'text-xl md:text-2xl lg:text-3xl font-light leading-relaxed',
-  heading: 'text-lg md:text-xl font-light tracking-wide',
-  body: 'text-base font-light leading-relaxed',
-  small: 'text-sm font-light',
-  button: 'text-base font-light tracking-wide transition-all duration-300',
-  nav: 'text-sm font-light tracking-wide',
-  footer: 'text-sm font-light',
-  copyright: 'text-sm font-light',
-  link: 'text-sm font-light transition-colors hover:text-yellow-500 cursor-pointer'
+  hero: 'text-[120px] font-normal leading-none tracking-tight font-roboto',
+  section: 'text-[80px] font-normal leading-none tracking-wider font-roboto',
+  heading: 'text-lg md:text-xl font-normal tracking-wide capitalize font-roboto',
+  body: 'text-base font-light leading-relaxed font-roboto',
+  small: 'text-sm font-light tracking-wide font-roboto',
+  button: 'text-sm font-normal tracking-wider transition-all duration-300 font-roboto',
+  nav: 'text-sm font-light tracking-wide font-roboto',
+  footer: 'text-xs font-light font-roboto',
+  copyright: 'text-sm font-light font-roboto',
+  link: 'text-sm font-light transition-colors hover:text-yellow-500 cursor-pointer font-roboto'
 };
 
 // Define color styles

@@ -10,12 +10,12 @@ interface ButtonProps {
 
 export default function Button({ href, onClick, children, target, rel, variant = 'primary', className = '' }: ButtonProps) {
   const baseStyles = {
-    fontFamily: 'Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-    fontWeight: '300',
-    fontSize: '16px',
-    letterSpacing: '-0.3px',
+    fontFamily: 'Roboto, var(--lm-font-primary)',
+    fontWeight: '400',
+    fontSize: '14px',
+    letterSpacing: '0.05em',
     textTransform: 'uppercase' as const,
-    lineHeight: '1.3em',
+    lineHeight: '1.2em',
     padding: '12px 24px',
     border: 'none',
     textDecoration: 'none',
