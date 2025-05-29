@@ -7,9 +7,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-white border-t border-gray-200 px-10 py-16">
+    <footer className="bg-white border-t border-gray-200 px-4 sm:px-6 md:px-10 py-12 sm:py-14 md:py-16">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-10 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-6 sm:gap-8 md:gap-10 mb-8 sm:mb-10">
           {/* Logo and Social Links */}
           <div className="text-center md:text-left">
             <a href="#" className="inline-block mb-5">
@@ -21,7 +21,7 @@ export default function Footer() {
                 className="h-12 w-auto"
               />
             </a>
-            <div className="flex gap-5 justify-center md:justify-start">
+            <div className="flex gap-3 sm:gap-4 md:gap-5 justify-center md:justify-start flex-wrap">
               <a 
                 href="https://www.linkedin.com/in/living-museum-madrid/" 
                 target="_blank" 

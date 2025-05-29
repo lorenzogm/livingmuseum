@@ -6,7 +6,7 @@ export default function ProyectosSection() {
   return (
     <section 
       id="proyectos" 
-      className="min-h-screen flex items-center justify-center px-10 py-20 relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-10 py-12 sm:py-16 md:py-20 relative overflow-hidden"
     >
       {/* Background Video */}
       <VideoBackground src="/home/proyectos.mp4" />
@@ -18,7 +18,7 @@ export default function ProyectosSection() {
         <Text 
           variant="section" 
           align="center" 
-          className="mb-16 text-white font-roboto font-normal tracking-wider drop-shadow-lg" 
+          className="mb-8 sm:mb-12 md:mb-16 text-white font-roboto font-normal tracking-wider drop-shadow-lg" 
           transform="uppercase"
         >
           Proyectos

@@ -40,8 +40,8 @@ export interface TextProps {
 
 // Define base styles for each variant - Updated to match Living Museum Madrid exactly
 const variantStyles: Record<TextVariant, string> = {
-  hero: 'text-[120px] font-normal leading-none tracking-tight font-roboto',
-  section: 'text-[80px] font-normal leading-none tracking-wider font-roboto',
+  hero: 'text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[120px] font-normal leading-none tracking-tight font-roboto',
+  section: 'text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[80px] font-normal leading-none tracking-wider font-roboto',
   heading: 'text-lg md:text-xl font-normal tracking-wide capitalize font-roboto',
   body: 'text-base font-light leading-relaxed font-roboto',
   small: 'text-sm font-light tracking-wide font-roboto',
