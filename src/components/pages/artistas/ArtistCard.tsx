@@ -12,7 +12,7 @@ interface ArtistCardProps {
 export default function ArtistCard({ artist }: ArtistCardProps) {
   return (
     <Link href={`/artistas/${artist.slug}`} className="group">
-      <div className="bg-gray-900 rounded-lg overflow-hidden transition-transform duration-300 group-hover:scale-105">
+      <div className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 group-hover:scale-105 border border-gray-200">
         {/* Artist Image */}
         <div className="relative aspect-[4/3] overflow-hidden">
           <Image
@@ -21,7 +21,7 @@ export default function ArtistCard({ artist }: ArtistCardProps) {
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
             fill
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
         </div>
 
         {/* Artist Info */}
@@ -29,7 +29,7 @@ export default function ArtistCard({ artist }: ArtistCardProps) {
           <Text
             variant="heading"
             as="h3"
-            className="mb-3 tracking-wide group-hover:text-gray-300 transition-colors"
+            className="mb-3 tracking-wide text-yellow-500 group-hover:text-yellow-600 transition-colors"
           >
             {artist.name}
           </Text>
@@ -37,8 +37,7 @@ export default function ArtistCard({ artist }: ArtistCardProps) {
           {artist.quote && (
             <Text
               variant="small"
-              color="muted"
-              className="line-clamp-3 italic"
+              className="line-clamp-3 italic text-gray-600"
             >
               &ldquo;{artist.quote}&rdquo;
             </Text>
