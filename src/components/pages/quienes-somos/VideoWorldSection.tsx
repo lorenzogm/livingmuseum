@@ -19,7 +19,7 @@ export default function VideoWorldSection() {
           </video>
         </div>
         <p className="text-sm text-gray-600 mt-3 font-light leading-relaxed text-center">
-          Living Museum en el mundo
+          Sede de Living Museum Wil, Suiza. Duración 6:54 min. Vídeo de Living Museum Society
         </p>
       </div>
     </section>

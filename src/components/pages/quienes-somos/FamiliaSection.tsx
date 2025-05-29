@@ -107,13 +107,13 @@ export default function FamiliaSection() {
           FAMILIA LIVING MUSEUM
         </Text>
         
-        <div className="bg-white p-8 rounded-lg border border-gray-200 shadow-lg">
+        <div className="bg-white p-8 border border-gray-200 shadow-lg">
           {/* Tab Navigation */}
           <div className="flex justify-center mb-8">
-            <div className="inline-flex border border-gray-300 rounded-lg overflow-hidden">
+            <div className="inline-flex border border-gray-300 overflow-hidden">
               <button
                 onClick={() => setActiveTab('equipo')}
-                className={`px-8 py-3 font-light transition-colors ${
+                className={`px-8 py-3 font-light transition-colors !rounded-none ${
                   activeTab === 'equipo'
                     ? 'text-black bg-yellow-500'
                     : 'text-gray-700 hover:bg-gray-100'
@@ -123,7 +123,7 @@ export default function FamiliaSection() {
               </button>
               <button
                 onClick={() => setActiveTab('artistas')}
-                className={`px-8 py-3 font-light transition-colors ${
+                className={`px-8 py-3 font-light transition-colors !rounded-none ${
                   activeTab === 'artistas'
                     ? 'text-black bg-yellow-500'
                     : 'text-gray-700 hover:bg-gray-100'
