@@ -4,9 +4,11 @@ import { useState } from 'react';
 import {Image} from '../elements/Image';
 import Link from 'next/link';
 import Text from '../elements/Text';
+import { apiSdk } from '@/api/apiSdk';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const layoutContent = apiSdk.pages.layout();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -18,11 +20,11 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <Link href="/" className="block">
             <Image
-              src="/logo-living-museum.png"
-              alt="Living Museum Madrid"
+              src={layoutContent.header.logo.src}
+              alt={layoutContent.header.logo.alt}
               fill={false}
-              width={600}
-              height={180}
+              width={layoutContent.header.logo.width}
+              height={layoutContent.header.logo.height}
               rounded={false}
               shadow="none"
               imageClassName="h-20 w-auto"
@@ -32,15 +34,15 @@ export default function Header() {
         
         <nav className={`${isMenuOpen ? 'block' : 'hidden'} absolute top-full left-0 right-0 bg-white/95 backdrop-blur-md border-b border-gray-200 md:block md:static md:bg-transparent md:border-none`}>
           <div className="flex flex-col md:flex-row gap-4 p-4 md:p-0">
-            <Link href="/" className="text-gray-900 hover:text-yellow-500 transition-colors">
-              <Text variant="nav" transform="uppercase">Inicio</Text>
-            </Link>
-            <Link href="/quienes-somos" className="text-gray-900 hover:text-yellow-500 transition-colors">
-              <Text variant="nav" transform="uppercase">Quiénes Somos</Text>
-            </Link>
-            <Link href="/artistas" className="text-gray-900 hover:text-yellow-500 transition-colors">
-              <Text variant="nav" transform="uppercase">Artistas</Text>
-            </Link>
+            {layoutContent.header.navigation.map((item, index) => (
+              <Link 
+                key={index}
+                href={item.href} 
+                className="text-gray-900 hover:text-yellow-500 transition-colors"
+              >
+                <Text variant="nav" transform="uppercase">{item.label}</Text>
+              </Link>
+            ))}
           </div>
         </nav>
         
