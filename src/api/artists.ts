@@ -30,7 +30,7 @@ export interface ArtistProfile {
   id: string;
   name: string;
   slug: string;
-  featuredImage: string;
+  featuredImage: string | null;
   quote?: string;
   biography: string[];
   artworks: Artwork[];
@@ -66,14 +66,20 @@ const allArtists: ArtistProfile[] = [
   zarcoData
 ] as ArtistProfile[];
 
+// Process artists to handle null profile images
+const processedArtists: ArtistProfile[] = allArtists.map(artist => ({
+  ...artist,
+  featuredImage: artist.featuredImage || '/placeholder-profile.webp'
+}));
+
 // Artists content loader
 export const getArtistsContent = (): ArtistsPageContent => {
   return {
     hero: artistsPageContent.hero,
-    artists: allArtists
+    artists: processedArtists
   };
 };
 
 export const getArtistBySlug = (slug: string): ArtistProfile | undefined => {
-  return allArtists.find(artist => artist.slug === slug);
+  return processedArtists.find(artist => artist.slug === slug);
 };

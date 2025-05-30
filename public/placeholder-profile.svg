@@ -1,0 +1,56 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Elegant gradient background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fefefe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Subtle texture pattern -->
+    <pattern id="texture" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect width="60" height="60" fill="none"/>
+      <circle cx="30" cy="30" r="0.8" fill="#e8e8e8" opacity="0.2"/>
+    </pattern>
+    
+    <!-- Profile shadow -->
+    <filter id="profileShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  <rect width="800" height="600" fill="url(#texture)"/>
+  
+  <!-- Elegant frame border -->
+  <rect x="40" y="40" width="720" height="520" fill="none" stroke="#d0d0d0" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Main profile container with shadow -->
+  <g filter="url(#profileShadow)">
+    <!-- Profile background circle -->
+    <circle cx="400" cy="280" r="100" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+    
+    <!-- Minimalist head silhouette -->
+    <circle cx="400" cy="250" r="32" fill="#8a8a8a"/>
+    
+    <!-- Elegant shoulders/torso -->
+    <path d="M 340 340 Q 370 310 400 310 Q 430 310 460 340 Q 450 350 400 345 Q 350 350 340 340 Z" fill="#8a8a8a"/>
+  </g>
+  
+  <!-- Sophisticated typography -->
+  <text x="400" y="450" text-anchor="middle" font-family="Times, serif" font-size="24" font-weight="400" fill="#4a4a4a" letter-spacing="3px">ARTISTA</text>
+  
+  <!-- Elegant decorative line -->
+  <line x1="320" y1="470" x2="480" y2="470" stroke="#c0c0c0" stroke-width="1"/>
+  
+  <!-- Refined subtitle -->
+  <text x="400" y="500" text-anchor="middle" font-family="Times, serif" font-size="14" font-weight="300" fill="#7a7a7a" letter-spacing="1px">LIVING MUSEUM</text>
+  
+  <!-- Subtle corner decorations -->
+  <g opacity="0.3">
+    <path d="M 80 80 L 120 80 L 120 85 L 85 85 L 85 120 L 80 120 Z" fill="#c0c0c0"/>
+    <path d="M 720 80 L 680 80 L 680 85 L 715 85 L 715 120 L 720 120 Z" fill="#c0c0c0"/>
+    <path d="M 80 520 L 120 520 L 120 515 L 85 515 L 85 480 L 80 480 Z" fill="#c0c0c0"/>
+    <path d="M 720 520 L 680 520 L 680 515 L 715 515 L 715 480 L 720 480 Z" fill="#c0c0c0"/>
+  </g>
+</svg>
