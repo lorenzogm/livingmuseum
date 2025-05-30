@@ -184,6 +184,16 @@ nav {
     outline-offset: 2px;
   }
 
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+
   /* Animation utilities */
   .animate-fade-in-up {
     animation: fadeInUp 0.8s ease-out;
