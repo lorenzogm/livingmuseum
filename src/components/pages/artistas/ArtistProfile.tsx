@@ -4,6 +4,7 @@ import type { ArtistProfile as ArtistType } from '@/api/apiSdk';
 import { Image } from '@/components/elements/Image';
 import Text from '@/components/elements/Text';
 import Button from '@/components/elements/Button';
+import ArtworkSlider from './ArtworkSlider';
 import Link from 'next/link';
 
 interface ArtistProfileProps {
@@ -20,7 +21,7 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
             {/* Artist Image */}
             <div className="relative aspect-[4/5] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src={artist.featuredImage}
+                src={artist.featuredImage || '/placeholder-profile.webp'}
                 alt={artist.name}
                 className="w-full h-full object-cover"
                 fill
@@ -115,54 +116,21 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
       </section>
 
       {/* Artworks Section */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <Text
-            variant="section"
-            as="h2"
-            align="center"
-            className="mb-12 tracking-wide text-yellow-500"
-          >
-            Obras
-          </Text>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {artist.artworks.map((artwork) => (
-              <div key={artwork.id} className="bg-white rounded-lg overflow-hidden shadow-lg border border-gray-200">
-                <div className="relative aspect-square">
-                  <Image
-                    src={artwork.image}
-                    alt={artwork.title}
-                    className="w-full h-full object-cover"
-                    fill
-                  />
-                </div>
-                <div className="p-6">
-                  <Text
-                    variant="heading"
-                    as="h3"
-                    className="mb-2 text-yellow-500"
-                  >
-                    {artwork.title}
-                  </Text>
-                  <div className="space-y-1">
-                    <Text variant="small" className="text-gray-600">{artwork.medium}</Text>
-                    <Text variant="small" className="text-gray-600">{artwork.dimensions}</Text>
-                    <Text variant="small" className="text-gray-600">{artwork.year}</Text>
-                  </div>
-                  {artwork.description && (
-                    <Text
-                      variant="small"
-                      className="mt-4 italic text-gray-700"
-                    >
-                      {artwork.description}
-                    </Text>
-                  )}
-                </div>
-              </div>
-            ))}
+      {artist.artworks && artist.artworks.length > 0 && (
+        <section className="py-20 px-6 bg-white">
+          <div className="max-w-7xl mx-auto">
+            <Text
+              variant="section"
+              as="h2"
+              align="center"
+              className="mb-12 tracking-wide text-yellow-500"
+            >
+              Obras
+            </Text>
+            <ArtworkSlider artworks={artist.artworks} />
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Exhibitions Section */}
       {artist.exhibitions && artist.exhibitions.length > 0 && (
