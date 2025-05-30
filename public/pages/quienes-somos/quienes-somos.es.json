@@ -211,53 +211,6 @@
         }
       }
     ],
-    "artists": [
-      {
-        "name": "ZARCO",
-        "url": "https://livingmuseum.madrid/zarco/",
-        "image": "/content/artistas/zarco/zarco-featured.jpg"
-      },
-      {
-        "name": "CARLOS MOLINA VALLEJO",
-        "url": "https://livingmuseum.madrid/carlos-molina-vallejo/",
-        "image": "/content/artistas/carlos-molina-vallejo/carlos-featured.jpg"
-      },
-      {
-        "name": "Blanca Valcarce Quiroga",
-        "url": "https://livingmuseum.madrid/blanca-valcarce-quiroga/",
-        "image": "/content/artistas/blanca-valcarce-quiroga/blanca-featured.jpg"
-      },
-      {
-        "name": "Miguel Ángel Ruiz",
-        "url": "https://livingmuseum.madrid/miguel-angel-ruiz/",
-        "image": "/content/artistas/miguel-angel-ruiz/miguel-featured.jpg"
-      },
-      {
-        "name": "Gustavo Pannullo (G.A.P.)",
-        "url": "https://livingmuseum.madrid/gustavo-pannullo-gap/",
-        "image": "/content/artistas/gustavo-pannullo-gap/gustavo-featured.jpg"
-      },
-      {
-        "name": "Jose Manuel López",
-        "url": "https://livingmuseum.madrid/jose-manuel-lopez/",
-        "image": "/content/artistas/jose-manuel-lopez/jose-featured.jpg"
-      },
-      {
-        "name": "Fernando José Escriña",
-        "url": "https://livingmuseum.madrid/fernando-jose-escrina/",
-        "image": "/content/artistas/fernando-jose-escrina/fernando-featured.jpg"
-      },
-      {
-        "name": "Gabriel Pastor Guzmán",
-        "url": "https://livingmuseum.madrid/gabriel-pastor-guzman/",
-        "image": "/content/artistas/gabriel-pastor-guzman/gabriel-featured.jpg"
-      },
-      {
-        "name": "Manuel Vela",
-        "url": "https://livingmuseum.madrid/manuel-vela/",
-        "image": "/content/artistas/manuel-vela/manuel-featured.jpg"
-      }
-    ],
     "photoCredit": "Fotografías de Marta Lage de la Rosa"
   }
 }

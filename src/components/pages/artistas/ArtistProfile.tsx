@@ -21,7 +21,7 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
             {/* Artist Image */}
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src={artist.featuredImage || '/placeholder-profile.webp'}
+                src={artist.featuredImage || '/placeholder-profile.svg'}
                 alt={artist.name}
                 className="w-full h-full object-cover object-center"
                 fill

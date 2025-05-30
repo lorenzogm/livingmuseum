@@ -59,7 +59,7 @@ export type {
   MadridContent,
   FamiliaContent,
   TeamMember,
-  Artist,
+  UIArtist,
   ObjetivoCard,
   LocationSite
 } from './quienes-somos';

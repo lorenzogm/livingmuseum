@@ -108,8 +108,6 @@ export default function FamiliaSection({ content }: FamiliaSectionProps) {
                 <a 
                   key={index}
                   href={artist.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="group text-center space-y-4 hover:opacity-80 transition-opacity"
                 >
                   <div className="aspect-square bg-gray-800/50 rounded-lg overflow-hidden relative">
