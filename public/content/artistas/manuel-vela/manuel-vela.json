@@ -12,20 +12,20 @@
   ],
   "artworks": [
     {
-      "id": "0-portada-casas-2",
-      "title": "Casas",
-      "medium": "Lápices de colores",
-      "dimensions": "29.7 x 42 cm",
-      "year": "2025",
-      "image": "/content/artistas/manuel-vela/artworks/0-portada-casas-2.webp"
-    },
-    {
       "id": "casas",
       "title": "Casas",
       "medium": "Lápices de colores",
       "dimensions": "29.7 x 42 cm",
       "year": "2025",
       "image": "/content/artistas/manuel-vela/artworks/casas.webp"
+    },
+    {
+      "id": "casas-2",
+      "title": "Casas",
+      "medium": "Lápices de colores",
+      "dimensions": "29.7 x 42 cm",
+      "year": "2025",
+      "image": "/content/artistas/manuel-vela/artworks/casas-2.webp"
     },
     {
       "id": "personajes",

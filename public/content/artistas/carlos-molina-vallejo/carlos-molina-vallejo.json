@@ -11,36 +11,36 @@
   ],
   "artworks": [
     {
-      "id": "anillosrotos1",
+      "id": "anillos-rotos-díptico",
       "title": "Anillos Rotos (Díptico)",
       "medium": "Técnica mixta sobre papel",
       "dimensions": "21 x 29.7 cm",
       "year": "2024",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/anillosrotos1.webp"
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/anillos-rotos-díptico.webp"
     },
     {
-      "id": "anillosrotos2",
+      "id": "anillos-rotos-díptico-2",
       "title": "Anillos Rotos (Díptico)",
       "medium": "Técnica mixta sobre papel",
       "dimensions": "21 x 29.7 cm",
       "year": "2024",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/anillosrotos2.webp"
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/anillos-rotos-díptico-2.webp"
     },
     {
-      "id": "portada-1-emocioneshumanascolor",
+      "id": "emociones-humanas",
       "title": "Emociones Humanas",
       "medium": "Técnica mixta sobre papel",
       "dimensions": "42 x 29.7 cm",
       "year": "2024",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/portada-1-emocioneshumanascolor.webp"
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/emociones-humanas.webp"
     },
     {
-      "id": "portada-2-emocioneshumanasbn",
+      "id": "emociones-humanas-2",
       "title": "Emociones Humanas",
       "medium": "Técnica mixta sobre papel",
       "dimensions": "42 x 29.7 cm",
       "year": "2024",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/portada-2-emocioneshumanasbn.webp"
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/emociones-humanas-2.webp"
     },
     {
       "id": "marejadas",
@@ -51,20 +51,20 @@
       "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas.webp"
     },
     {
-      "id": "marejadas1",
+      "id": "marejadas-2",
       "title": "Marejadas",
       "medium": "Técnica mixta sobre papel",
       "dimensions": "42 x 29.7 cm",
       "year": "2024",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas1.webp"
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas-2.webp"
     },
     {
-      "id": "marejadas2",
+      "id": "marejadas-3",
       "title": "Marejadas",
       "medium": "Técnica mixta sobre papel",
       "dimensions": "42 x 29.7 cm",
       "year": "2024",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas2.webp"
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas-3.webp"
     },
     {
       "id": "mujer-en-verde",

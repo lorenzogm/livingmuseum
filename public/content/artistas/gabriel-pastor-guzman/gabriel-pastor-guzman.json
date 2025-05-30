@@ -35,23 +35,23 @@
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/alita.webp"
     },
     {
-      "id": "4-brian-molko",
+      "id": "brian-molko",
       "title": "Brian Molko",
       "medium": "Óleo y pastel al óleo",
       "dimensions": "65 x 50 cm",
       "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/4-brian-molko.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/brian-molko.webp"
     },
     {
-      "id": "7-bully",
+      "id": "bully",
       "title": "Bully",
       "medium": "Óleo y pastel al óleo",
       "dimensions": "65 x 50 cm",
       "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/7-bully.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/bully.webp"
     },
     {
-      "id": "busto-frontal",
+      "id": "busto",
       "title": "Busto",
       "medium": "Pasta de secado al aire, acrílico/acuarela y barniz",
       "dimensions": "16 cm",
@@ -59,7 +59,7 @@
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/busto.webp"
     },
     {
-      "id": "busto-posterior",
+      "id": "busto-vista-posterior",
       "title": "Busto (Vista posterior)",
       "medium": "Pasta de secado al aire, acrílico/acuarela y barniz",
       "dimensions": "16 cm",
@@ -75,28 +75,28 @@
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/chocapic.webp"
     },
     {
-      "id": "0-portada-dash-snow",
+      "id": "dash-snow",
       "title": "Dash Snow",
       "medium": "Óleo y pastel al óleo",
       "dimensions": "65 x 50 cm",
       "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/0-portada-dash-snow.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/dash-snow.webp"
     },
     {
-      "id": "6-girl",
+      "id": "girl",
       "title": "Girl",
       "medium": "Óleo y pastel al óleo",
       "dimensions": "32,5 x 50 cm",
       "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/6-girl.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/girl.webp"
     },
     {
-      "id": "8-j-d-salinger",
+      "id": "j-d-salinger",
       "title": "J. D. Salinger",
       "medium": "Óleo y pastel al óleo",
       "dimensions": "65 x 50 cm",
       "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/8-j.-d.-salinger-.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/j-d-salinger.webp"
     },
     {
       "id": "labios",
@@ -115,12 +115,12 @@
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/lou.webp"
     },
     {
-      "id": "love-music-hate-racism",
+      "id": "lovemusic-hateracism",
       "title": "LoveMusic: HateRacism",
       "medium": "Óleo y pastel al óleo",
       "dimensions": "65 x 50 cm",
       "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/1-lovemusic-hateracism.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/lovemusic-hateracism.webp"
     },
     {
       "id": "nurses-rule",
@@ -147,20 +147,20 @@
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/sol.webp"
     },
     {
-      "id": "5-thong",
+      "id": "thong",
       "title": "Thong",
       "medium": "Óleo y pastel al óleo",
       "dimensions": "65 x 50 cm",
       "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/5-thong.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/thong.webp"
     },
     {
-      "id": "2-william-burroughs",
+      "id": "william-burroughs",
       "title": "William Burroughs",
       "medium": "Óleo y pastel al óleo",
       "dimensions": "65 x 50 cm",
       "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/2-william-burroughs.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/william-burroughs.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/gabriel-pastor-guzman/"

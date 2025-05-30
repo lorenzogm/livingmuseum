@@ -1,7 +1,6 @@
 {
   "id": "pilar-sanchez-baidez",
   "name": "PILAR SANCHEZ BAIDEZ",
-  "slug": "pilar-sanchez-baidez",
   "featuredImage": null,
   "quote": "En mi obra, a veces, aparecen elementos que pueden formar parte de más de una imagen, dependiendo de cómo se mire. Las formas geométricas aparentemente simples, observadas más de cerca, forman parte de otras figuras independientes.",
   "biography": [
@@ -26,12 +25,12 @@
       "image": "/content/artistas/pilar-sanchez-baidez/artworks/cabeza-rosa.webp"
     },
     {
-      "id": "maja-1",
+      "id": "maja",
       "title": "Maja",
       "medium": "Rotulador sobre papel - Obra digitalizada por Fernando José Escriña",
       "dimensions": "",
       "year": "2022",
-      "image": "/content/artistas/pilar-sanchez-baidez/artworks/maja-1.webp"
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/maja.webp"
     },
     {
       "id": "maja-2",
@@ -90,30 +89,6 @@
       "image": "/content/artistas/pilar-sanchez-baidez/artworks/menina-reunio-n.webp"
     },
     {
-      "id": "menina-reunion",
-      "title": "Menina Reunión",
-      "medium": "Acrílico sobre lienzo - Obra digitalizada por Fernando José Escriña",
-      "dimensions": "25 x 31 cm",
-      "year": "2022",
-      "image": "/content/artistas/pilar-sanchez-baidez/artworks/menina-reunion.webp"
-    },
-    {
-      "id": "menina-angel",
-      "title": "Menina Ángel",
-      "medium": "Rotulador sobre papel - Obra digitalizada por Fernando José Escriña",
-      "dimensions": "25 x 31 cm",
-      "year": "2022",
-      "image": "/content/artistas/pilar-sanchez-baidez/artworks/menina-angel.webp"
-    },
-    {
-      "id": "pez-pirana",
-      "title": "Pez Piraña",
-      "medium": "Rotulador sobre papel - Obra digitalizada por Fernando José Escriña",
-      "dimensions": "22 x 31 cm",
-      "year": "2022",
-      "image": "/content/artistas/pilar-sanchez-baidez/artworks/pez-pirana.webp"
-    },
-    {
       "id": "pez-rayas",
       "title": "Pez Rayas",
       "medium": "",
@@ -160,30 +135,6 @@
       "dimensions": "",
       "year": "",
       "image": "/content/artistas/pilar-sanchez-baidez/artworks/roseto-n-3.webp"
-    },
-    {
-      "id": "roseton-1",
-      "title": "Rosetón 1",
-      "medium": "Acrílico sobre lienzo",
-      "dimensions": "30 x 30 cm",
-      "year": "2024",
-      "image": "/content/artistas/pilar-sanchez-baidez/artworks/roseton-1.webp"
-    },
-    {
-      "id": "roseton-2",
-      "title": "Rosetón 2",
-      "medium": "Acrílico sobre lienzo",
-      "dimensions": "30 x 30 cm",
-      "year": "2024",
-      "image": "/content/artistas/pilar-sanchez-baidez/artworks/roseton-2.webp"
-    },
-    {
-      "id": "roseton-3",
-      "title": "Rosetón 3",
-      "medium": "Acrílico sobre lienzo",
-      "dimensions": "30 x 30 cm",
-      "year": "2024",
-      "image": "/content/artistas/pilar-sanchez-baidez/artworks/roseton-3.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/pilar-sanchez-baidez/"
