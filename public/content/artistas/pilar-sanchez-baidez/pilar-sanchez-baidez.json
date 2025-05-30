@@ -1,0 +1,141 @@
+{
+  "id": "pilar-sanchez-baidez",
+  "name": "PILAR SANCHEZ BAIDEZ",
+  "slug": "pilar-sanchez-baidez",
+  "featuredImage": "/content/artistas/pilar-sanchez-baidez/pilar-sanchez-baidez-profile.webp",
+  "quote": "",
+  "biography": [
+    ""
+  ],
+  "artworks": [
+    {
+      "id": "cabeza-1",
+      "title": "Cabeza 1",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/cabeza-1.webp"
+    },
+    {
+      "id": "cabeza-rosa",
+      "title": "Cabeza Rosa",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/cabeza-rosa.webp"
+    },
+    {
+      "id": "maja-1",
+      "title": "Maja 1",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/maja-1.webp"
+    },
+    {
+      "id": "maja-2",
+      "title": "Maja 2",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/maja-2.webp"
+    },
+    {
+      "id": "maja-diptico",
+      "title": "Maja Diptico",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/maja-diptico-.webp"
+    },
+    {
+      "id": "menina-a-ngel",
+      "title": "Menina A Ngel",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/menina-a-ngel.webp"
+    },
+    {
+      "id": "menina-armadillo",
+      "title": "Menina Armadillo",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/menina-armadillo.webp"
+    },
+    {
+      "id": "menina-ngel",
+      "title": "Menina Ngel",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/menina-ngel.webp"
+    },
+    {
+      "id": "menina-reuni-n",
+      "title": "Menina Reuni N",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/menina-reuni-n.webp"
+    },
+    {
+      "id": "menina-reunio-n",
+      "title": "Menina Reunio N",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/menina-reunio-n.webp"
+    },
+    {
+      "id": "pez-rayas",
+      "title": "Pez Rayas",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/pez-rayas.webp"
+    },
+    {
+      "id": "roset-n-1",
+      "title": "Roset N 1",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/roset-n-1.webp"
+    },
+    {
+      "id": "roset-n-2",
+      "title": "Roset N 2",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/roset-n-2.webp"
+    },
+    {
+      "id": "roseto-n-1",
+      "title": "Roseto N 1",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/roseto-n-1.webp"
+    },
+    {
+      "id": "roseto-n-2",
+      "title": "Roseto N 2",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/roseto-n-2.webp"
+    },
+    {
+      "id": "roseto-n-3",
+      "title": "Roseto N 3",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/pilar-sanchez-baidez/artworks/roseto-n-3.webp"
+    }
+  ],
+  "profileUrl": "https://livingmuseum.madrid/pilar-sanchez-baidez/"
+}

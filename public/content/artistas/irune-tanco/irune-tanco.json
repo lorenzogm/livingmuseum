@@ -1,0 +1,53 @@
+{
+  "id": "irune-tanco",
+  "name": "IRUNE TANCO",
+  "slug": "irune-tanco",
+  "featuredImage": "/content/artistas/irune-tanco/irune-tanco-profile.webp",
+  "quote": "",
+  "biography": [
+    ""
+  ],
+  "artworks": [
+    {
+      "id": "bloques",
+      "title": "Bloques",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/irune-tanco/artworks/bloques.webp"
+    },
+    {
+      "id": "el-mundo-en-una-ventana",
+      "title": "El Mundo En Una Ventana",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/irune-tanco/artworks/el-mundo-en-una-ventana.webp"
+    },
+    {
+      "id": "festival-de-la-mparas",
+      "title": "Festival De La Mparas",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/irune-tanco/artworks/festival-de-la-mparas.webp"
+    },
+    {
+      "id": "las-ninfas-ya-no-se-esconden",
+      "title": "Las Ninfas Ya No Se Esconden",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/irune-tanco/artworks/las-ninfas-ya-no-se-esconden.webp"
+    },
+    {
+      "id": "the-kingdom-of-fife",
+      "title": "The Kingdom Of Fife",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/irune-tanco/artworks/the-kingdom-of-fife.webp"
+    }
+  ],
+  "profileUrl": "https://livingmuseum.madrid/irune-tanco/"
+}

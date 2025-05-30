@@ -11,6 +11,9 @@ import gustavoData from '../../public/content/artistas/gustavo-pannullo-gap/gust
 import carlosData from '../../public/content/artistas/carlos-molina-vallejo/carlos-molina-vallejo.json';
 import manuelData from '../../public/content/artistas/manuel-vela/manuel-vela.json';
 import joseData from '../../public/content/artistas/jose-manuel-lopez/jose-manuel-lopez.json';
+import iruneData from '../../public/content/artistas/irune-tanco/irune-tanco.json';
+import malenaData from '../../public/content/artistas/malena-hidalgo/malena-hidalgo.json';
+import pilarData from '../../public/content/artistas/pilar-sanchez-baidez/pilar-sanchez-baidez.json';
 
 // Artist interfaces
 export interface Artwork {
@@ -57,7 +60,10 @@ const allArtists: ArtistProfile[] = [
   gustavoData,
   carlosData,
   manuelData,
-  joseData
+  joseData,
+  iruneData,
+  malenaData,
+  pilarData
 ] as ArtistProfile[];
 
 // Artists content loader

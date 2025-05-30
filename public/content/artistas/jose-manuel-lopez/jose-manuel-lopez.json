@@ -16,6 +16,46 @@
       "year": "2023",
       "image": "/content/artistas/jose-manuel-lopez/artworks/hombre-sentado.webp",
       "description": "El cuadro del hombre que está sentado en la silla habla de la soledad"
+    },
+    {
+      "id": "iv-n-cuaderno",
+      "title": "Iv N Cuaderno",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/jose-manuel-lopez/artworks/iv-n-cuaderno.webp"
+    },
+    {
+      "id": "buda-cuaderno",
+      "title": "Buda Cuaderno",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/jose-manuel-lopez/artworks/buda-cuaderno.webp"
+    },
+    {
+      "id": "amigos-cuaderno",
+      "title": "Amigos Cuaderno",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/jose-manuel-lopez/artworks/amigos-cuaderno.webp"
+    },
+    {
+      "id": "iv-n-lienzo",
+      "title": "Iv N Lienzo",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/jose-manuel-lopez/artworks/iv-n-lienzo.webp"
+    },
+    {
+      "id": "portada-artista-cicatrices-abiertas",
+      "title": "Portada Artista Cicatrices Abiertas",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/jose-manuel-lopez/artworks/portada-artista-cicatrices-abiertas.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/jose-manuel-lopez/"
