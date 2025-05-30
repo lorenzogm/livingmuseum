@@ -10,44 +10,20 @@
   ],
   "artworks": [
     {
-      "id": "gitano-bailando",
-      "title": "Un gitano bailando Sevillanas",
-      "medium": "Lápiz de color y boli negro sobre papel",
-      "dimensions": "21 x 29,7 cm",
-      "year": "2024",
-      "image": "/content/artistas/zarco/artworks/ungitanobailandosevillanas-zarco.webp"
+      "id": "barvovelerosurcandolosmares-zarco",
+      "title": "Barvovelerosurcandolosmares Zarco",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/zarco/artworks/barvovelerosurcandolosmares-zarco.webp"
     },
     {
-      "id": "ufo-mayka-1",
-      "title": "UFO. Una aventura de Maika",
-      "medium": "Lápices de colores y boli negro sobre papel",
-      "dimensions": "21 x 29,7 cm",
-      "year": "2024",
-      "image": "/content/artistas/zarco/artworks/c-mic-ufo-1-zarco.webp"
-    },
-    {
-      "id": "ufo-mayka-2",
-      "title": "UFO. Una aventura de Maika",
-      "medium": "Lápices de colores y boli negro sobre papel",
-      "dimensions": "21 x 29,7 cm",
-      "year": "2024",
-      "image": "/content/artistas/zarco/artworks/c-mic-ufo-2-zarco.webp"
-    },
-    {
-      "id": "mayka-extraterrestre-1",
-      "title": "Mayka. Una chica extraterrestre",
-      "medium": "Lápices de colores y boli negro sobre papel",
-      "dimensions": "21 x 29,7 cm",
-      "year": "2024",
-      "image": "/content/artistas/zarco/artworks/c-mic-mayka-1-zarco2.webp"
-    },
-    {
-      "id": "mayka-extraterrestre-2",
-      "title": "Mayka. Una chica extraterrestre",
-      "medium": "Lápices de colores y boli negro sobre papel",
-      "dimensions": "21 x 29,7 cm",
-      "year": "2024",
-      "image": "/content/artistas/zarco/artworks/c-mic-mayka-2-zarco.webp"
+      "id": "c-mic-mayka-3-zarco",
+      "title": "C Mic Mayka 3 Zarco",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/zarco/artworks/c-mic-mayka-3-zarco.webp"
     },
     {
       "id": "c-mic-ufo-3-zarco",
@@ -56,14 +32,6 @@
       "dimensions": "",
       "year": "",
       "image": "/content/artistas/zarco/artworks/c-mic-ufo-3-zarco.webp"
-    },
-    {
-      "id": "barvovelerosurcandolosmares-zarco",
-      "title": "Barvovelerosurcandolosmares Zarco",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/zarco/artworks/barvovelerosurcandolosmares-zarco.webp"
     },
     {
       "id": "c-mic-ufo-4-zarco",
@@ -82,6 +50,22 @@
       "image": "/content/artistas/zarco/artworks/c-mic-ufo-5-zarco.webp"
     },
     {
+      "id": "mayka-extraterrestre-1",
+      "title": "Mayka. Una chica extraterrestre",
+      "medium": "Lápices de colores y boli negro sobre papel",
+      "dimensions": "21 x 29,7 cm",
+      "year": "2024",
+      "image": "/content/artistas/zarco/artworks/c-mic-mayka-1-zarco2.webp"
+    },
+    {
+      "id": "mayka-extraterrestre-2",
+      "title": "Mayka. Una chica extraterrestre",
+      "medium": "Lápices de colores y boli negro sobre papel",
+      "dimensions": "21 x 29,7 cm",
+      "year": "2024",
+      "image": "/content/artistas/zarco/artworks/c-mic-mayka-2-zarco.webp"
+    },
+    {
       "id": "portada-artista-eltedemayka-zarco",
       "title": "Portada Artista Eltedemayka Zarco",
       "medium": "",
@@ -90,12 +74,28 @@
       "image": "/content/artistas/zarco/artworks/portada-artista-eltedemayka-zarco.webp"
     },
     {
-      "id": "c-mic-mayka-3-zarco",
-      "title": "C Mic Mayka 3 Zarco",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/zarco/artworks/c-mic-mayka-3-zarco.webp"
+      "id": "ufo-mayka-1",
+      "title": "UFO. Una aventura de Maika",
+      "medium": "Lápices de colores y boli negro sobre papel",
+      "dimensions": "21 x 29,7 cm",
+      "year": "2024",
+      "image": "/content/artistas/zarco/artworks/c-mic-ufo-1-zarco.webp"
+    },
+    {
+      "id": "ufo-mayka-2",
+      "title": "UFO. Una aventura de Maika",
+      "medium": "Lápices de colores y boli negro sobre papel",
+      "dimensions": "21 x 29,7 cm",
+      "year": "2024",
+      "image": "/content/artistas/zarco/artworks/c-mic-ufo-2-zarco.webp"
+    },
+    {
+      "id": "gitano-bailando",
+      "title": "Un gitano bailando Sevillanas",
+      "medium": "Lápiz de color y boli negro sobre papel",
+      "dimensions": "21 x 29,7 cm",
+      "year": "2024",
+      "image": "/content/artistas/zarco/artworks/ungitanobailandosevillanas-zarco.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/zarco/"

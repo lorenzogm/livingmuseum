@@ -11,20 +11,20 @@
   ],
   "artworks": [
     {
+      "id": "0-portada-casas-2",
+      "title": "0 Portada Casas 2",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/manuel-vela/artworks/0-portada-casas-2.webp"
+    },
+    {
       "id": "casas",
       "title": "Casas",
       "medium": "Lápices de colores y rotulador sobre madera",
       "dimensions": "129 x 59 cm",
       "year": "2020",
       "image": "/content/artistas/manuel-vela/artworks/casas.webp"
-    },
-    {
-      "id": "personas-desnudas-abrazadas",
-      "title": "Personas Desnudas Abrazadas",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/manuel-vela/artworks/personas-desnudas-abrazadas.webp"
     },
     {
       "id": "personajes",
@@ -35,12 +35,12 @@
       "image": "/content/artistas/manuel-vela/artworks/personajes.webp"
     },
     {
-      "id": "0-portada-casas-2",
-      "title": "0 Portada Casas 2",
+      "id": "personas-desnudas-abrazadas",
+      "title": "Personas Desnudas Abrazadas",
       "medium": "",
       "dimensions": "",
       "year": "",
-      "image": "/content/artistas/manuel-vela/artworks/0-portada-casas-2.webp"
+      "image": "/content/artistas/manuel-vela/artworks/personas-desnudas-abrazadas.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/manuel-vela/",

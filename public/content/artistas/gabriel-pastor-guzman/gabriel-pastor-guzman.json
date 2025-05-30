@@ -11,28 +11,36 @@
   ],
   "artworks": [
     {
-      "id": "love-music-hate-racism",
-      "title": "LoveMusic: HateRacism",
-      "medium": "Óleo y pastel al óleo",
-      "dimensions": "65 x 50 cm",
-      "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/1-lovemusic-hateracism.webp"
+      "id": "0-portada-dash-snow",
+      "title": "0 Portada Dash Snow",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/0-portada-dash-snow.webp"
     },
     {
-      "id": "busto-frontal",
-      "title": "Busto",
-      "medium": "Pasta de secado al aire, acrílico/acuarela y barniz",
-      "dimensions": "16 cm",
-      "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/busto.webp"
+      "id": "10-jerry",
+      "title": "10 Jerry",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/10-jerry.webp"
     },
     {
-      "id": "busto-posterior",
-      "title": "Busto (Vista posterior)",
-      "medium": "Pasta de secado al aire, acrílico/acuarela y barniz",
-      "dimensions": "16 cm",
-      "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/bustodetras.webp"
+      "id": "2-william-burroughs",
+      "title": "2 William Burroughs",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/2-william-burroughs.webp"
+    },
+    {
+      "id": "4-brian-molko",
+      "title": "4 Brian Molko",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/4-brian-molko.webp"
     },
     {
       "id": "5-thong",
@@ -41,6 +49,22 @@
       "dimensions": "",
       "year": "",
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/5-thong.webp"
+    },
+    {
+      "id": "6-girl",
+      "title": "6 Girl",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/6-girl.webp"
+    },
+    {
+      "id": "7-bully",
+      "title": "7 Bully",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/7-bully.webp"
     },
     {
       "id": "8-j-d-salinger",
@@ -59,68 +83,36 @@
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/9-dash.webp"
     },
     {
-      "id": "7-bully",
-      "title": "7 Bully",
+      "id": "alita",
+      "title": "Alita",
       "medium": "",
       "dimensions": "",
       "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/7-bully.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/alita.webp"
     },
     {
-      "id": "6-girl",
-      "title": "6 Girl",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/6-girl.webp"
+      "id": "busto-frontal",
+      "title": "Busto",
+      "medium": "Pasta de secado al aire, acrílico/acuarela y barniz",
+      "dimensions": "16 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/busto.webp"
     },
     {
-      "id": "2-william-burroughs",
-      "title": "2 William Burroughs",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/2-william-burroughs.webp"
+      "id": "busto-posterior",
+      "title": "Busto (Vista posterior)",
+      "medium": "Pasta de secado al aire, acrílico/acuarela y barniz",
+      "dimensions": "16 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/bustodetras.webp"
     },
     {
-      "id": "0-portada-dash-snow",
-      "title": "0 Portada Dash Snow",
+      "id": "chocapic",
+      "title": "Chocapic",
       "medium": "",
       "dimensions": "",
       "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/0-portada-dash-snow.webp"
-    },
-    {
-      "id": "10-jerry",
-      "title": "10 Jerry",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/10-jerry.webp"
-    },
-    {
-      "id": "4-brian-molko",
-      "title": "4 Brian Molko",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/4-brian-molko.webp"
-    },
-    {
-      "id": "sol",
-      "title": "Sol",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/sol.webp"
-    },
-    {
-      "id": "scream",
-      "title": "Scream",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/scream.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/chocapic.webp"
     },
     {
       "id": "labios",
@@ -131,12 +123,20 @@
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/labios.webp"
     },
     {
-      "id": "alita",
-      "title": "Alita",
+      "id": "lou",
+      "title": "Lou",
       "medium": "",
       "dimensions": "",
       "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/alita.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/lou.webp"
+    },
+    {
+      "id": "love-music-hate-racism",
+      "title": "LoveMusic: HateRacism",
+      "medium": "Óleo y pastel al óleo",
+      "dimensions": "65 x 50 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/1-lovemusic-hateracism.webp"
     },
     {
       "id": "nurses-rule",
@@ -147,20 +147,20 @@
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/nurses-rule.webp"
     },
     {
-      "id": "lou",
-      "title": "Lou",
+      "id": "scream",
+      "title": "Scream",
       "medium": "",
       "dimensions": "",
       "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/lou.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/scream.webp"
     },
     {
-      "id": "chocapic",
-      "title": "Chocapic",
+      "id": "sol",
+      "title": "Sol",
       "medium": "",
       "dimensions": "",
       "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/chocapic.webp"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/sol.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/gabriel-pastor-guzman/"

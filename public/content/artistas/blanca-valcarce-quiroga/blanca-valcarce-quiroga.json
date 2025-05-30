@@ -10,14 +10,6 @@
   ],
   "artworks": [
     {
-      "id": "mujer-y-mariposas",
-      "title": "Mujer y mariposas",
-      "medium": "Acrílico sobre lienzo",
-      "dimensions": "61×50 cm",
-      "year": "2024",
-      "image": "/content/artistas/blanca-valcarce-quiroga/artworks/portada-artista-mujer-y-mariposas.webp"
-    },
-    {
       "id": "bol-de-manzanas",
       "title": "Bol De Manzanas",
       "medium": "",
@@ -34,12 +26,12 @@
       "image": "/content/artistas/blanca-valcarce-quiroga/artworks/conjunto-de-bocetos.webp"
     },
     {
-      "id": "tetera-y-frutas-interpretaci-n-de-la-obra-de-henri-manguin",
-      "title": "Tetera Y Frutas Interpretaci N De La Obra De Henri Manguin",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/blanca-valcarce-quiroga/artworks/tetera-y-frutas-interpretaci-n-de-la-obra-de-henri-manguin-.webp"
+      "id": "mujer-y-mariposas",
+      "title": "Mujer y mariposas",
+      "medium": "Acrílico sobre lienzo",
+      "dimensions": "61×50 cm",
+      "year": "2024",
+      "image": "/content/artistas/blanca-valcarce-quiroga/artworks/portada-artista-mujer-y-mariposas.webp"
     },
     {
       "id": "sirena-y-lib-lula",
@@ -48,6 +40,14 @@
       "dimensions": "",
       "year": "",
       "image": "/content/artistas/blanca-valcarce-quiroga/artworks/sirena-y-lib-lula.webp"
+    },
+    {
+      "id": "tetera-y-frutas-interpretaci-n-de-la-obra-de-henri-manguin",
+      "title": "Tetera Y Frutas Interpretaci N De La Obra De Henri Manguin",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/blanca-valcarce-quiroga/artworks/tetera-y-frutas-interpretaci-n-de-la-obra-de-henri-manguin-.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/blanca-valcarce-quiroga/"

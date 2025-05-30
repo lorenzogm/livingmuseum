@@ -9,20 +9,20 @@
   ],
   "artworks": [
     {
-      "id": "cartografi-a-autodefinida-del-deseo-portada",
-      "title": "Cartografi A Autodefinida Del Deseo Portada",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/malena-hidalgo/artworks/cartografi-a-autodefinida-del-deseo-portada.webp"
-    },
-    {
       "id": "cartografi-a-autodefinida-del-deseo",
       "title": "Cartografi A Autodefinida Del Deseo",
       "medium": "",
       "dimensions": "",
       "year": "",
       "image": "/content/artistas/malena-hidalgo/artworks/cartografi-a-autodefinida-del-deseo.webp"
+    },
+    {
+      "id": "cartografi-a-autodefinida-del-deseo-portada",
+      "title": "Cartografi A Autodefinida Del Deseo Portada",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/malena-hidalgo/artworks/cartografi-a-autodefinida-del-deseo-portada.webp"
     },
     {
       "id": "cartografi-a-autodefinida-del-deseo1",

@@ -9,6 +9,22 @@
   ],
   "artworks": [
     {
+      "id": "amigos-cuaderno",
+      "title": "Amigos Cuaderno",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/jose-manuel-lopez/artworks/amigos-cuaderno.webp"
+    },
+    {
+      "id": "buda-cuaderno",
+      "title": "Buda Cuaderno",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/jose-manuel-lopez/artworks/buda-cuaderno.webp"
+    },
+    {
       "id": "hombre-sentado",
       "title": "Hombre sentado",
       "medium": "Ceras acuarelables y rotulador sobre lienzo",
@@ -24,22 +40,6 @@
       "dimensions": "",
       "year": "",
       "image": "/content/artistas/jose-manuel-lopez/artworks/iv-n-cuaderno.webp"
-    },
-    {
-      "id": "buda-cuaderno",
-      "title": "Buda Cuaderno",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/jose-manuel-lopez/artworks/buda-cuaderno.webp"
-    },
-    {
-      "id": "amigos-cuaderno",
-      "title": "Amigos Cuaderno",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/jose-manuel-lopez/artworks/amigos-cuaderno.webp"
     },
     {
       "id": "iv-n-lienzo",

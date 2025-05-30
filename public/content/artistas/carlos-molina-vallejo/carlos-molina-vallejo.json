@@ -10,22 +10,6 @@
   ],
   "artworks": [
     {
-      "id": "marejadas",
-      "title": "Marejadas",
-      "medium": "Técnica mixta sobre papel",
-      "dimensions": "42 x 29,7 cm",
-      "year": "2024",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas.webp"
-    },
-    {
-      "id": "portada-1-emocioneshumanascolor",
-      "title": "Portada 1 Emocioneshumanascolor",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/portada-1-emocioneshumanascolor.webp"
-    },
-    {
       "id": "anillosrotos1",
       "title": "Anillosrotos1",
       "medium": "",
@@ -34,12 +18,20 @@
       "image": "/content/artistas/carlos-molina-vallejo/artworks/anillosrotos1.webp"
     },
     {
-      "id": "marejadas2",
-      "title": "Marejadas2",
+      "id": "anillosrotos2",
+      "title": "Anillosrotos2",
       "medium": "",
       "dimensions": "",
       "year": "",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas2.webp"
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/anillosrotos2.webp"
+    },
+    {
+      "id": "marejadas",
+      "title": "Marejadas",
+      "medium": "Técnica mixta sobre papel",
+      "dimensions": "42 x 29,7 cm",
+      "year": "2024",
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas.webp"
     },
     {
       "id": "marejadas1",
@@ -50,6 +42,14 @@
       "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas1.webp"
     },
     {
+      "id": "marejadas2",
+      "title": "Marejadas2",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas2.webp"
+    },
+    {
       "id": "mujer-en-verde",
       "title": "Mujer En Verde",
       "medium": "",
@@ -58,20 +58,20 @@
       "image": "/content/artistas/carlos-molina-vallejo/artworks/mujer-en-verde.webp"
     },
     {
+      "id": "portada-1-emocioneshumanascolor",
+      "title": "Portada 1 Emocioneshumanascolor",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/portada-1-emocioneshumanascolor.webp"
+    },
+    {
       "id": "portada-2-emocioneshumanasbn",
       "title": "Portada 2 Emocioneshumanasbn",
       "medium": "",
       "dimensions": "",
       "year": "",
       "image": "/content/artistas/carlos-molina-vallejo/artworks/portada-2-emocioneshumanasbn.webp"
-    },
-    {
-      "id": "anillosrotos2",
-      "title": "Anillosrotos2",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/anillosrotos2.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/carlos-molina-vallejo/"
