@@ -2,7 +2,7 @@
   "id": "gabriel-pastor-guzman",
   "name": "GABRIEL PASTOR GUZMÁN",
   "slug": "gabriel-pastor-guzman",
-  "featuredImage": "/content/artistas/gabriel-pastor-guzman/gabriel-pastor-guzman-profile.jpg",
+  "featuredImage": "/content/artistas/gabriel-pastor-guzman/gabriel-pastor-guzman-profile.webp",
   "quote": "Dicen que William Burroughs empezó a escribir por un suceso terrible, el accidental asesinato de su mujer. Puede parecer de mal gusto que tengan que ocurrir tragedias así para que el mundo le brinde oportunidad a alguien a rehacer su vida mediante el arte.",
   "biography": [
     "Es un artista extraordinariamente prolífico, en cuya obra se refleja su gran bagaje cultural angloamericano. Sus creaciones presentan un espectro amplio de lo complejo de la realidad, donde la inocencia, el descaro o la controversia se revelan con crudeza, sentido del humor y naturalidad.",
@@ -16,7 +16,7 @@
       "medium": "Óleo y pastel al óleo",
       "dimensions": "65 x 50 cm",
       "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/love-music-hate-racism.jpg"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/1-lovemusic-hateracism.webp"
     },
     {
       "id": "busto-frontal",
@@ -24,7 +24,7 @@
       "medium": "Pasta de secado al aire, acrílico/acuarela y barniz",
       "dimensions": "16 cm",
       "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/busto-frontal.jpg"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/busto.webp"
     },
     {
       "id": "busto-posterior",
@@ -32,7 +32,7 @@
       "medium": "Pasta de secado al aire, acrílico/acuarela y barniz",
       "dimensions": "16 cm",
       "year": "2024",
-      "image": "/content/artistas/gabriel-pastor-guzman/busto-posterior.jpg"
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/bustodetras.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/gabriel-pastor-guzman/"

@@ -2,7 +2,7 @@
   "id": "zarco",
   "name": "ZARCO",
   "slug": "zarco",
-  "featuredImage": "/content/artistas/zarco/zarco-profile.jpg",
+  "featuredImage": "/content/artistas/zarco/zarco-profile.webp",
   "quote": "Llevo toda la vida dibujando. Desde pequeño me apasionaban los cómics, la pintura y el arte en general. Considero que tengo vocación para el mundo artístico y sin duda es lo que más me gusta hacer en mi tiempo libre.",
   "biography": [
     "La enorme colección de dibujos de Zarco representa diversas escenas de su interés personal. Como él mismo comparte a través de ellas es posible ver a personajes de la Edad Media, el diseño de una botella, un gitano bailando las sevillanas, una ambulancia averiada o un faro. Estos espacios, situaciones y conceptos se entremezclan creando narraciones simultáneamente insólitas y cotidianas.",
@@ -15,7 +15,7 @@
       "medium": "Lápiz de color y boli negro sobre papel",
       "dimensions": "21 x 29,7 cm",
       "year": "2024",
-      "image": "/content/artistas/zarco/un-gitano-bailando-sevillanas.jpg"
+      "image": "/content/artistas/zarco/artworks/ungitanobailandosevillanas-zarco.webp"
     },
     {
       "id": "ufo-mayka-1",
@@ -23,7 +23,7 @@
       "medium": "Lápices de colores y boli negro sobre papel",
       "dimensions": "21 x 29,7 cm",
       "year": "2024",
-      "image": "/content/artistas/zarco/comic-ufo-1.jpg"
+      "image": "/content/artistas/zarco/artworks/c-mic-ufo-1-zarco.webp"
     },
     {
       "id": "ufo-mayka-2",
@@ -31,7 +31,7 @@
       "medium": "Lápices de colores y boli negro sobre papel",
       "dimensions": "21 x 29,7 cm",
       "year": "2024",
-      "image": "/content/artistas/zarco/comic-ufo-2.jpg"
+      "image": "/content/artistas/zarco/artworks/c-mic-ufo-2-zarco.webp"
     },
     {
       "id": "mayka-extraterrestre-1",
@@ -39,7 +39,7 @@
       "medium": "Lápices de colores y boli negro sobre papel",
       "dimensions": "21 x 29,7 cm",
       "year": "2024",
-      "image": "/content/artistas/zarco/comic-mayka-1.jpg"
+      "image": "/content/artistas/zarco/artworks/c-mic-mayka-1-zarco2.webp"
     },
     {
       "id": "mayka-extraterrestre-2",
@@ -47,7 +47,7 @@
       "medium": "Lápices de colores y boli negro sobre papel",
       "dimensions": "21 x 29,7 cm",
       "year": "2024",
-      "image": "/content/artistas/zarco/comic-mayka-2.jpg"
+      "image": "/content/artistas/zarco/artworks/c-mic-mayka-2-zarco.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/zarco/"
