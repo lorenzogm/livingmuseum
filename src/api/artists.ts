@@ -30,7 +30,7 @@ export interface ArtistProfile {
   id: string;
   name: string;
   slug: string;
-  featuredImage: string | null;
+  featuredImage: string;
   quote?: string;
   biography: string[];
   artworks: Artwork[];
