@@ -11,68 +11,12 @@
   ],
   "artworks": [
     {
-      "id": "0-portada-dash-snow",
-      "title": "0 Portada Dash Snow",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/0-portada-dash-snow.webp"
-    },
-    {
       "id": "10-jerry",
       "title": "10 Jerry",
       "medium": "",
       "dimensions": "",
       "year": "",
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/10-jerry.webp"
-    },
-    {
-      "id": "2-william-burroughs",
-      "title": "2 William Burroughs",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/2-william-burroughs.webp"
-    },
-    {
-      "id": "4-brian-molko",
-      "title": "4 Brian Molko",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/4-brian-molko.webp"
-    },
-    {
-      "id": "5-thong",
-      "title": "5 Thong",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/5-thong.webp"
-    },
-    {
-      "id": "6-girl",
-      "title": "6 Girl",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/6-girl.webp"
-    },
-    {
-      "id": "7-bully",
-      "title": "7 Bully",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/7-bully.webp"
-    },
-    {
-      "id": "8-j-d-salinger",
-      "title": "8 J. D. Salinger",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/gabriel-pastor-guzman/artworks/8-j.-d.-salinger-.webp"
     },
     {
       "id": "9-dash",
@@ -89,6 +33,22 @@
       "dimensions": "",
       "year": "",
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/alita.webp"
+    },
+    {
+      "id": "4-brian-molko",
+      "title": "Brian Molko",
+      "medium": "Óleo y pastel al óleo",
+      "dimensions": "65 x 50 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/4-brian-molko.webp"
+    },
+    {
+      "id": "7-bully",
+      "title": "Bully",
+      "medium": "Óleo y pastel al óleo",
+      "dimensions": "65 x 50 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/7-bully.webp"
     },
     {
       "id": "busto-frontal",
@@ -113,6 +73,30 @@
       "dimensions": "",
       "year": "",
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/chocapic.webp"
+    },
+    {
+      "id": "0-portada-dash-snow",
+      "title": "Dash Snow",
+      "medium": "Óleo y pastel al óleo",
+      "dimensions": "65 x 50 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/0-portada-dash-snow.webp"
+    },
+    {
+      "id": "6-girl",
+      "title": "Girl",
+      "medium": "Óleo y pastel al óleo",
+      "dimensions": "32,5 x 50 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/6-girl.webp"
+    },
+    {
+      "id": "8-j-d-salinger",
+      "title": "J. D. Salinger",
+      "medium": "Óleo y pastel al óleo",
+      "dimensions": "65 x 50 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/8-j.-d.-salinger-.webp"
     },
     {
       "id": "labios",
@@ -161,6 +145,22 @@
       "dimensions": "",
       "year": "",
       "image": "/content/artistas/gabriel-pastor-guzman/artworks/Esculturas/sol.webp"
+    },
+    {
+      "id": "5-thong",
+      "title": "Thong",
+      "medium": "Óleo y pastel al óleo",
+      "dimensions": "65 x 50 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/5-thong.webp"
+    },
+    {
+      "id": "2-william-burroughs",
+      "title": "William Burroughs",
+      "medium": "Óleo y pastel al óleo",
+      "dimensions": "65 x 50 cm",
+      "year": "2024",
+      "image": "/content/artistas/gabriel-pastor-guzman/artworks/2-william-burroughs.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/gabriel-pastor-guzman/"

@@ -3,25 +3,28 @@
   "name": "IRUNE TANCO",
   "slug": "irune-tanco",
   "featuredImage": null,
-  "quote": "",
+  "quote": "El arte forma parte de mí y de mi forma de ver y relacionarme con el mundo. Es la mejor manera de sentirme viva y en armonía.",
   "biography": [
-    ""
+    "(1974, Pamplona - Navarra) Artista autodidacta, en constante evolución.",
+    "Irune define el arte como una forma de sanación. Desde pequeña para ella los colores han sido herramientas para expresar las emociones, y combinarlos en un juego a través del que definir una forma de ser y de ver a los demás.",
+    "Su pintura podría definirse desde un estilo contemporáneo a través del cual escoge un concepto y lo desarrolla en el cuadro para que pueda ser literalmente vivido.",
+    "\"Los conceptos pueden ser desarrollados tanto en la sencillez de dos pinceladas en un lienzo enorme como en la sobrecarga de color en un lienzo más pequeño\"."
   ],
   "artworks": [
     {
       "id": "bloques",
       "title": "Bloques",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "medium": "Óleo sobre lienzo",
+      "dimensions": "55 x 45 cm",
+      "year": "2025",
       "image": "/content/artistas/irune-tanco/artworks/bloques.webp"
     },
     {
       "id": "el-mundo-en-una-ventana",
-      "title": "El Mundo En Una Ventana",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "title": "El Mundo en una Ventana",
+      "medium": "Óleo al agua y arcilla sobre lienzo",
+      "dimensions": "60 x 50 cm",
+      "year": "2024",
       "image": "/content/artistas/irune-tanco/artworks/el-mundo-en-una-ventana.webp"
     },
     {
@@ -34,18 +37,18 @@
     },
     {
       "id": "las-ninfas-ya-no-se-esconden",
-      "title": "Las Ninfas Ya No Se Esconden",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "title": "Las Ninfas ya no se Esconden",
+      "medium": "Acrílico sobre lienzo",
+      "dimensions": "80 x 70 cm",
+      "year": "2025",
       "image": "/content/artistas/irune-tanco/artworks/las-ninfas-ya-no-se-esconden.webp"
     },
     {
       "id": "the-kingdom-of-fife",
-      "title": "The Kingdom Of Fife",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "title": "The Kingdom of Fife",
+      "medium": "Óleo sobre lienzo",
+      "dimensions": "55 x 45 cm",
+      "year": "2025",
       "image": "/content/artistas/irune-tanco/artworks/the-kingdom-of-fife.webp"
     }
   ],

@@ -5,7 +5,8 @@
   "featuredImage": "/content/artistas/jose-manuel-lopez/jose-manuel-lopez-profile.webp",
   "quote": "He dibujado desde muy chico y me queda mucha calle todavía para seguir creando. Llevo varios años haciendo dibujos en cuadernos, es mi día a día, como si fuera un diario. En él hablo del presente, de cosas que me suceden y que me preocupan.",
   "biography": [
-    "De la mano de su diario, compuesto por dibujos y narraciones, José Manuel investiga de forma directa, irónica y cruda su realidad. Los miedos, las persecuciones, la familia, los amigos, las pasiones… El artista representa algunas de estas imágenes y situaciones, y las explora a través de la pintura."
+    "De la mano de su diario, compuesto por dibujos y narraciones, José Manuel investiga de forma directa, irónica y cruda su realidad.",
+    "Los miedos, las persecuciones, la familia, los amigos, las pasiones… El artista representa algunas de estas imágenes y situaciones, y las explora a través de la pintura."
   ],
   "artworks": [
     {
@@ -26,7 +27,7 @@
     },
     {
       "id": "hombre-sentado",
-      "title": "Hombre sentado",
+      "title": "Hombre Sentado - \"El cuadro del hombre que está sentado en la silla habla de la soledad\"",
       "medium": "Ceras acuarelables y rotulador sobre lienzo",
       "dimensions": "24 x 35 cm",
       "year": "2023",

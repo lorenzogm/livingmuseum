@@ -7,39 +7,40 @@
   "biography": [
     "El proceso creativo de Manuel bebe del orden y la repetición. A través de sus obras se concentra en la forma de los objetos repitiendo sistemáticamente dicha forma a lo largo de filas y columnas.",
     "Comienza sus composiciones eligiendo una zona determinada a partir de la que construye el resto de la figura. Siempre del detalle al conjunto, que paulatinamente se va llenando de color. Comenzó dibujando flores, casas y figuras geométricas. Sin embargo, también ha abierto su interés a la representación de personas, el desnudo y los retratos.",
-    "Manuel pertenece a Debajo del Sombrero desde 2017, habiendo llevado a cabo sus obras en los talleres en Matadero, La Casa Encendida y la Facultad de Bellas Artes de la Universidad Complutense de Madrid."
+    "Manuel pertenece a Debajo del Sombrero desde 2017, habiendo llevado a cabo sus obras en los talleres en Matadero, La Casa Encendida y la Facultad de Bellas Artes de la Universidad Complutense de Madrid.",
+    "Exposiciones: 2024 Cordially Invited VI, Make Studio, Baltimore. 2023 V Internationale Art Brut Biennale. Edificio V&D, Hengelo. 2022 El Estudio Debajo del Sombrero en la galería Aina Nowack. Galería Aina Nowack. Madrid."
   ],
   "artworks": [
     {
       "id": "0-portada-casas-2",
-      "title": "0 Portada Casas 2",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "title": "Casas",
+      "medium": "Lápices de colores",
+      "dimensions": "29.7 x 42 cm",
+      "year": "2025",
       "image": "/content/artistas/manuel-vela/artworks/0-portada-casas-2.webp"
     },
     {
       "id": "casas",
       "title": "Casas",
-      "medium": "Lápices de colores y rotulador sobre madera",
-      "dimensions": "129 x 59 cm",
-      "year": "2020",
+      "medium": "Lápices de colores",
+      "dimensions": "29.7 x 42 cm",
+      "year": "2025",
       "image": "/content/artistas/manuel-vela/artworks/casas.webp"
     },
     {
       "id": "personajes",
       "title": "Personajes",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "medium": "Lápices de colores y rotulador",
+      "dimensions": "50 x 70 cm",
+      "year": "2025",
       "image": "/content/artistas/manuel-vela/artworks/personajes.webp"
     },
     {
       "id": "personas-desnudas-abrazadas",
       "title": "Personas Desnudas Abrazadas",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "medium": "Lápices de colores y rotulador",
+      "dimensions": "50 x 70 cm",
+      "year": "2020",
       "image": "/content/artistas/manuel-vela/artworks/personas-desnudas-abrazadas.webp"
     }
   ],

@@ -6,72 +6,73 @@
   "quote": "Cuando hice mis primeras acuarelas acababa de llegar de unas vacaciones en la playa. Quizás la frescura de estos dibujos fue gracias a un momento de luz y felicidad. Por eso dar pinceladas en varios sentidos es mi salvación.",
   "biography": [
     "La obra de Carlos se caracteriza por nuevas formas de expresión descubiertas a través de distintos materiales, destacando su interés por la acuarela. La combinación de técnicas ayuda al artista a finalizar sus trabajos y acercarse a lo que persigue de manera satisfactoria.",
-    "Las figuras geométricas dan lugar a un efecto óptico, a las que se suman la pincelada y el color para transmitir distintas sensaciones. Sus obras del conjunto Emociones: Oleaje feminista (homenaje al movimiento), Emociones humanas (esperanza en la utopía), Primera Prueba y Sombrero de copa color (ruptura con la tradición) comparten el carácter transgresor de su profundo mensaje."
+    "Las figuras geométricas dan lugar a un efecto óptico, a las que se suman la pincelada y el color para transmitir distintas sensaciones.",
+    "Sus obras del conjunto Emociones: Oleaje feminista (homenaje al movimiento), Emociones humanas (esperanza en la utopía), Primera Prueba y Sombrero de copa color (ruptura con la tradición) comparten el carácter transgresor de su profundo mensaje."
   ],
   "artworks": [
     {
       "id": "anillosrotos1",
-      "title": "Anillosrotos1",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "title": "Anillos Rotos (Díptico)",
+      "medium": "Técnica mixta sobre papel",
+      "dimensions": "21 x 29.7 cm",
+      "year": "2024",
       "image": "/content/artistas/carlos-molina-vallejo/artworks/anillosrotos1.webp"
     },
     {
       "id": "anillosrotos2",
-      "title": "Anillosrotos2",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "title": "Anillos Rotos (Díptico)",
+      "medium": "Técnica mixta sobre papel",
+      "dimensions": "21 x 29.7 cm",
+      "year": "2024",
       "image": "/content/artistas/carlos-molina-vallejo/artworks/anillosrotos2.webp"
+    },
+    {
+      "id": "portada-1-emocioneshumanascolor",
+      "title": "Emociones Humanas",
+      "medium": "Técnica mixta sobre papel",
+      "dimensions": "42 x 29.7 cm",
+      "year": "2024",
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/portada-1-emocioneshumanascolor.webp"
+    },
+    {
+      "id": "portada-2-emocioneshumanasbn",
+      "title": "Emociones Humanas",
+      "medium": "Técnica mixta sobre papel",
+      "dimensions": "42 x 29.7 cm",
+      "year": "2024",
+      "image": "/content/artistas/carlos-molina-vallejo/artworks/portada-2-emocioneshumanasbn.webp"
     },
     {
       "id": "marejadas",
       "title": "Marejadas",
       "medium": "Técnica mixta sobre papel",
-      "dimensions": "42 x 29,7 cm",
+      "dimensions": "42 x 29.7 cm",
       "year": "2024",
       "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas.webp"
     },
     {
       "id": "marejadas1",
-      "title": "Marejadas1",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "title": "Marejadas",
+      "medium": "Técnica mixta sobre papel",
+      "dimensions": "42 x 29.7 cm",
+      "year": "2024",
       "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas1.webp"
     },
     {
       "id": "marejadas2",
-      "title": "Marejadas2",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "title": "Marejadas",
+      "medium": "Técnica mixta sobre papel",
+      "dimensions": "42 x 29.7 cm",
+      "year": "2024",
       "image": "/content/artistas/carlos-molina-vallejo/artworks/marejadas2.webp"
     },
     {
       "id": "mujer-en-verde",
-      "title": "Mujer En Verde",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
+      "title": "Mujer en Verde",
+      "medium": "Acuarela sobre papel",
+      "dimensions": "42 x 29.7 cm",
+      "year": "2024",
       "image": "/content/artistas/carlos-molina-vallejo/artworks/mujer-en-verde.webp"
-    },
-    {
-      "id": "portada-1-emocioneshumanascolor",
-      "title": "Portada 1 Emocioneshumanascolor",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/portada-1-emocioneshumanascolor.webp"
-    },
-    {
-      "id": "portada-2-emocioneshumanasbn",
-      "title": "Portada 2 Emocioneshumanasbn",
-      "medium": "",
-      "dimensions": "",
-      "year": "",
-      "image": "/content/artistas/carlos-molina-vallejo/artworks/portada-2-emocioneshumanasbn.webp"
     }
   ],
   "profileUrl": "https://livingmuseum.madrid/carlos-molina-vallejo/"
