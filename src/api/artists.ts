@@ -69,7 +69,7 @@ const allArtists: ArtistProfile[] = [
 // Process artists to handle null profile images
 const processedArtists: ArtistProfile[] = allArtists.map(artist => ({
   ...artist,
-  featuredImage: artist.featuredImage || '/placeholder-profile.webp'
+  featuredImage: artist.featuredImage || '/placeholder-profile.svg'
 }));
 
 // Artists content loader
