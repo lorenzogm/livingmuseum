@@ -19,11 +19,11 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Artist Image */}
-            <div className="relative aspect-[4/5] rounded-lg overflow-hidden shadow-lg">
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
               <Image
                 src={artist.featuredImage || '/placeholder-profile.webp'}
                 alt={artist.name}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center"
                 fill
               />
             </div>
