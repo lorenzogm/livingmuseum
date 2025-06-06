@@ -84,6 +84,8 @@ export function Image({
     ${wrapperClassName}
   `;
 
+  src = `${process.env.NODE_ENV === 'production' ? '/livingmuseum' : ''}${src}`
+
   return (
     <figure>
       <div 
@@ -92,7 +94,7 @@ export function Image({
       >
         {fill ? (
           <NextImage
-            src={`${process.env.NODE_ENV === 'production' ? '/livingmuseum' : ''}${src}`}
+            src={src}
             alt={alt}
             fill={true}
             className={`object-cover ${imageClassName}`}
