@@ -1,10 +1,19 @@
 import { apiSdk } from '@/api/apiSdk';
-import ArtistsPage from '@/components/pages/artistas/ArtistsPage';
+import ListingPage from '@/components/shared/ListingPage';
 
 export default function Artistas() {
   const content = apiSdk.pages.artistas();
   
-  return <ArtistsPage content={content} />;
+  // Transform the content to match the ListingPage interface
+  const listingContent = {
+    hero: content.hero,
+    items: content.artists.map(artist => ({
+      ...artist,
+      href: `/artistas/${artist.slug}`
+    }))
+  };
+  
+  return <ListingPage content={listingContent} />;
 }
 
 export const metadata = {
