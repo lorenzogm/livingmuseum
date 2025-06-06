@@ -1,6 +1,7 @@
 import {Image} from '../elements/Image';
 import Text from '../elements/Text';
 import ScrollToTopButton from './ScrollToTopButton';
+import Link from 'next/link';
 import { apiSdk } from '../../api/apiSdk';
 
 export default function Footer() {
@@ -56,8 +57,12 @@ export default function Footer() {
           <nav className="mb-5">
             {layoutContent.footer.links.map((link, index) => (
               <Text key={index} variant="link" color="muted" className="hover:text-yellow-500 transition-colors">
-                {link.href === '#' ? link.label : (
-                  <a href={link.href}>{link.label}</a>
+                {link.href === '#' ? (
+                  link.label
+                ) : link.href.startsWith('/') ? (
+                  <Link href={link.href}>{link.label}</Link>
+                ) : (
+                  <a href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>
                 )}
               </Text>
             ))}
