@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import {Image} from '../elements/Image';
 import Link from 'next/link';
 import Text from '../elements/Text';
@@ -8,10 +9,18 @@ import { apiSdk } from '@/api/apiSdk';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
   const layoutContent = apiSdk.pages.layout();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const isActiveLink = (href: string) => {
+    if (href === '/') {
+      return pathname === '/';
+    }
+    return pathname.startsWith(href);
   };
 
   return (
@@ -34,16 +43,27 @@ export default function Header() {
         
         <nav className={`${isMenuOpen ? 'block' : 'hidden'} absolute top-full left-0 right-0 bg-white/95 backdrop-blur-md border-b border-gray-200 md:block md:static md:bg-transparent md:border-none`}>
           <div className="flex flex-col md:flex-row gap-4 p-4 md:p-0">
-            {layoutContent.header.navigation.map((item, index) => (
-              <Link 
-                key={index}
-                href={item.href} 
-                className="text-gray-900 hover:text-yellow-500 transition-all duration-300 hover:scale-105 relative group"
-              >
-                <Text variant="nav" transform="uppercase">{item.label}</Text>
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-            ))}
+            {layoutContent.header.navigation.map((item, index) => {
+              const isActive = isActiveLink(item.href);
+              return (
+                <Link 
+                  key={index}
+                  href={item.href} 
+                  className={`transition-all duration-300 hover:scale-105 relative group ${
+                    isActive 
+                      ? 'text-yellow-500' 
+                      : 'text-gray-900 hover:text-yellow-500'
+                  }`}
+                >
+                  <Text variant="nav" transform="uppercase">{item.label}</Text>
+                  <span className={`absolute bottom-0 left-0 h-0.5 bg-yellow-500 transition-all duration-300 ${
+                    isActive 
+                      ? 'w-full' 
+                      : 'w-0 group-hover:w-full'
+                  }`}></span>
+                </Link>
+              );
+            })}
           </div>
         </nav>
         
