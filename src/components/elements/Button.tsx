@@ -60,13 +60,13 @@ export default function Button({ href, onClick, children, target, rel, variant =
   const getVariantStyles = () => {
     switch (variant) {
       case 'primary':
-        return 'text-black hover:shadow-lg rounded-[40px]';
+        return 'text-black hover:shadow-lg rounded-[40px] cursor-pointer';
       case 'secondary':
-        return 'bg-transparent border-2 text-black rounded-[40px]';
+        return 'bg-transparent border-2 text-black rounded-[40px] cursor-pointer';
       case 'link':
-        return 'bg-transparent rounded-[40px]';
+        return 'bg-transparent rounded-[40px] cursor-pointer';
       default:
-        return 'text-black rounded-[40px]';
+        return 'text-black rounded-[40px] cursor-pointer';
     }
   };
 
