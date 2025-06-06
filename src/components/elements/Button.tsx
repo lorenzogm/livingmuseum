@@ -75,7 +75,7 @@ export default function Button({ href, onClick, children, target, rel, variant =
   if (href) {
     return (
       <Link 
-        href={`${process.env.NODE_ENV ==='production' ? 'livingmuseum':''}${href}`}
+        href={href}
         target={target}
         rel={rel}
         className={buttonClass}
