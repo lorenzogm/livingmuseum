@@ -51,14 +51,15 @@ export default function FamiliaSection({ content }: FamiliaSectionProps) {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
               {content.teamMembers.map((member, index) => (
                 <div key={index} className="text-center space-y-4">
-                  <div className="aspect-square bg-gray-100 rounded-full w-32 h-32 mx-auto overflow-hidden relative border border-gray-200">
+                  <div className="aspect-square bg-gray-100 rounded-full w-40 h-40 mx-auto overflow-hidden relative border border-gray-200">
                     <Image 
                       src={member.image} 
                       alt={member.name}
                       fill
                       aspectRatio='1:1'
-                      className="object-cover object-top"
-                      sizes="128px"
+                      className="object-cover object-center"
+                      sizes="(max-width: 768px) 128px, 160px"
+                      quality={90}
                     />
                   </div>
                   <Text variant="heading" className="text-lg text-gray-900">
@@ -116,8 +117,9 @@ export default function FamiliaSection({ content }: FamiliaSectionProps) {
                       alt={artist.name}
                       fill
                       aspectRatio='1:1'
-                      className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
                       sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                      quality={90}
                     />
                   </div>
                   <Text variant="heading" className="text-lg group-hover:text-yellow-400 transition-colors">

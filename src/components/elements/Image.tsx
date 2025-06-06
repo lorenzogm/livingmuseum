@@ -22,6 +22,8 @@ interface ImageComponentProps extends Omit<ImageProps, 'height' | 'width' | 'fil
   width?: number;
   /** Optional height in pixels (not used if fill is true) */
   height?: number;
+  /** Image quality (1-100) */
+  quality?: number;
   /** Any additional classes to add to the wrapper */
   wrapperClassName?: string;
   /** Any additional classes to add to the image */
@@ -38,6 +40,7 @@ export function Image({
   fill = true,
   width,
   height,
+  quality = 85,
   wrapperClassName = '',
   imageClassName = '',
   ...rest
@@ -97,6 +100,7 @@ export function Image({
             src={src}
             alt={alt}
             fill={true}
+            quality={quality}
             className={`object-cover ${imageClassName}`}
             {...rest}
           />
@@ -106,6 +110,7 @@ export function Image({
             alt={alt}
             width={width || 800}
             height={height || 600}
+            quality={quality}
             className={imageClassName}
             {...rest}
           />
