@@ -26,6 +26,10 @@
       {
         "label": "Proyectos",
         "href": "/proyectos"
+      },
+      {
+        "label": "Colabora",
+        "href": "/colabora"
       }
     ]
   },
