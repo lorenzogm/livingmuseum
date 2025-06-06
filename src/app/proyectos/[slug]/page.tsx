@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { apiSdk } from '../../../api/apiSdk';
-import { ProjectDetailPage } from '@/components/pages/proyectos/ProjectDetailPage';
+import { ProjectDetailPage } from '@/components/shared/ProjectDetailPage';
 
 interface ProjectPageProps {
   params: Promise<{

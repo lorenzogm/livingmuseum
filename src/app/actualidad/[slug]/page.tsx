@@ -2,7 +2,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { apiSdk } from '../../../api/apiSdk';
-import { ArticleDetailPage } from '@/components/pages/actualidad/ArticleDetailPage';
+import { ArticleDetailPage } from '@/components/shared/ArticleDetailPage';
 
 interface ArticlePageProps {
   params: Promise<{

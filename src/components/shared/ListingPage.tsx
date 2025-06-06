@@ -36,7 +36,7 @@ export default function ListingPage({ content }: ListingPageProps) {
           <Text
             variant="hero"
             as="h1"
-            className="mb-6 tracking-wider text-yellow-500"
+            className="mb-6 tracking-wider text-yellow-500 uppercase"
           >
             {content.hero.title}
           </Text>
@@ -61,9 +61,11 @@ export default function ListingPage({ content }: ListingPageProps) {
                 image={item.featuredImage}
                 imageAlt={item.name}
                 href={item.href}
-                metadata={{
+                metadata={item.artworks.length > 0 ? {
                   count: item.artworks.length,
                   countLabel: 'obra',
+                  social: item.social
+                } : {
                   social: item.social
                 }}
               />

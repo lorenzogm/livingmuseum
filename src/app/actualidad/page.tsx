@@ -1,6 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
-import { ActualidadPage } from '../../components/pages/actualidad';
+import ListingPage from '@/components/shared/ListingPage';
 import { apiSdk } from '../../api/apiSdk';
 
 export const metadata: Metadata = {
@@ -18,5 +18,22 @@ export const metadata: Metadata = {
 export default function ActualidadPageRoute() {
   const content = apiSdk.pages.articles();
 
-  return <ActualidadPage content={content} />;
+  // Transform the content to match the ListingPage interface
+  const listingContent = {
+    hero: {
+      title: content.title,
+      subtitle: content.subtitle
+    },
+    items: content.articles.map(article => ({
+      id: article.id,
+      name: article.title,
+      quote: article.excerpt,
+      featuredImage: article.featuredImage,
+      href: `/actualidad/${article.slug}`,
+      artworks: [], // Articles don't have artworks, using empty array
+      social: undefined // Articles don't have social, using undefined
+    }))
+  };
+
+  return <ListingPage content={listingContent} />;
 }

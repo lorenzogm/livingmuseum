@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { ProyectosPage } from '../../components/pages/proyectos';
+import ListingPage from '@/components/shared/ListingPage';
 import { apiSdk } from '../../api/apiSdk';
 
 export const metadata: Metadata = {
@@ -17,5 +17,22 @@ export const metadata: Metadata = {
 export default function ProyectosPageRoute() {
   const content = apiSdk.pages.projects();
 
-  return <ProyectosPage content={content} />;
+  // Transform the content to match the ListingPage interface
+  const listingContent = {
+    hero: {
+      title: content.title,
+      subtitle: content.subtitle
+    },
+    items: content.projects.map(project => ({
+      id: project.id,
+      name: project.title,
+      quote: project.excerpt,
+      featuredImage: project.featuredImage,
+      href: `/proyectos/${project.slug}`,
+      artworks: [], // Projects don't have artworks, using empty array
+      social: undefined // Projects don't have social, using undefined
+    }))
+  };
+
+  return <ListingPage content={listingContent} />;
 }
