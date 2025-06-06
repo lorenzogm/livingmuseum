@@ -2,24 +2,40 @@
   "id": "el-despliegue-de-la-pausa-exposicion-final",
   "title": "El despliegue de la pausa – Exposición final",
   "slug": "el-despliegue-de-la-pausa-exposicion-final",
-  "featuredImage": "/content/articles/el-despliegue-de-la-pausa-exposicion-final/featured-image.jpg",
-  "excerpt": "Las Segundas Residencias Artísticas han supuesto un viaje conjunto hacia la libertad y la creatividad. Una experiencia transformadora que ha culminado en una exposición final que celebra el arte como herramienta de expresión y conexión humana.",
-  "date": "2024-06-01",
+  "featuredImage": "/content/articles/el-despliegue-de-la-pausa-exposicion-final/images/el-despliegue-de-la-pausa-featured.webp",
+  "excerpt": "Del 13 al 18 de junio de 2024. Las Primeras Residencias Artísticas de Living Museum Madrid finalizaron con la exposición colectiva «El despliegue de la pausa» en el Centro de Cultura Contemporánea Condeduque.",
+  "date": "2024-06-13",
   "dateFormatted": "junio, 2024",
   "category": "exposiciones",
-  "tags": ["exposición", "residencias artísticas", "arte", "creatividad"],
+  "tags": ["exposición", "residencias artísticas", "arte", "creatividad", "condeduque"],
   "url": "https://livingmuseum.madrid/el-despliegue-de-la-pausa-exposicion-final/",
   "content": [
-    "Las Segundas Residencias Artísticas de Living Museum Madrid han llegado a su fin con una exposición final que celebra el proceso creativo y los resultados obtenidos durante estos meses de trabajo conjunto.",
-    "La exposición 'El despliegue de la pausa' presenta las obras creadas por los artistas participantes en las residencias, mostrando la diversidad de técnicas, estilos y aproximaciones al arte que caracterizan el proyecto Living Museum.",
-    "Cada obra refleja el proceso personal de cada artista, sus inquietudes, sus descubrimientos y su crecimiento durante el período de residencia. La exposición es un testimonio del poder transformador del arte y de la importancia de proporcionar espacios de creación y experimentación.",
-    "El evento de inauguración contó con la presencia de los artistas, el equipo de Living Museum Madrid, colaboradores y visitantes, creando un ambiente de celebración y reconocimiento del trabajo realizado."
+    "Del 13 al 18 de junio de 2024",
+    "Las Primeras Residencias Artísticas de Living Museum Madrid finalizaron con la exposición colectiva «El despliegue de la pausa» en el Centro de Cultura Contemporánea Condeduque. La muestra de obras fue planificada y montada de manera conjunta por el colectivo de artistas, el equipo de Living Museum Madrid y Condeduque.",
+    "El título subraya la dinámica del taller, con su ritmo natural y sin estrés para los diálogos, los cafés compartidos y los momentos de encuentro y conexión.",
+    "La inauguración tuvo lugar el día 13 de junio de 2024 y contó con la presencia de las personas artistas de Living Museum Madrid, quienes pudieron mostrar y compartir sus obras y sus procesos. Entre el público se encontraban multitud de familiares y amistades, además de muchas otras personas interesadas en el arte y la cultura. La gran sala polivalente que acoge las residencias se encontraba llena a rebosar y algunas personas mostraron interés por la adquisición de algunas de las obras de arte.",
+    "Para cerrar la exposición, se anunció la continuidad de las residencias durante el año 2024/2025."
   ],
   "gallery": [
     {
-      "image": "/content/articles/el-despliegue-de-la-pausa-exposicion-final/featured-image.jpg",
-      "caption": "Momento de la inauguración de la exposición final",
-      "alt": "Exposición final El despliegue de la pausa"
+      "image": "/content/articles/el-despliegue-de-la-pausa-exposicion-final/images/exposicion-gallery-1.webp",
+      "caption": "Vista general de la exposición",
+      "alt": "Vista general de la exposición El despliegue de la pausa"
+    },
+    {
+      "image": "/content/articles/el-despliegue-de-la-pausa-exposicion-final/images/exposicion-gallery-2.webp",
+      "caption": "Obras expuestas en la galería",
+      "alt": "Obras de arte expuestas en la muestra"
+    },
+    {
+      "image": "/content/articles/el-despliegue-de-la-pausa-exposicion-final/images/exposicion-gallery-3.webp",
+      "caption": "Visitantes durante la inauguración",
+      "alt": "Público asistente a la inauguración de la exposición"
+    },
+    {
+      "image": "/content/articles/el-despliegue-de-la-pausa-exposicion-final/images/exposicion-gallery-4.webp",
+      "caption": "Momento de la inauguración de la exposición",
+      "alt": "Inauguración de la exposición junio 2024"
     }
   ]
 }

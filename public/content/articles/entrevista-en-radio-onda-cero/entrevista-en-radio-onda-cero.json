@@ -2,7 +2,7 @@
   "id": "entrevista-en-radio-onda-cero",
   "title": "Entrevista en radio Onda Cero",
   "slug": "entrevista-en-radio-onda-cero",
-  "featuredImage": "/content/articles/entrevista-en-radio-onda-cero/featured-image.png",
+  "featuredImage": "/content/articles/entrevista-en-radio-onda-cero/images/entrevista-radio-featured.webp",
   "excerpt": "Ya es posible escuchar la entrevista en Onda Cero al equipo de Living Museum Madrid. Una entrevista sobre sus residencias artísticas, la naturaleza del proyecto y algunas de sus principales propuestas.",
   "date": "2023-07-01",
   "dateFormatted": "julio, 2023",
@@ -18,9 +18,19 @@
   "audioFile": "/content/articles/entrevista-en-radio-onda-cero/entrevista-audio.wav",
   "gallery": [
     {
-      "image": "/content/articles/entrevista-en-radio-onda-cero/featured-image.png",
-      "caption": "Entrevista en radio Onda Cero",
-      "alt": "Entrevista en radio Onda Cero"
+      "image": "/content/articles/entrevista-en-radio-onda-cero/images/entrevista-gallery-1.webp",
+      "caption": "Materiales y obra de Living Museum Madrid",
+      "alt": "Materiales y obra de Living Museum Madrid"
+    },
+    {
+      "image": "/content/articles/entrevista-en-radio-onda-cero/images/entrevista-gallery-2.webp",
+      "caption": "Materiales y obra de Living Museum Madrid",
+      "alt": "Materiales y obra de Living Museum Madrid"
+    },
+    {
+      "image": "/content/articles/entrevista-en-radio-onda-cero/images/entrevista-gallery-3.webp",
+      "caption": "Materiales y obra de Living Museum Madrid",
+      "alt": "Materiales y obra de Living Museum Madrid"
     }
   ]
 }

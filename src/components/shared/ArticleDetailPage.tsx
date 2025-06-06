@@ -116,12 +116,23 @@ export function ArticleDetailPage({ article }: ArticleDetailPageProps) {
                 Video
               </Text>
               <div className="relative aspect-[16/9] overflow-hidden rounded-lg">
-                <iframe
-                  src={article.videoUrl}
-                  className="w-full h-full"
-                  allowFullScreen
-                  title={article.title}
-                />
+                {article.videoUrl.includes('youtube.com') || article.videoUrl.includes('vimeo.com') || article.videoUrl.includes('embed') ? (
+                  <iframe
+                    src={article.videoUrl}
+                    className="w-full h-full"
+                    allowFullScreen
+                    title={article.title}
+                  />
+                ) : (
+                  <video
+                    controls
+                    className="w-full h-full object-cover"
+                    poster={article.featuredImage}
+                  >
+                    <source src={article.videoUrl} type="video/mp4" />
+                    Tu navegador no soporta el elemento de video.
+                  </video>
+                )}
               </div>
             </div>
           )}
