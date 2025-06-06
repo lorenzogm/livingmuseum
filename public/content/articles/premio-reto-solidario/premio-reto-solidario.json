@@ -1,0 +1,25 @@
+{
+  "id": "premio-reto-solidario",
+  "title": "Premio retos solidarios Fundación Telefónica",
+  "slug": "premio-reto-solidario",
+  "featuredImage": "/content/articles/premio-reto-solidario/featured-image.png",
+  "excerpt": "Tras el reto IA, Arte, Diversidad y Salud Mental, Living Museum entró en el concurso Votaciones Solidarias de la Fundación Telefónica obteniendo el Primer Premio en enero de 2024.",
+  "date": "2024-01-01",
+  "dateFormatted": "enero, 2024",
+  "category": "premios",
+  "tags": ["premio", "fundación telefónica", "reconocimiento", "solidaridad"],
+  "url": "https://livingmuseum.madrid/premio-reto-solidario/",
+  "content": [
+    "Tras el reto IA, Arte, Diversidad y Salud Mental, Living Museum entró en el concurso Votaciones Solidarias de la Fundación Telefónica obteniendo, tras un periodo abierto de votación, el Primer Premio en enero de 2024.",
+    "Esta dotación económica ha supuesto un apoyo para continuar con las Residencias Artísticas de Living Museum Madrid en el Centro de Cultura Contemporánea Condeduque y ampliar el número de personas artistas participantes.",
+    "El premio representa no solo un reconocimiento al trabajo realizado por Living Museum Madrid, sino también un impulso importante para el desarrollo futuro del proyecto y la ampliación de sus actividades.",
+    "La ceremonia de entrega del premio contó con la participación del equipo de voluntariado de compras de Fundación Telefónica y el equipo de Living Museum Madrid, consolidando una colaboración que ha sido fundamental para el crecimiento del proyecto."
+  ],
+  "gallery": [
+    {
+      "image": "/content/articles/premio-reto-solidario/featured-image.png",
+      "caption": "Premio retos solidarios Fundación Telefónica",
+      "alt": "Premio retos solidarios Fundación Telefónica"
+    }
+  ]
+}

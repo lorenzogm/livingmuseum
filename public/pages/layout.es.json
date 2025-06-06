@@ -18,6 +18,10 @@
       {
         "label": "Artistas",
         "href": "/artistas"
+      },
+      {
+        "label": "Noticias",
+        "href": "/actualidad"
       }
     ]
   },

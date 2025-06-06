@@ -1,0 +1,26 @@
+{
+  "id": "entrevista-en-radio-onda-cero",
+  "title": "Entrevista en radio Onda Cero",
+  "slug": "entrevista-en-radio-onda-cero",
+  "featuredImage": "/content/articles/entrevista-en-radio-onda-cero/featured-image.png",
+  "excerpt": "Ya es posible escuchar la entrevista en Onda Cero al equipo de Living Museum Madrid. Una entrevista sobre sus residencias artísticas, la naturaleza del proyecto y algunas de sus principales propuestas.",
+  "date": "2023-07-01",
+  "dateFormatted": "julio, 2023",
+  "category": "media",
+  "tags": ["entrevista", "radio", "onda cero", "difusión"],
+  "url": "https://livingmuseum.madrid/entrevista-en-radio-onda-cero/",
+  "content": [
+    "Ya es posible escuchar la entrevista en Onda Cero al equipo de Living Museum Madrid. Una entrevista sobre sus residencias artísticas, la naturaleza del proyecto y algunas de sus principales propuestas.",
+    "Durante la entrevista, el equipo de Living Museum Madrid explicó los objetivos del proyecto, su metodología de trabajo y los resultados obtenidos en las primeras experiencias de residencias artísticas.",
+    "La conversación abordó temas como la importancia del arte como herramienta terapéutica, la creación de espacios inclusivos para la expresión artística y el impacto positivo que estas iniciativas tienen en la comunidad.",
+    "Esta aparición en los medios representa un paso importante en la difusión del proyecto Living Museum Madrid y contribuye a dar visibilidad a la importancia del arte en el ámbito de la salud mental."
+  ],
+  "audioFile": "/content/articles/entrevista-en-radio-onda-cero/entrevista-audio.wav",
+  "gallery": [
+    {
+      "image": "/content/articles/entrevista-en-radio-onda-cero/featured-image.png",
+      "caption": "Entrevista en radio Onda Cero",
+      "alt": "Entrevista en radio Onda Cero"
+    }
+  ]
+}

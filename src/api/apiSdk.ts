@@ -3,6 +3,14 @@ import { getHomeContent } from './home';
 import { getQuienesSomosContent } from './quienes-somos';
 import { getArtistsContent, getArtistBySlug } from './artists';
 import { getLayoutContent } from './layout';
+import { 
+  articlesPageContent, 
+  getAllArticles, 
+  getArticleBySlug, 
+  getFeaturedArticles,
+  getArticlesByCategory,
+  getArticlesByTag 
+} from './articles';
 
 // SDK structure with organized access to all content functions
 export const apiSdk = {
@@ -17,7 +25,10 @@ export const apiSdk = {
     artistas: () => getArtistsContent(),
     
     // Layout/shared content (header, footer, etc.)
-    layout: () => getLayoutContent()
+    layout: () => getLayoutContent(),
+    
+    // Articles page content
+    articles: () => articlesPageContent
   },
   
   content: {
@@ -27,6 +38,23 @@ export const apiSdk = {
       
       // Get single artist by slug/ID
       get: (slug: string) => getArtistBySlug(slug)
+    },
+    
+    articles: {
+      // Get all articles
+      getAll: () => getAllArticles(),
+      
+      // Get single article by slug/ID
+      get: (slug: string) => getArticleBySlug(slug),
+      
+      // Get featured articles (for homepage, etc.)
+      getFeatured: (limit?: number) => getFeaturedArticles(limit),
+      
+      // Get articles by category
+      getByCategory: (category: string) => getArticlesByCategory(category),
+      
+      // Get articles by tag
+      getByTag: (tag: string) => getArticlesByTag(tag)
     }
   }
 };
@@ -37,7 +65,13 @@ export {
   getQuienesSomosContent, 
   getArtistsContent,
   getArtistBySlug,
-  getLayoutContent
+  getLayoutContent,
+  articlesPageContent,
+  getAllArticles,
+  getArticleBySlug,
+  getFeaturedArticles,
+  getArticlesByCategory,
+  getArticlesByTag
 };
 
 // Export types for convenience
@@ -76,3 +110,9 @@ export type {
   FooterContent,
   NavigationItem
 } from './layout';
+
+export type {
+  ArticlesPageContent,
+  Article,
+  ArticleGalleryItem
+} from './articles';

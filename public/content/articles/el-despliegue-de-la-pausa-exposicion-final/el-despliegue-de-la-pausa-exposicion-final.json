@@ -1,0 +1,25 @@
+{
+  "id": "el-despliegue-de-la-pausa-exposicion-final",
+  "title": "El despliegue de la pausa – Exposición final",
+  "slug": "el-despliegue-de-la-pausa-exposicion-final",
+  "featuredImage": "/content/articles/el-despliegue-de-la-pausa-exposicion-final/featured-image.jpg",
+  "excerpt": "Las Segundas Residencias Artísticas han supuesto un viaje conjunto hacia la libertad y la creatividad. Una experiencia transformadora que ha culminado en una exposición final que celebra el arte como herramienta de expresión y conexión humana.",
+  "date": "2024-06-01",
+  "dateFormatted": "junio, 2024",
+  "category": "exposiciones",
+  "tags": ["exposición", "residencias artísticas", "arte", "creatividad"],
+  "url": "https://livingmuseum.madrid/el-despliegue-de-la-pausa-exposicion-final/",
+  "content": [
+    "Las Segundas Residencias Artísticas de Living Museum Madrid han llegado a su fin con una exposición final que celebra el proceso creativo y los resultados obtenidos durante estos meses de trabajo conjunto.",
+    "La exposición 'El despliegue de la pausa' presenta las obras creadas por los artistas participantes en las residencias, mostrando la diversidad de técnicas, estilos y aproximaciones al arte que caracterizan el proyecto Living Museum.",
+    "Cada obra refleja el proceso personal de cada artista, sus inquietudes, sus descubrimientos y su crecimiento durante el período de residencia. La exposición es un testimonio del poder transformador del arte y de la importancia de proporcionar espacios de creación y experimentación.",
+    "El evento de inauguración contó con la presencia de los artistas, el equipo de Living Museum Madrid, colaboradores y visitantes, creando un ambiente de celebración y reconocimiento del trabajo realizado."
+  ],
+  "gallery": [
+    {
+      "image": "/content/articles/el-despliegue-de-la-pausa-exposicion-final/featured-image.jpg",
+      "caption": "Momento de la inauguración de la exposición final",
+      "alt": "Exposición final El despliegue de la pausa"
+    }
+  ]
+}
