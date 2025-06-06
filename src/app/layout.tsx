@@ -23,6 +23,47 @@ export const metadata: Metadata = {
   title: "Inicio - Living Museum Madrid",
   description: "Living Museum Madrid - Arte, salud mental y creación de espacios artísticos en Madrid, España",
   keywords: "arte, salud mental, museo, madrid, artistas, creación, espacios artísticos",
+  authors: [{ name: "Living Museum Madrid" }],
+  creator: "Living Museum Madrid",
+  publisher: "Living Museum Madrid",
+  metadataBase: new URL('https://livingmuseum.madrid'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: "Living Museum Madrid - Arte y Salud Mental",
+    description: "Living Museum Madrid - Arte, salud mental y creación de espacios artísticos en Madrid, España",
+    url: 'https://livingmuseum.madrid',
+    siteName: 'Living Museum Madrid',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Living Museum Madrid Logo',
+      },
+    ],
+    locale: 'es_ES',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Living Museum Madrid - Arte y Salud Mental",
+    description: "Living Museum Madrid - Arte, salud mental y creación de espacios artísticos en Madrid, España",
+    images: ['/og-image.jpg'],
+    creator: '@livingmuseum_madrid',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   icons: {
     icon: [
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },

@@ -32,18 +32,34 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     title: `${article.title} - Living Museum Madrid`,
     description: article.excerpt,
     keywords: [...article.tags, 'Living Museum Madrid', 'arte', 'salud mental'].join(', '),
+    authors: [{ name: 'Living Museum Madrid' }],
     openGraph: {
-      title: article.title,
+      title: `${article.title} - Living Museum Madrid`,
       description: article.excerpt,
-      type: 'article',
-      locale: 'es_ES',
+      url: `https://livingmuseum.madrid/actualidad/${slug}`,
+      siteName: 'Living Museum Madrid',
       images: [
         {
           url: article.featuredImage,
+          width: 1200,
+          height: 630,
           alt: article.title,
         },
       ],
+      locale: 'es_ES',
+      type: 'article',
       publishedTime: article.date,
+      section: 'Actualidad',
+      tags: article.tags,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${article.title} - Living Museum Madrid`,
+      description: article.excerpt,
+      images: [article.featuredImage],
+    },
+    alternates: {
+      canonical: `https://livingmuseum.madrid/actualidad/${slug}`,
     },
   };
 }

@@ -9,9 +9,28 @@ export const metadata: Metadata = {
   keywords: 'Living Museum Madrid, noticias, actualidad, exposiciones, premios, arte, salud mental',
   openGraph: {
     title: 'Actualidad - Living Museum Madrid',
-    description: 'Descubre nuestras últimas novedades y mantente al día con Living Museum Madrid.',
-    type: 'website',
+    description: 'Descubre las últimas noticias, eventos y logros de Living Museum Madrid. Exposiciones, premios, entrevistas y mucho más',
+    url: 'https://livingmuseum.madrid/actualidad',
+    siteName: 'Living Museum Madrid',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Actualidad de Living Museum Madrid',
+      },
+    ],
     locale: 'es_ES',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Actualidad - Living Museum Madrid',
+    description: 'Descubre las últimas noticias, eventos y logros de Living Museum Madrid. Exposiciones, premios, entrevistas y mucho más',
+    images: ['/og-image.jpg'],
+  },
+  alternates: {
+    canonical: 'https://livingmuseum.madrid/actualidad',
   },
 };
 

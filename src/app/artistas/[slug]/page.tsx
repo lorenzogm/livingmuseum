@@ -40,5 +40,36 @@ export async function generateMetadata({ params }: ArtistPageProps) {
   return {
     title: `${artist.name} - Living Museum Madrid`,
     description: artist.biography[0] || `Descubre la obra de ${artist.name} en Living Museum Madrid.`,
+    keywords: `${artist.name}, artista, arte, salud mental, Living Museum Madrid, creatividad, exposición`,
+    authors: [{ name: 'Living Museum Madrid' }],
+    openGraph: {
+      title: `${artist.name} - Living Museum Madrid`,
+      description: artist.biography[0] || `Descubre la obra y trayectoria artística de ${artist.name} en Living Museum Madrid.`,
+      url: `https://livingmuseum.madrid/artistas/${slug}`,
+      siteName: 'Living Museum Madrid',
+      images: [
+        {
+          url: artist.featuredImage || '/og-image.jpg',
+          width: 1200,
+          height: 630,
+          alt: `${artist.name} - Artista de Living Museum Madrid`,
+        },
+      ],
+      locale: 'es_ES',
+      type: 'profile',
+      profile: {
+        firstName: artist.name.split(' ')[0],
+        lastName: artist.name.split(' ').slice(1).join(' '),
+      },
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${artist.name} - Living Museum Madrid`,
+      description: artist.biography[0] || `Descubre la obra y trayectoria artística de ${artist.name} en Living Museum Madrid.`,
+      images: [artist.featuredImage || '/og-image.jpg'],
+    },
+    alternates: {
+      canonical: `https://livingmuseum.madrid/artistas/${slug}`,
+    },
   };
 }

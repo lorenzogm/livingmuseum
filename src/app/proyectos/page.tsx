@@ -8,9 +8,28 @@ export const metadata: Metadata = {
   keywords: 'Living Museum Madrid, proyectos, residencias artísticas, arte, inteligencia artificial, salud mental',
   openGraph: {
     title: 'Proyectos - Living Museum Madrid',
-    description: 'Conoce los proyectos llevados a cabo hasta ahora por Living Museum Madrid.',
-    type: 'website',
+    description: 'Conoce los proyectos innovadores de Living Museum Madrid: residencias artísticas, arte e inteligencia artificial, y más iniciativas que transforman vidas',
+    url: 'https://livingmuseum.madrid/proyectos',
+    siteName: 'Living Museum Madrid',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Proyectos de Living Museum Madrid',
+      },
+    ],
     locale: 'es_ES',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Proyectos - Living Museum Madrid',
+    description: 'Conoce los proyectos innovadores de Living Museum Madrid: residencias artísticas, arte e inteligencia artificial, y más iniciativas que transforman vidas',
+    images: ['/og-image.jpg'],
+  },
+  alternates: {
+    canonical: 'https://livingmuseum.madrid/proyectos',
   },
 };
 
