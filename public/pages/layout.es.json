@@ -1,7 +1,7 @@
 {
   "header": {
     "logo": {
-      "src": "/logo-living-museum.png",
+      "src": "/living-museum-logo.webp",
       "alt": "Living Museum Madrid",
       "width": 600,
       "height": 180
@@ -35,7 +35,7 @@
   },
   "footer": {
     "logo": {
-      "src": "/logo-living-museum.png",
+      "src": "/living-museum-logo-transparent.webp",
       "alt": "Living Museum Madrid",
       "width": 150,
       "height": 50
