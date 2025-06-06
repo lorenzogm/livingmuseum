@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface ButtonProps {
   href?: string;
   onClick?: () => void;
@@ -72,8 +74,8 @@ export default function Button({ href, onClick, children, target, rel, variant =
 
   if (href) {
     return (
-      <a 
-        href={href}
+      <Link 
+        href={`${process.env.NODE_ENV ==='production' ? 'livingmuseum':''}${href}`}
         target={target}
         rel={rel}
         className={buttonClass}
@@ -82,7 +84,7 @@ export default function Button({ href, onClick, children, target, rel, variant =
         onMouseLeave={handleMouseLeave}
       >
         {children}
-      </a>
+      </Link>
     );
   }
 

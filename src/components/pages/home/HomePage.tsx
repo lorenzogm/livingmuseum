@@ -60,7 +60,6 @@ export default function HomePage() {
           title={content.noticias.title}
           buttonText={content.noticias.buttonText}
           buttonHref={content.noticias.buttonHref}
-          buttonTarget="_blank"
         />
         <VideoSection 
           id="proyectos"
@@ -68,7 +67,6 @@ export default function HomePage() {
           title={content.proyectos.title}
           buttonText={content.proyectos.buttonText}
           buttonHref={content.proyectos.buttonHref}
-          buttonTarget={content.proyectos.buttonTarget}
         />
         <VideoSection 
           id="colabora"

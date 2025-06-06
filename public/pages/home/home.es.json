@@ -14,15 +14,13 @@
   "proyectos": {
     "title": "Proyectos",
     "buttonText": "Descubre más",
-    "buttonHref": "https://livingmuseum.madrid/proyectos/",
-    "buttonTarget": "_blank",
+    "buttonHref": "/proyectos",
     "backgroundVideo": "/pages/home/proyectos.mp4"
   },
   "noticias": {
     "title": "Noticias",
-    "buttonText": "ÚLTIMAS NOVEDADES",
-    "buttonHref": "https://livingmuseum.madrid/actualidad/",
-    "buttonTarget": "_blank",
+    "buttonText": "ÚLTIMAS NOVEDADES", 
+    "buttonHref": "/actualidad",
     "backgroundVideo": "/pages/home/noticias.mp4"
   },
   "colabora": {
