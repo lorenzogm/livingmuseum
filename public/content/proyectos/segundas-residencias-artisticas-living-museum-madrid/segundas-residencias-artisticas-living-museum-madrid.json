@@ -3,19 +3,61 @@
   "title": "Segundas residencias artísticas Living Museum Madrid",
   "slug": "segundas-residencias-artisticas-living-museum-madrid",
   "featuredImage": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/featured-image.webp",
-  "excerpt": "Las segundas residencias artísticas de Living Museum Madrid continúan fomentando la creatividad y el intercambio artístico en un espacio de experimentación y crecimiento personal.",
-  "date": "2025-01-01",
-  "dateFormatted": "enero, 2025",
+  "excerpt": "Las Segundas Residencias Artísticas Living Museum Madrid han comenzado de nuevo en la Sala Polivalente del Centro de Cultura Contemporánea Condeduque, continuando el programa iniciado en las primeras residencias.",
+  "date": "2024-11-06",
+  "dateFormatted": "noviembre, 2024",
   "category": "residencias",
   "tags": ["residencias artísticas", "arte", "creatividad", "comunidad", "experimentación"],
   "url": "https://livingmuseum.madrid/segundas-residencias-artisticas-living-museum-madrid/",
   "content": [
-    "Las segundas residencias artísticas de Living Museum Madrid representan la continuación de un proyecto pionero que busca crear espacios de encuentro y experimentación artística.",
-    "Este proyecto ofrece a los artistas un espacio dedicado donde pueden desarrollar su trabajo creativo de manera libre y experimental, fomentando el intercambio de ideas y técnicas entre participantes.",
-    "Las residencias se caracterizan por su enfoque comunitario, donde los artistas no solo trabajan en sus proyectos individuales, sino que también participan en actividades grupales que enriquecen la experiencia colectiva.",
-    "El programa incluye talleres, sesiones de crítica constructiva, visitas a exposiciones y encuentros con otros profesionales del mundo del arte, creando una red de apoyo y crecimiento mutuo.",
-    "La filosofía de Living Museum Madrid se basa en la creencia de que el arte tiene un poder transformador tanto para los creadores como para la comunidad, promoviendo la diversidad y la inclusión en el ámbito artístico."
+    "Las Segundas Residencias Artísticas Living Museum Madrid han comenzado de nuevo en la Sala Polivalente del Centro de Cultura Contemporánea Condeduque. El pasado 6 de noviembre, se encontraron las personas artistas de las primeras residencias que han elegido continuar junto con las nuevas incorporaciones que participarán de esta edición. También contamos con la bienvenida de Marta Ramos Yzquierdo, comisaria residente en Condeduque.",
+    "En el primer día de encuentro, las personas aprovecharon para familiarizarse con el entorno y el grupo formado en las primeras residencias artísticas fue de gran ayuda para conocer el proyecto. Durante el primer día las personas compartieron algunas de sus obras, y los días consecutivos, ya pudimos ver a cada persona inmersa en su trabajo artístico en diferentes zonas del espacio. Como en cada ocasión, no pudo faltar la pausa para el café compartido en el Living Café."
   ],
   "gallery": [
+    {
+      "image": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/images/segundas-residencias-gallery-1.webp",
+      "caption": "El día a día en las Segundas Residencias de Living Museum Madrid",
+      "alt": "Participantes trabajando en las segundas residencias artísticas"
+    },
+    {
+      "image": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/images/segundas-residencias-gallery-2.webp",
+      "caption": "Trabajo creativo individual en el espacio de residencia",
+      "alt": "Artista trabajando en su proyecto personal"
+    },
+    {
+      "image": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/images/segundas-residencias-gallery-3.webp",
+      "caption": "Encuentro inicial del 6 de noviembre en Condeduque",
+      "alt": "Primer día de encuentro de las segundas residencias"
+    },
+    {
+      "image": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/images/segundas-residencias-gallery-4.webp",
+      "caption": "Intercambio de experiencias entre participantes",
+      "alt": "Participantes compartiendo sus obras y experiencias"
+    },
+    {
+      "image": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/images/segundas-residencias-gallery-5.webp",
+      "caption": "Desarrollo artístico en las diferentes zonas del espacio",
+      "alt": "Artistas trabajando en diferentes áreas de la residencia"
+    },
+    {
+      "image": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/images/segundas-residencias-gallery-6.webp",
+      "caption": "Proceso creativo colaborativo",
+      "alt": "Colaboración entre participantes de las residencias"
+    },
+    {
+      "image": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/images/segundas-residencias-gallery-7.webp",
+      "caption": "Living Café: momento de pausa y encuentro",
+      "alt": "Participantes compartiendo café en el Living Café"
+    },
+    {
+      "image": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/images/segundas-residencias-gallery-8.webp",
+      "caption": "Continuidad del programa con nuevas incorporaciones",
+      "alt": "Participantes antiguos y nuevos trabajando juntos"
+    },
+    {
+      "image": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/images/segundas-residencias-gallery-9.webp",
+      "caption": "Experimentación artística en el Centro Condeduque",
+      "alt": "Proceso de experimentación artística en las residencias"
+    }
   ]
 }
