@@ -126,9 +126,11 @@ export const getQuienesSomosContent = (): QuienesSomosContent => {
     image: artist.featuredImage || '/placeholder-profile.svg' // Use default placeholder if image is null
   }));
   
-  // Filter out Piedad García-Murga from team members
+  // Filter out Piedad García-Murga and Javier Lapuerta Laorden from team members
   const filteredTeamMembers = baseContent.familia.teamMembers.filter(
-    (member: TeamMember) => member.name !== "Piedad García-Murga"
+    (member: TeamMember) => 
+      member.name !== "Piedad García-Murga" && 
+      member.name !== "Javier Lapuerta Laorden"
   );
   
   return {
