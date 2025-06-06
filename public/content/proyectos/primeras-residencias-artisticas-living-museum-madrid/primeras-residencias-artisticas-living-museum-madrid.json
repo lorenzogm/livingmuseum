@@ -1,0 +1,26 @@
+{
+  "id": "primeras-residencias-artisticas-living-museum-madrid",
+  "title": "Primeras residencias artísticas Living Museum Madrid",
+  "slug": "primeras-residencias-artisticas-living-museum-madrid",
+  "featuredImage": "/content/proyectos/primeras-residencias-artisticas-living-museum-madrid/featured-image.webp",
+  "excerpt": "De octubre de 2023 a junio de 2024 se llevaron a cabo las Primeras Residencias Artísticas de Living Museum Madrid en el Centro de Cultura Contemporánea Condeduque, culminando con la exposición 'El despliegue de la Pausa'.",
+  "date": "2024-06-01",
+  "dateFormatted": "junio, 2024",
+  "category": "residencias",
+  "tags": ["residencias artísticas", "arte", "creatividad", "Condeduque", "exposición"],
+  "url": "https://livingmuseum.madrid/primeras-residencias-artisticas-living-museum-madrid/",
+  "content": [
+    "De octubre de 2023 a junio de 2024 se llevaron a cabo las Primeras Residencias Artísticas de Living Museum Madrid en el Centro de Cultura Contemporánea Condeduque. Todos los miércoles por la mañana la Sala Polivalente se transformó en un taller abierto de experimentación artística.",
+    "Destacó especialmente un clima artístico compartido y comunitario donde quince artistas exploraron y profundizaron en sus proyectos creativos y profesionales. También se llevaron a cabo otras actividades compartidas como la visita a exposiciones de la mano del comisariado o el visionado de documentales sobre arte y cultura entre otras.",
+    "Las residencias finalizaron con la exposición final, El despliegue de la Pausa, una muestra de la obra y procesos artísticos llevados a cabo durante las primeras residencias.",
+    "Este proyecto pionero estableció las bases para futuras residencias artísticas, demostrando el valor de crear espacios dedicados a la experimentación y el intercambio artístico.",
+    "La experiencia de las primeras residencias sirvió como modelo para el desarrollo de programas posteriores, consolidando Living Museum Madrid como un referente en el apoyo a artistas emergentes y establecidos."
+  ],
+  "gallery": [
+    {
+      "image": "/content/proyectos/primeras-residencias-artisticas-living-museum-madrid/featured-image.webp",
+      "caption": "Fotografía de Bego Solís de las Primeras Residencias Artísticas",
+      "alt": "Primeras residencias artísticas Living Museum Madrid"
+    }
+  ]
+}

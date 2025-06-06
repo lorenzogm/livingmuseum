@@ -22,6 +22,10 @@
       {
         "label": "Noticias",
         "href": "/actualidad"
+      },
+      {
+        "label": "Proyectos",
+        "href": "/proyectos"
       }
     ]
   },

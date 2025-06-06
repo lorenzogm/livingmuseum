@@ -1,0 +1,26 @@
+{
+  "id": "segundas-residencias-artisticas-living-museum-madrid",
+  "title": "Segundas residencias artísticas Living Museum Madrid",
+  "slug": "segundas-residencias-artisticas-living-museum-madrid",
+  "featuredImage": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/featured-image.webp",
+  "excerpt": "Las segundas residencias artísticas de Living Museum Madrid continúan fomentando la creatividad y el intercambio artístico en un espacio de experimentación y crecimiento personal.",
+  "date": "2025-01-01",
+  "dateFormatted": "enero, 2025",
+  "category": "residencias",
+  "tags": ["residencias artísticas", "arte", "creatividad", "comunidad", "experimentación"],
+  "url": "https://livingmuseum.madrid/segundas-residencias-artisticas-living-museum-madrid/",
+  "content": [
+    "Las segundas residencias artísticas de Living Museum Madrid representan la continuación de un proyecto pionero que busca crear espacios de encuentro y experimentación artística.",
+    "Este proyecto ofrece a los artistas un espacio dedicado donde pueden desarrollar su trabajo creativo de manera libre y experimental, fomentando el intercambio de ideas y técnicas entre participantes.",
+    "Las residencias se caracterizan por su enfoque comunitario, donde los artistas no solo trabajan en sus proyectos individuales, sino que también participan en actividades grupales que enriquecen la experiencia colectiva.",
+    "El programa incluye talleres, sesiones de crítica constructiva, visitas a exposiciones y encuentros con otros profesionales del mundo del arte, creando una red de apoyo y crecimiento mutuo.",
+    "La filosofía de Living Museum Madrid se basa en la creencia de que el arte tiene un poder transformador tanto para los creadores como para la comunidad, promoviendo la diversidad y la inclusión en el ámbito artístico."
+  ],
+  "gallery": [
+    {
+      "image": "/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/featured-image.webp",
+      "caption": "Imagen promocional de las Segundas Residencias Artísticas Living Museum Madrid",
+      "alt": "Segundas residencias artísticas Living Museum Madrid"
+    }
+  ]
+}

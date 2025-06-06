@@ -11,6 +11,14 @@ import {
   getArticlesByCategory,
   getArticlesByTag 
 } from './articles';
+import { 
+  projectsPageContent, 
+  getAllProjects, 
+  getProjectBySlug, 
+  getFeaturedProjects,
+  getProjectsByCategory,
+  getProjectsByTag 
+} from './projects';
 
 // SDK structure with organized access to all content functions
 export const apiSdk = {
@@ -28,7 +36,10 @@ export const apiSdk = {
     layout: () => getLayoutContent(),
     
     // Articles page content
-    articles: () => articlesPageContent
+    articles: () => articlesPageContent,
+    
+    // Projects page content  
+    projects: () => projectsPageContent
   },
   
   content: {
@@ -55,6 +66,23 @@ export const apiSdk = {
       
       // Get articles by tag
       getByTag: (tag: string) => getArticlesByTag(tag)
+    },
+    
+    projects: {
+      // Get all projects
+      getAll: () => getAllProjects(),
+      
+      // Get single project by slug/ID
+      get: (slug: string) => getProjectBySlug(slug),
+      
+      // Get featured projects (for homepage, etc.)
+      getFeatured: (limit?: number) => getFeaturedProjects(limit),
+      
+      // Get projects by category
+      getByCategory: (category: string) => getProjectsByCategory(category),
+      
+      // Get projects by tag
+      getByTag: (tag: string) => getProjectsByTag(tag)
     }
   }
 };
@@ -71,7 +99,13 @@ export {
   getArticleBySlug,
   getFeaturedArticles,
   getArticlesByCategory,
-  getArticlesByTag
+  getArticlesByTag,
+  projectsPageContent,
+  getAllProjects,
+  getProjectBySlug,
+  getFeaturedProjects,
+  getProjectsByCategory,
+  getProjectsByTag
 };
 
 // Export types for convenience
@@ -116,3 +150,9 @@ export type {
   Article,
   ArticleGalleryItem
 } from './articles';
+
+export type {
+  ProjectsPageContent,
+  Project,
+  ProjectGalleryItem
+} from './projects';
