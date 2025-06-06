@@ -126,10 +126,16 @@ export const getQuienesSomosContent = (): QuienesSomosContent => {
     image: artist.featuredImage || '/placeholder-profile.svg' // Use default placeholder if image is null
   }));
   
+  // Filter out Piedad García-Murga from team members
+  const filteredTeamMembers = baseContent.familia.teamMembers.filter(
+    (member: TeamMember) => member.name !== "Piedad García-Murga"
+  );
+  
   return {
     ...baseContent,
     familia: {
       ...baseContent.familia,
+      teamMembers: filteredTeamMembers,
       artists: mappedArtists
     }
   };
