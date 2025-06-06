@@ -34,7 +34,7 @@ export default function ListingPage({ content }: ListingPageProps) {
       <section className="pt-32 pb-20 px-6 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <Text
-            variant="hero"
+            variant="section"
             as="h1"
             className="mb-6 tracking-wider text-yellow-500 uppercase"
           >

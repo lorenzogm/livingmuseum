@@ -22,7 +22,7 @@ export function ProjectDetailPage({ project }: ProjectDetailPageProps) {
               {project.dateFormatted}
             </Text>
             <Text
-              variant="hero"
+              variant="section"
               as="h1"
               className="mb-6 tracking-wider text-gray-900"
             >
