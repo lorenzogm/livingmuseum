@@ -16,6 +16,10 @@ export default function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   const isActiveLink = (href: string) => {
     if (href === '/') {
       return pathname === '/';
@@ -27,7 +31,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md px-6 py-3 border-b border-gray-200">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         <div className="flex items-center gap-3">
-          <Link href="/" className="block">
+          <Link href="/" onClick={closeMenu} className="block">
             <Image
               src={layoutContent.header.logo.src}
               alt={layoutContent.header.logo.alt}
@@ -46,9 +50,10 @@ export default function Header() {
             {layoutContent.header.navigation.map((item, index) => {
               const isActive = isActiveLink(item.href);
               return (
-                <Link 
+                <Link
                   key={index}
-                  href={item.href} 
+                  href={item.href}
+                  onClick={closeMenu}
                   className={`transition-all duration-300 hover:scale-105 relative group ${
                     isActive 
                       ? 'text-yellow-500' 
