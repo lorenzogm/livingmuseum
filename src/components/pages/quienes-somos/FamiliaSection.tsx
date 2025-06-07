@@ -48,7 +48,7 @@ export default function FamiliaSection({ content }: FamiliaSectionProps) {
           
           {/* Tab Content */}
           {activeTab === 'equipo' && (
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
               {content.teamMembers.map((member, index) => (
                 <div key={index} className="text-center space-y-4">
                   <div className="aspect-square bg-gray-100 rounded-full w-40 h-40 mx-auto overflow-hidden relative border border-gray-200">
@@ -104,7 +104,7 @@ export default function FamiliaSection({ content }: FamiliaSectionProps) {
           )}
 
           {activeTab === 'artistas' && (
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {content.artists.map((artist, index) => (
                 <a 
                   key={index}
