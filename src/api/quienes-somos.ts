@@ -127,10 +127,11 @@ export const getQuienesSomosContent = (): QuienesSomosContent => {
     image: artist.featuredImage || '/placeholder-profile.svg' // Use default placeholder if image is null
   }));
   
-  // Get filtered team members (excluding Piedad García-Murga and Javier Lapuerta Laorden)
+  // Get filtered team members (excluding Piedad García-Murga, Javier Lapuerta Laorden, and Máriam Cáliz Cáceres)
   const filteredTeamMembers = getFilteredTeamMembers([
     "Piedad García-Murga", 
-    "Javier Lapuerta Laorden"
+    "Javier Lapuerta Laorden",
+    "Máriam Cáliz Cáceres"
   ]);
   
   return {
