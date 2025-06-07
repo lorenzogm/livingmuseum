@@ -31,6 +31,7 @@ export interface ArtistProfile {
   name: string;
   slug: string;
   featuredImage: string;
+  profileImage: string;
   quote?: string;
   biography: string[];
   artworks: Artwork[];
@@ -69,7 +70,8 @@ const allArtists: ArtistProfile[] = [
 // Process artists to handle null profile images
 const processedArtists: ArtistProfile[] = allArtists.map(artist => ({
   ...artist,
-  featuredImage: artist.featuredImage || '/placeholder-profile.svg'
+  featuredImage: artist.featuredImage || '/placeholder-profile.svg',
+  profileImage: artist.profileImage || '/placeholder-profile.svg'
 }));
 
 // Artists content loader

@@ -124,7 +124,7 @@ export const getQuienesSomosContent = (): QuienesSomosContent => {
   const mappedArtists: UIArtist[] = artistsData.artists.map((artist: ArtistProfile) => ({
     name: artist.name,
     url: `/artistas/${artist.slug}`, // Create internal URL using slug
-    image: artist.featuredImage || '/placeholder-profile.svg' // Use default placeholder if image is null
+    image: artist.profileImage || '/placeholder-profile.svg' // Use profileImage for familia section
   }));
   
   // Get filtered team members (excluding Piedad García-Murga, Javier Lapuerta Laorden, and Máriam Cáliz Cáceres)
