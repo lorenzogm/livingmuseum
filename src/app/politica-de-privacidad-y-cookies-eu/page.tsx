@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Política de Privacidad y Cookies - Living Museum Madrid',
     description: 'Política de privacidad y uso de cookies de Living Museum Madrid. Información sobre el tratamiento de datos personales.',
-    url: 'https://livingmuseum.madrid/politica-de-privacidad-y-cookies-eu',
+    url: '/politica-de-privacidad-y-cookies-eu',
     siteName: 'Living Museum Madrid',
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://livingmuseum.madrid/politica-de-privacidad-y-cookies-eu',
+    canonical: '/politica-de-privacidad-y-cookies-eu',
   },
 };
 

@@ -26,14 +26,13 @@ export const metadata: Metadata = {
   authors: [{ name: "Living Museum Madrid" }],
   creator: "Living Museum Madrid",
   publisher: "Living Museum Madrid",
-  metadataBase: new URL('https://livingmuseum.madrid'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "Living Museum Madrid - Arte y Salud Mental",
     description: "Living Museum Madrid - Arte, salud mental y creación de espacios artísticos en Madrid, España",
-    url: 'https://livingmuseum.madrid',
+    url: '/',
     siteName: 'Living Museum Madrid',
     images: [
       {

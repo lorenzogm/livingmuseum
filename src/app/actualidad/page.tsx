@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Actualidad - Living Museum Madrid',
     description: 'Descubre las últimas noticias, eventos y logros de Living Museum Madrid. Exposiciones, premios, entrevistas y mucho más',
-    url: 'https://livingmuseum.madrid/actualidad',
+    url: '/actualidad',
     siteName: 'Living Museum Madrid',
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://livingmuseum.madrid/actualidad',
+    canonical: '/actualidad',
   },
 };
 

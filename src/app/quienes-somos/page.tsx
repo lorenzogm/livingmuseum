@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Quiénes Somos - Living Museum Madrid",
     description: "Descubre nuestra historia, filosofía y equipo. Living Museum Madrid es un espacio único de creación artística que promueve la expresión y la transformación social",
-    url: 'https://livingmuseum.madrid/quienes-somos',
+    url: '/quienes-somos',
     siteName: 'Living Museum Madrid',
     images: [
       {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://livingmuseum.madrid/quienes-somos',
+    canonical: '/quienes-somos',
   },
 };
 

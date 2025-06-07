@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Colabora - Living Museum Madrid",
     description: "Únete a nuestra misión. Colabora con Living Museum Madrid como voluntario, patrocinador o artista para promover el arte y la inclusión social",
-    url: 'https://livingmuseum.madrid/colabora',
+    url: '/colabora',
     siteName: 'Living Museum Madrid',
     images: [
       {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://livingmuseum.madrid/colabora',
+    canonical: '/colabora',
   },
 };
 

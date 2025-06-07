@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
     openGraph: {
       title: `${project.title} - Living Museum Madrid`,
       description: project.excerpt,
-      url: `https://livingmuseum.madrid/proyectos/${slug}`,
+      url: `/proyectos/${slug}`,
       siteName: 'Living Museum Madrid',
       images: [
         {
@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
       images: [project.featuredImage],
     },
     alternates: {
-      canonical: `https://livingmuseum.madrid/proyectos/${slug}`,
+      canonical: `/proyectos/${slug}`,
     },
   };
 }

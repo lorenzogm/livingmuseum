@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     openGraph: {
       title: `${article.title} - Living Museum Madrid`,
       description: article.excerpt,
-      url: `https://livingmuseum.madrid/actualidad/${slug}`,
+      url: `/actualidad/${slug}`,
       siteName: 'Living Museum Madrid',
       images: [
         {
@@ -59,7 +59,7 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
       images: [article.featuredImage],
     },
     alternates: {
-      canonical: `https://livingmuseum.madrid/actualidad/${slug}`,
+      canonical: `/actualidad/${slug}`,
     },
   };
 }

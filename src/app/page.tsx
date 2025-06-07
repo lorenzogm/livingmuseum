@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Living Museum Madrid - Arte y Salud Mental",
     description: "Descubre Living Museum Madrid, un espacio único donde arte y salud mental se unen para crear experiencias transformadoras",
-    url: 'https://livingmuseum.madrid',
+    url: '/',
     siteName: 'Living Museum Madrid',
     images: [
       {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://livingmuseum.madrid',
+    canonical: '/',
   },
 };
 

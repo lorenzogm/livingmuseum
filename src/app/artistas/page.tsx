@@ -23,7 +23,7 @@ export const metadata = {
   openGraph: {
     title: 'Artistas - Living Museum Madrid',
     description: 'Conoce a los talentosos artistas de Living Museum Madrid y descubre sus obras únicas que fusionan arte y salud mental',
-    url: 'https://livingmuseum.madrid/artistas',
+    url: '/artistas',
     siteName: 'Living Museum Madrid',
     images: [
       {
@@ -43,6 +43,6 @@ export const metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://livingmuseum.madrid/artistas',
+    canonical: '/artistas',
   },
 };

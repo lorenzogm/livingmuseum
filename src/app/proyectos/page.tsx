@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Proyectos - Living Museum Madrid',
     description: 'Conoce los proyectos innovadores de Living Museum Madrid: residencias artísticas, arte e inteligencia artificial, y más iniciativas que transforman vidas',
-    url: 'https://livingmuseum.madrid/proyectos',
+    url: '/proyectos',
     siteName: 'Living Museum Madrid',
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://livingmuseum.madrid/proyectos',
+    canonical: '/proyectos',
   },
 };
 

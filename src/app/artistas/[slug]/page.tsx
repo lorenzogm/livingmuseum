@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: ArtistPageProps) {
     openGraph: {
       title: `${artist.name} - Living Museum Madrid`,
       description: artist.biography[0] || `Descubre la obra y trayectoria artística de ${artist.name} en Living Museum Madrid.`,
-      url: `https://livingmuseum.madrid/artistas/${slug}`,
+      url: `/artistas/${slug}`,
       siteName: 'Living Museum Madrid',
       images: [
         {
@@ -69,7 +69,7 @@ export async function generateMetadata({ params }: ArtistPageProps) {
       images: [artist.featuredImage || '/og-image.jpg'],
     },
     alternates: {
-      canonical: `https://livingmuseum.madrid/artistas/${slug}`,
+      canonical: `/artistas/${slug}`,
     },
   };
 }
