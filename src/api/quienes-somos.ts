@@ -1,6 +1,7 @@
 // Quienes Somos page content and types
 import quienesSomosContent from '../../public/pages/quienes-somos/quienes-somos.es.json';
 import { type ArtistProfile, getArtistsContent } from './artists';
+import { getFilteredTeamMembers } from './team';
 
 // Quienes Somos page interfaces
 export interface HeroContent {
@@ -113,7 +114,7 @@ export interface QuienesSomosContent {
 // Quienes Somos content loader
 export const getQuienesSomosContent = (): QuienesSomosContent => {
   const baseContent = quienesSomosContent as Omit<QuienesSomosContent, 'familia'> & {
-    familia: Omit<FamiliaContent, 'artists'>;
+    familia: Omit<FamiliaContent, 'artists' | 'teamMembers'>;
   };
   
   // Get artists data from the artists API
@@ -126,12 +127,11 @@ export const getQuienesSomosContent = (): QuienesSomosContent => {
     image: artist.featuredImage || '/placeholder-profile.svg' // Use default placeholder if image is null
   }));
   
-  // Filter out Piedad García-Murga and Javier Lapuerta Laorden from team members
-  const filteredTeamMembers = baseContent.familia.teamMembers.filter(
-    (member: TeamMember) => 
-      member.name !== "Piedad García-Murga" && 
-      member.name !== "Javier Lapuerta Laorden"
-  );
+  // Get filtered team members (excluding Piedad García-Murga and Javier Lapuerta Laorden)
+  const filteredTeamMembers = getFilteredTeamMembers([
+    "Piedad García-Murga", 
+    "Javier Lapuerta Laorden"
+  ]);
   
   return {
     ...baseContent,
