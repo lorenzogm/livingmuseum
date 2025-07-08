@@ -87,8 +87,6 @@ export function Image({
     ${wrapperClassName}
   `;
 
-  src = `${process.env.NODE_ENV === 'production' ? '/livingmuseum' : ''}${src}`
-
   return (
     <figure>
       <div 
