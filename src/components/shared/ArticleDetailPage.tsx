@@ -48,15 +48,37 @@ export function ArticleDetailPage({ article }: ArticleDetailPageProps) {
 
           {/* Content */}
           <div className="prose prose-lg max-w-none">
-            {article.content.map((paragraph, index) => (
-              <Text
-                key={index}
-                variant="body"
-                className="mb-6 text-gray-700 leading-relaxed"
-              >
-                {paragraph}
-              </Text>
-            ))}
+            {article.content.map((paragraph, index) => {
+              // Check if paragraph contains a URL
+              const urlRegex = /(https?:\/\/[^\s]+)/g;
+              const parts = paragraph.split(urlRegex);
+              
+              return (
+                <Text
+                  key={index}
+                  variant="body"
+                  as="p"
+                  className="mb-6 text-gray-700 leading-relaxed"
+                >
+                  {parts.map((part, partIndex) => {
+                    if (part.match(urlRegex)) {
+                      return (
+                        <a
+                          key={partIndex}
+                          href={part}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-yellow-500 hover:text-yellow-600 underline transition-colors"
+                        >
+                          {part}
+                        </a>
+                      );
+                    }
+                    return part;
+                  })}
+                </Text>
+              );
+            })}
           </div>
 
           {/* Gallery */}
