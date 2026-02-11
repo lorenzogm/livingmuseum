@@ -8,6 +8,7 @@ import carlosValeroData from '../../public/content/artistas/carlos-valero/carlos
 import fernandoData from '../../public/content/artistas/fernando-jose-escrina/fernando-jose-escrina.json';
 import gabrielData from '../../public/content/artistas/gabriel-pastor-guzman/gabriel-pastor-guzman.json';
 import gustavoData from '../../public/content/artistas/gustavo-pannullo-gap/gustavo-pannullo-gap.json';
+import ihsuanData from '../../public/content/artistas/ihsuan-liu/ihsuan-liu.json';
 import iruneData from '../../public/content/artistas/irune-tanco/irune-tanco.json';
 import joseData from '../../public/content/artistas/jose-manuel-lopez/jose-manuel-lopez.json';
 import malenaData from '../../public/content/artistas/malena-hidalgo/malena-hidalgo.json';
@@ -60,6 +61,7 @@ const allArtists: ArtistProfile[] = [
   fernandoData,
   gabrielData,
   gustavoData,
+  ihsuanData,
   iruneData,
   joseData,
   malenaData,
