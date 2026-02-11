@@ -28,7 +28,7 @@ export default function Card({ title, subtitle, image, imageAlt, href, metadata 
           <Image
             src={image}
             alt={imageAlt}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+            className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-110"
             fill
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
