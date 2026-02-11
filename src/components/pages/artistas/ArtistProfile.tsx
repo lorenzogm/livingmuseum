@@ -23,7 +23,7 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
               <Image
                 src={artist.featuredImage || '/placeholder-profile.svg'}
                 alt={artist.name}
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-cover object-top"
                 fill
               />
             </div>
