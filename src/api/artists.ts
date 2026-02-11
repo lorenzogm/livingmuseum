@@ -3,7 +3,8 @@ import artistsPageContent from '../../public/pages/artists.es.json';
 
 // Import individual artist data (alphabetically sorted)
 import blancaData from '../../public/content/artistas/blanca-valcarce-quiroga/blanca-valcarce-quiroga.json';
-import carlosData from '../../public/content/artistas/carlos-molina-vallejo/carlos-molina-vallejo.json';
+import carlosMolinaData from '../../public/content/artistas/carlos-molina-vallejo/carlos-molina-vallejo.json';
+import carlosValeroData from '../../public/content/artistas/carlos-valero/carlos-valero.json';
 import fernandoData from '../../public/content/artistas/fernando-jose-escrina/fernando-jose-escrina.json';
 import gabrielData from '../../public/content/artistas/gabriel-pastor-guzman/gabriel-pastor-guzman.json';
 import gustavoData from '../../public/content/artistas/gustavo-pannullo-gap/gustavo-pannullo-gap.json';
@@ -54,7 +55,8 @@ export interface ArtistsPageContent {
 // Combine all artist data (alphabetically sorted by name)
 const allArtists: ArtistProfile[] = [
   blancaData,
-  carlosData,
+  carlosMolinaData,
+  carlosValeroData,
   fernandoData,
   gabrielData,
   gustavoData,

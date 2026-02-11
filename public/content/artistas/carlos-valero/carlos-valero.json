@@ -1,0 +1,71 @@
+{
+  "id": "carlos-valero",
+  "name": "Carlos Valero",
+  "slug": "carlos-valero",
+  "featuredImage": "/content/artistas/carlos-valero/artworks/my-fucking-life.webp",
+  "profileImage": "/content/artistas/carlos-valero/carlos-valero-profile.webp",
+  "quote": "Mi arte es muy oscuro, puede llegar a ser desagradable. Tengo que plasmar lo que me sale de la cabeza, es una necesidad como de vaciar el disco duro y con el dibujo sé que escapo.",
+  "biography": [
+    "Inspirado en la fotografía en blanco y negro y la cultura japonesa, de donde saco ideas para crear los contextos e historias, construyo mi propio pensamiento. A través del ojo como símbolo principal, mi mirada interior profundiza y cuestiona algunas temáticas como la muerte, la enfermedad, la soledad o la ira.",
+    "Mi obra está hecha para mi, no está hecha para nadie. Me ayuda a quedarme bien, libre, a gusto, feliz por así decirlo. Cuando acabo un cuadro y me gusta, me quedo muy satisfecho."
+  ],
+  "artworks": [
+    {
+      "id": "my-fucking-life",
+      "title": "My fucking life",
+      "medium": "Acrílico sobre tabla",
+      "dimensions": "40 x 30 cm",
+      "year": "2025",
+      "image": "/content/artistas/carlos-valero/artworks/my-fucking-life.webp"
+    },
+    {
+      "id": "cansado-de-rodar-portada",
+      "title": "Cansado de rodar",
+      "medium": "Acrílico sobre tabla",
+      "dimensions": "55 x 45 cm",
+      "year": "2025",
+      "image": "/content/artistas/carlos-valero/artworks/cansado-de-rodar-portada.webp"
+    },
+    {
+      "id": "exhibicionismo",
+      "title": "Exhibicionismo",
+      "medium": "Acrílico sobre lienzo",
+      "dimensions": "60 x 40 cm",
+      "year": "2025",
+      "image": "/content/artistas/carlos-valero/artworks/exhibicionismo.webp"
+    },
+    {
+      "id": "carnaval",
+      "title": "Carnaval",
+      "medium": "Acrílico sobre lienzo",
+      "dimensions": "60 x 40 cm",
+      "year": "2025",
+      "image": "/content/artistas/carlos-valero/artworks/carnaval.webp"
+    },
+    {
+      "id": "memento-mori",
+      "title": "Memento Mori",
+      "medium": "Acrílico sobre tabla",
+      "dimensions": "40 x 30 cm",
+      "year": "2025",
+      "image": "/content/artistas/carlos-valero/artworks/memento-mori.webp"
+    },
+    {
+      "id": "cansado-de-rodar",
+      "title": "Cansado de rodar",
+      "medium": "Acrílico sobre tabla",
+      "dimensions": "50 x 40 cm",
+      "year": "2025",
+      "image": "/content/artistas/carlos-valero/artworks/cansado-de-rodar.webp"
+    },
+    {
+      "id": "no-limits",
+      "title": "No limits",
+      "medium": "Acrílico sobre tabla",
+      "dimensions": "50 x 40 cm",
+      "year": "2025",
+      "image": "/content/artistas/carlos-valero/artworks/no-limits.webp"
+    }
+  ],
+  "profileUrl": "/artistas/carlos-valero"
+}
