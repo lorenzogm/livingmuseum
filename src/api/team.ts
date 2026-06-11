@@ -6,6 +6,7 @@ import piedadData from '../../public/content/team/piedad-garcia-murga/piedad-gar
 import martaData from '../../public/content/team/marta-lage/marta-lage.es.json';
 import mariamData from '../../public/content/team/mariam-caliz-caceres/mariam-caliz-caceres.es.json';
 import marianData from '../../public/content/team/marian-alonso-garrido/marian-alonso-garrido.es.json';
+import darioData from '../../public/content/team/dario/dario.es.json';
 
 // Team member interfaces
 export interface TeamMemberProfile {
@@ -26,6 +27,7 @@ export interface TeamPageContent {
 
 // Combine all team member data (alphabetically sorted by name)
 const allTeamMembers: TeamMemberProfile[] = [
+  darioData,
   javierData,
   juliaData,
   lauraData,
