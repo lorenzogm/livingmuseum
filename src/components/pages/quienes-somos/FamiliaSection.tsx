@@ -57,7 +57,7 @@ export default function FamiliaSection({ content }: FamiliaSectionProps) {
                       alt={member.name}
                       fill
                       aspectRatio='1:1'
-                      className="object-cover object-center"
+                      className="object-cover object-top"
                       sizes="(max-width: 768px) 128px, 160px"
                       quality={90}
                     />
@@ -117,7 +117,7 @@ export default function FamiliaSection({ content }: FamiliaSectionProps) {
                       alt={artist.name}
                       fill
                       aspectRatio='1:1'
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                      className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
                       sizes="(max-width: 768px) 50vw, (max-width: 1024px) 50vw, 25vw"
                       quality={90}
                     />
