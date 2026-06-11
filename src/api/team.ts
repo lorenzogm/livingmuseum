@@ -5,6 +5,7 @@ import javierData from '../../public/content/team/javier-lapuerta-laorden/javier
 import piedadData from '../../public/content/team/piedad-garcia-murga/piedad-garcia-murga.es.json';
 import martaData from '../../public/content/team/marta-lage/marta-lage.es.json';
 import mariamData from '../../public/content/team/mariam-caliz-caceres/mariam-caliz-caceres.es.json';
+import marianData from '../../public/content/team/marian-alonso-garrido/marian-alonso-garrido.es.json';
 
 // Team member interfaces
 export interface TeamMemberProfile {
@@ -28,6 +29,7 @@ const allTeamMembers: TeamMemberProfile[] = [
   javierData,
   juliaData,
   lauraData,
+  marianData,
   mariamData,
   martaData,
   piedadData
