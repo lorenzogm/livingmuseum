@@ -1,4 +1,5 @@
 // Team members API
+import begonaData from '../../public/content/team/begona-valia/begona-valia.es.json';
 import lauraData from '../../public/content/team/laura-carmona-ayuso/laura-carmona-ayuso.es.json';
 import juliaData from '../../public/content/team/julia-morla/julia-morla.es.json';
 import javierData from '../../public/content/team/javier-lapuerta-laorden/javier-lapuerta-laorden.es.json';
@@ -27,6 +28,7 @@ export interface TeamPageContent {
 
 // Combine all team member data (alphabetically sorted by name)
 const allTeamMembers: TeamMemberProfile[] = [
+  begonaData,
   darioData,
   javierData,
   juliaData,
