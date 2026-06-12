@@ -11,8 +11,15 @@
 name: copilot-02-pull-request
 
 on:
+  # Fires the moment a Copilot coding-agent session finishes — this is the
+  # responsive path. workflow_run runs from the default branch in the
+  # repository's trusted context, so it is not subject to draft-PR trigger
+  # suppression nor to the manual-approval gate on Copilot-authored PR runs.
+  workflow_run:
+    workflows: ["Copilot cloud agent"]
+    types: [completed]
   schedule:
-    - cron: "*/5 * * * *" # every 5 minutes (GitHub cron is best-effort)
+    - cron: "*/5 * * * *" # safety-net fallback (GitHub cron is best-effort)
   workflow_dispatch: # allow manual/on-demand runs
 
 permissions:
