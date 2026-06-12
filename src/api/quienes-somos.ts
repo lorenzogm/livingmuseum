@@ -87,7 +87,7 @@ export interface UIArtist {
   name: string;
   url: string;
   image: string;
-  imagePosition?: string;
+  imagePosition?: 'center' | 'top' | 'bottom';
 }
 
 export interface FamiliaContent {
