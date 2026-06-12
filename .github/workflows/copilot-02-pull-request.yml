@@ -1,0 +1,35 @@
+# When the Copilot coding agent finishes a session it marks its draft pull
+# request as "ready for review". Merge those pull requests automatically.
+name: copilot-02-pull-request
+
+on:
+  pull_request:
+    types: [ready_for_review]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge-copilot-pr:
+    # Only act on pull requests authored by the Copilot coding agent.
+    if: >-
+      github.event.pull_request.user.login == 'Copilot' ||
+      github.event.pull_request.user.login == 'copilot-swe-agent'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge the Copilot pull request
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          # --auto merges as soon as any required status checks pass; if the
+          # repository has no required checks it merges immediately.
+          gh pr merge "$PR_NUMBER" \
+            --repo "$REPO" \
+            --squash \
+            --auto \
+            --delete-branch
+
+          echo "Requested merge of Copilot pull request #$PR_NUMBER."
