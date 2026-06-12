@@ -57,7 +57,7 @@ export default function FamiliaSection({ content }: FamiliaSectionProps) {
                       alt={member.name}
                       fill
                       aspectRatio='1:1'
-                      className="object-cover object-top"
+                      className={`object-cover ${{ center: 'object-center', bottom: 'object-bottom', top: 'object-top' }[member.imagePosition ?? 'top'] ?? 'object-top'}`}
                       sizes="(max-width: 768px) 128px, 160px"
                       quality={90}
                     />

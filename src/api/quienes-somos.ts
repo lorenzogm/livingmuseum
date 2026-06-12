@@ -76,6 +76,7 @@ export interface ObjetivosContent {
 export interface TeamMember {
   name: string;
   image: string;
+  imagePosition?: 'center' | 'top' | 'bottom';
   description: string[];
   social: {
     linkedin?: string;
