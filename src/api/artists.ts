@@ -37,6 +37,7 @@ export interface ArtistProfile {
   slug: string;
   featuredImage: string;
   profileImage: string;
+  imagePosition?: string;
   quote?: string;
   biography: string[];
   artworks: Artwork[];
