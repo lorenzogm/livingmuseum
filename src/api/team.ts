@@ -27,17 +27,17 @@ export interface TeamPageContent {
   teamMembers: TeamMemberProfile[];
 }
 
-// Combine all team member data (alphabetically sorted by name)
+// Combine all team member data (ordered as requested)
 const allTeamMembers: TeamMemberProfile[] = [
-  beaData,
-  begonaData,
-  darioData,
-  javierData,
   juliaData,
-  lauraData,
   marianData,
-  mariamData,
   martaData,
+  lauraData,
+  beaData,
+  darioData,
+  begonaData,
+  javierData,
+  mariamData,
   piedadData
 ] as TeamMemberProfile[];
 
