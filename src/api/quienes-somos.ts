@@ -87,6 +87,7 @@ export interface UIArtist {
   name: string;
   url: string;
   image: string;
+  imagePosition?: 'center' | 'top' | 'bottom';
 }
 
 export interface FamiliaContent {
@@ -124,7 +125,8 @@ export const getQuienesSomosContent = (): QuienesSomosContent => {
   const mappedArtists: UIArtist[] = artistsData.artists.map((artist: ArtistProfile) => ({
     name: artist.name,
     url: `/artistas/${artist.slug}`, // Create internal URL using slug
-    image: artist.profileImage || '/placeholder-profile.svg' // Use profileImage for familia section
+    image: artist.profileImage || '/placeholder-profile.svg', // Use profileImage for familia section
+    imagePosition: artist.imagePosition
   }));
   
   // Get filtered team members (excluding Piedad García-Murga, Javier Lapuerta Laorden, and Máriam Cáliz Cáceres)
