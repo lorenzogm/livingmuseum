@@ -1,3 +1,4 @@
+<!-- copilot automation test: safe to revert -->
 # Living Museum Madrid - Next.js Website
 
 This is a modern Next.js implementation of the Living Museum Madrid website (https://livingmuseum.madrid/), featuring a responsive design, interactive components, and dynamic video backgrounds built with React and Tailwind CSS.
