@@ -3,6 +3,7 @@
   "name": "Darío",
   "slug": "dario",
   "image": "/content/team/dario/dario.webp",
+  "imagePosition": "center",
   "description": [
     "Voluntario"
   ],

@@ -16,6 +16,7 @@ export interface TeamMemberProfile {
   name: string;
   slug: string;
   image: string;
+  imagePosition?: 'center' | 'top' | 'bottom';
   description: string[];
   social: {
     linkedin?: string;
