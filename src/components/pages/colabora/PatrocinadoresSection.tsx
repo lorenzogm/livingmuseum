@@ -1,8 +1,42 @@
+import Image from 'next/image';
 import Button from '../../elements/Button';
 
 interface PatrocinadoresSectionProps {
   onContactClick?: () => void;
 }
+
+const sponsors = [
+  {
+    name: 'MAV – Mujeres en las Artes Visuales',
+    logo: '/logos/patrocinadores/mav-logo.png',
+    width: 400,
+    height: 194,
+  },
+  {
+    name: 'CaixaBank',
+    logo: '/logos/patrocinadores/caixabank-logo.png',
+    width: 400,
+    height: 250,
+  },
+  {
+    name: 'EARTDI – Aplicaciones del Arte para la Inclusión Social',
+    logo: '/logos/patrocinadores/eartdi-logo.jpg',
+    width: 500,
+    height: 269,
+  },
+  {
+    name: 'instifem – Instituto de Investigaciones Feministas, Universidad Complutense de Madrid',
+    logo: '/logos/patrocinadores/instifem-logo.png',
+    width: 464,
+    height: 458,
+  },
+  {
+    name: 'Fundación Telefónica',
+    logo: '/logos/patrocinadores/fundacion-telefonica-logo.jpg',
+    width: 1110,
+    height: 366,
+  },
+];
 
 export default function PatrocinadoresSection({ onContactClick }: PatrocinadoresSectionProps) {
   return (
@@ -24,6 +58,20 @@ export default function PatrocinadoresSection({ onContactClick }: Patrocinadores
             >
               Contacta con nosotros
             </Button>
+          </div>
+
+          <div className="mt-12 flex flex-wrap justify-center items-center gap-8 md:gap-10">
+            {sponsors.map((sponsor) => (
+              <div key={sponsor.name} className="flex items-center justify-center">
+                <Image
+                  src={sponsor.logo}
+                  alt={sponsor.name}
+                  width={sponsor.width}
+                  height={sponsor.height}
+                  className="h-20 w-auto object-contain"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>
