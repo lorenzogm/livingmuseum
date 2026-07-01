@@ -8,31 +8,31 @@ interface PatrocinadoresSectionProps {
 const sponsors = [
   {
     name: 'MAV – Mujeres en las Artes Visuales',
-    logo: '/logos/patrocinadores/mav-logo.png',
+    logo: '/logos/patrocinadores/mav-logo.webp',
     width: 400,
     height: 194,
   },
   {
     name: 'CaixaBank',
-    logo: '/logos/patrocinadores/caixabank-logo.png',
+    logo: '/logos/patrocinadores/caixabank-logo.webp',
     width: 400,
     height: 250,
   },
   {
     name: 'EARTDI – Aplicaciones del Arte para la Inclusión Social',
-    logo: '/logos/patrocinadores/eartdi-logo.jpg',
+    logo: '/logos/patrocinadores/eartdi-logo.webp',
     width: 500,
     height: 269,
   },
   {
     name: 'instifem – Instituto de Investigaciones Feministas, Universidad Complutense de Madrid',
-    logo: '/logos/patrocinadores/instifem-logo.png',
+    logo: '/logos/patrocinadores/instifem-logo.webp',
     width: 464,
     height: 458,
   },
   {
     name: 'Fundación Telefónica',
-    logo: '/logos/patrocinadores/fundacion-telefonica-logo.jpg',
+    logo: '/logos/patrocinadores/fundacion-telefonica-logo.webp',
     width: 1110,
     height: 366,
   },
