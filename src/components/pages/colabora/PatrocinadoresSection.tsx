@@ -60,15 +60,18 @@ export default function PatrocinadoresSection({ onContactClick }: Patrocinadores
             </Button>
           </div>
 
-          <div className="mt-12 flex flex-wrap justify-center items-center gap-8 md:gap-10">
+          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6">
             {sponsors.map((sponsor) => (
-              <div key={sponsor.name} className="flex items-center justify-center">
+              <div
+                key={sponsor.name}
+                className="flex items-center justify-center rounded-lg border border-gray-200 bg-white p-6"
+              >
                 <Image
                   src={sponsor.logo}
                   alt={sponsor.name}
                   width={sponsor.width}
                   height={sponsor.height}
-                  className="h-20 w-auto object-contain"
+                  className="h-16 w-auto object-contain md:h-20"
                 />
               </div>
             ))}
