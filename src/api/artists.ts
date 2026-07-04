@@ -18,6 +18,7 @@ import malenaData from '../../public/content/artistas/malena-hidalgo/malena-hida
 import manuelData from '../../public/content/artistas/manuel-vela/manuel-vela.json';
 import miguelData from '../../public/content/artistas/miguel-angel-ruiz/miguel-angel-ruiz.json';
 import pilarData from '../../public/content/artistas/pilar-sanchez-baidez/pilar-sanchez-baidez.json';
+import virginiaData from '../../public/content/artistas/virginia-de-jorge-huertas/virginia-de-jorge-huertas.json';
 import zarcoData from '../../public/content/artistas/zarco/zarco.json';
 
 // Artist interfaces
@@ -75,6 +76,7 @@ const allArtists: ArtistProfile[] = [
   manuelData,
   miguelData,
   pilarData,
+  virginiaData,
   zarcoData
 ] as ArtistProfile[];
 
