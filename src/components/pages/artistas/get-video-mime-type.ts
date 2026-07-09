@@ -5,11 +5,13 @@ export function getVideoMimeType(artwork: Artwork) {
     return artwork.mimeType;
   }
 
-  if (artwork.image.endsWith('.mov')) {
+  const normalizedImage = artwork.image.toLowerCase();
+
+  if (normalizedImage.endsWith('.mov')) {
     return 'video/quicktime';
   }
 
-  if (artwork.image.endsWith('.webm')) {
+  if (normalizedImage.endsWith('.webm')) {
     return 'video/webm';
   }
 

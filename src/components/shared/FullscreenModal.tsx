@@ -187,7 +187,7 @@ export default function FullscreenModal({
                         sizes="64px"
                       />
                     ) : (
-                      <div className="flex h-full w-full items-center justify-center bg-gray-900 text-white">
+                      <div className="flex h-full w-full items-center justify-center bg-gray-900 text-white" aria-hidden="true">
                         <VideoPlayIcon className="h-6 w-6" />
                       </div>
                     )

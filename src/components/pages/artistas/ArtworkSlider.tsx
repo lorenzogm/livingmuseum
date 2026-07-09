@@ -82,7 +82,7 @@ export default function ArtworkSlider({ artworks }: ArtworkSliderProps) {
                       sizes="(max-width: 640px) 33vw, (max-width: 768px) 25vw, (max-width: 1024px) 16vw, 12vw"
                     />
                   ) : (
-                    <div className="flex h-full w-full items-center justify-center bg-gray-900 text-white">
+                    <div className="flex h-full w-full items-center justify-center bg-gray-900 text-white" aria-hidden="true">
                       <VideoPlayIcon />
                     </div>
                   )
