@@ -29,6 +29,10 @@ export interface Artwork {
   dimensions: string;
   year: string;
   image: string;
+  mediaType?: 'image' | 'video';
+  mimeType?: string;
+  thumbnailImage?: string;
+  fallbackText?: string;
   description?: string;
 }
 
@@ -105,6 +109,21 @@ const normalizeArtwork = (artwork: Artwork): Artwork => ({
   year: artwork.year || ''
 });
 
+const unsupportedVideoFallbackText = 'Tu navegador no soporta la reproducción de este vídeo.';
+
+const normalizeVideo = (video: ArtistVideo): Artwork => ({
+  id: video.id,
+  title: video.title,
+  medium: 'Vídeo',
+  dimensions: '',
+  year: '',
+  image: video.src,
+  mediaType: 'video',
+  mimeType: video.type,
+  fallbackText: unsupportedVideoFallbackText,
+  description: video.description
+});
+
 // Process artists to handle null profile images
 const processedArtists: ArtistProfile[] = allArtists.map(artist => ({
   ...artist,
@@ -113,7 +132,10 @@ const processedArtists: ArtistProfile[] = allArtists.map(artist => ({
   artworks: (artist.artworks || []).map(normalizeArtwork),
   artworkSections: artist.artworkSections?.map(section => ({
     ...section,
-    artworks: section.artworks?.map(normalizeArtwork)
+    artworks: [
+      ...(section.artworks?.map(normalizeArtwork) || []),
+      ...(section.videos?.map(normalizeVideo) || [])
+    ]
   }))
 }));
 
