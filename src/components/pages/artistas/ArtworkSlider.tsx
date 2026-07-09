@@ -5,25 +5,11 @@ import { Image } from '@/components/elements/Image';
 import Text from '@/components/elements/Text';
 import FullscreenModal from '@/components/shared/FullscreenModal';
 import type { Artwork } from '@/api/apiSdk';
+import { getVideoMimeType } from './get-video-mime-type';
+import { VideoPlayIcon } from './video-play-icon';
 
 interface ArtworkSliderProps {
   artworks: Artwork[];
-}
-
-function getVideoMimeType(artwork: Artwork) {
-  if (artwork.mimeType) {
-    return artwork.mimeType;
-  }
-
-  if (artwork.image.endsWith('.mov')) {
-    return 'video/quicktime';
-  }
-
-  if (artwork.image.endsWith('.webm')) {
-    return 'video/webm';
-  }
-
-  return 'video/mp4';
 }
 
 export default function ArtworkSlider({ artworks }: ArtworkSliderProps) {
@@ -97,9 +83,7 @@ export default function ArtworkSlider({ artworks }: ArtworkSliderProps) {
                     />
                   ) : (
                     <div className="flex h-full w-full items-center justify-center bg-gray-900 text-white">
-                      <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
+                      <VideoPlayIcon />
                     </div>
                   )
                 ) : (
@@ -134,7 +118,7 @@ export default function ArtworkSlider({ artworks }: ArtworkSliderProps) {
                 aria-label={currentArtwork.title}
               >
                 <source src={currentArtwork.image} type={getVideoMimeType(currentArtwork)} />
-                {currentArtwork.fallbackText}
+                {currentArtwork.fallbackText && <p>{currentArtwork.fallbackText}</p>}
               </video>
             </div>
           ) : (
