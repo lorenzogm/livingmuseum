@@ -12,6 +12,15 @@ interface ArtistProfileProps {
 }
 
 export default function ArtistProfile({ artist }: ArtistProfileProps) {
+  const artworkSections = artist.artworkSections?.filter((section) => {
+    const artworkCount = section.artworks?.length || 0;
+    const videoCount = section.videos?.length || 0;
+
+    return artworkCount > 0 || videoCount > 0;
+  }) || [];
+
+  const hasArtworkSections = artworkSections.length > 0;
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -46,6 +55,14 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
                   >
                     &ldquo;{artist.quote}&rdquo;
                   </Text>
+                  {artist.quoteAuthor && (
+                    <Text
+                      variant="body"
+                      className="mt-4 text-gray-700"
+                    >
+                      — {artist.quoteAuthor}
+                    </Text>
+                  )}
                 </blockquote>
               )}
 
@@ -112,11 +129,22 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
               </Text>
             ))}
           </div>
+          {artist.websiteUrl && (
+            <div className="mt-8">
+              <Button
+                href={artist.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visitar la web de la artista
+              </Button>
+            </div>
+          )}
         </div>
       </section>
 
       {/* Artworks Section */}
-      {artist.artworks && artist.artworks.length > 0 && (
+      {(hasArtworkSections || (artist.artworks && artist.artworks.length > 0)) && (
         <section className="py-20 px-6 bg-white">
           <div className="max-w-7xl mx-auto">
             <Text
@@ -127,7 +155,49 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
             >
               Obras
             </Text>
-            <ArtworkSlider artworks={artist.artworks} />
+            {hasArtworkSections ? (
+              <div className="space-y-16">
+                {artworkSections.map((section) => (
+                  <div key={section.id}>
+                    <Text
+                      variant="heading"
+                      as="h3"
+                      align="center"
+                      className="mb-8 text-gray-900"
+                    >
+                      {section.title}
+                    </Text>
+                    {section.artworks && section.artworks.length > 0 && (
+                      <ArtworkSlider artworks={section.artworks} />
+                    )}
+                    {section.videos && section.videos.length > 0 && (
+                      <div className="mt-10 space-y-8">
+                        {section.videos.map((video) => (
+                          <figure key={video.id} className="space-y-4">
+                            <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg bg-gray-100">
+                              <video controls className="w-full h-full">
+                                <source src={video.src} type={video.type} />
+                                Tu navegador no soporta el elemento de video.
+                              </video>
+                            </div>
+                            <figcaption className="text-center">
+                              <Text
+                                variant="body"
+                                className="italic text-gray-700"
+                              >
+                                {video.description || video.title}
+                              </Text>
+                            </figcaption>
+                          </figure>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <ArtworkSlider artworks={artist.artworks} />
+            )}
           </div>
         </section>
       )}

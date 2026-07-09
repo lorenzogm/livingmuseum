@@ -32,6 +32,21 @@ export interface Artwork {
   description?: string;
 }
 
+export interface ArtistVideo {
+  id: string;
+  title: string;
+  src: string;
+  type: string;
+  description?: string;
+}
+
+export interface ArtworkSection {
+  id: string;
+  title: string;
+  artworks?: Artwork[];
+  videos?: ArtistVideo[];
+}
+
 export interface ArtistProfile {
   id: string;
   name: string;
@@ -40,9 +55,12 @@ export interface ArtistProfile {
   profileImage: string;
   imagePosition?: 'center' | 'top' | 'bottom';
   quote?: string;
+  quoteAuthor?: string;
   biography: string[];
   artworks: Artwork[];
+  artworkSections?: ArtworkSection[];
   profileUrl: string;
+  websiteUrl?: string;
   social?: {
     instagram?: string;
     linkedin?: string;

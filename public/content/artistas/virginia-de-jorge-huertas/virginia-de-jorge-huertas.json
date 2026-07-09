@@ -5,9 +5,131 @@
   "featuredImage": "/content/artistas/virginia-de-jorge-huertas/virginia-de-jorge-huertas-profile.webp",
   "profileImage": "/content/artistas/virginia-de-jorge-huertas/virginia-de-jorge-huertas-profile.webp",
   "imagePosition": "center",
+  "quote": "Pinto flores para que así no mueran.",
+  "quoteAuthor": "Frida Kahlo",
   "biography": [
     "Virginia De Jorge Huertas es artista participante de Living Museum Madrid, donde explora la creación como espacio de libertad y transformación personal."
   ],
   "artworks": [],
-  "profileUrl": "/artistas/virginia-de-jorge-huertas"
+  "artworkSections": [
+    {
+      "id": "libelulas",
+      "title": "Serie: Libélulas (2026)",
+      "artworks": [
+        {
+          "id": "libelulas-1",
+          "title": "Libélulas 1 (2026)",
+          "medium": "",
+          "dimensions": "",
+          "year": "",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas-1.jpg"
+        },
+        {
+          "id": "libelulas-2",
+          "title": "Libélulas 2 (2026)",
+          "medium": "",
+          "dimensions": "",
+          "year": "",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas-2.jpg"
+        },
+        {
+          "id": "libelulas-3",
+          "title": "Libélulas 3 (2026)",
+          "medium": "",
+          "dimensions": "",
+          "year": "",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas-3.jpg",
+          "description": "Fotografía realizada por Francisco del Corral del Campo."
+        },
+        {
+          "id": "libelulas-4",
+          "title": "Libélulas 4 (2026)",
+          "medium": "",
+          "dimensions": "",
+          "year": "",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas-4.jpg",
+          "description": "Fotografía realizada por Rebeca de Jorge Huertas."
+        }
+      ]
+    },
+    {
+      "id": "perspectiva",
+      "title": "Serie: Perspectiva",
+      "artworks": [
+        {
+          "id": "perspectiva-1",
+          "title": "Perspectiva 1 (2026)",
+          "medium": "",
+          "dimensions": "",
+          "year": "",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-1.jpg"
+        },
+        {
+          "id": "perspectiva-2",
+          "title": "Perspectiva 2 (2026)",
+          "medium": "",
+          "dimensions": "",
+          "year": "",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-2.jpg"
+        },
+        {
+          "id": "perspectiva-3",
+          "title": "Perspectiva 3 (2026)",
+          "medium": "",
+          "dimensions": "",
+          "year": "",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-3.jpg"
+        },
+        {
+          "id": "perspectiva-4",
+          "title": "Perspectiva 4 (2026)",
+          "medium": "",
+          "dimensions": "",
+          "year": "",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-4.jpg"
+        },
+        {
+          "id": "perspectiva-5",
+          "title": "Perspectiva 5 (2026)",
+          "medium": "",
+          "dimensions": "",
+          "year": "",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-5.jpg"
+        },
+        {
+          "id": "perspectiva-6",
+          "title": "Perspectiva 6 (2026)",
+          "medium": "",
+          "dimensions": "",
+          "year": "",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-6.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "id": "perspectiva-video-io",
+          "title": "Vídeo realizado por IO",
+          "src": "/content/artistas/virginia-de-jorge-huertas/videos/perspectiva-io.mov",
+          "type": "video/quicktime",
+          "description": "Vídeo realizado por IO"
+        }
+      ]
+    },
+    {
+      "id": "autorretrato",
+      "title": "Serie: Autorretrato",
+      "artworks": [
+        {
+          "id": "autorretrato",
+          "title": "Autorretrato (2023)",
+          "medium": "",
+          "dimensions": "",
+          "year": "",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/autorretrato.jpg"
+        }
+      ]
+    }
+  ],
+  "profileUrl": "/artistas/virginia-de-jorge-huertas",
+  "websiteUrl": "https://www.virginiadejorge.com/"
 }
