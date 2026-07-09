@@ -65,23 +65,35 @@
         {
           "id": "libelulas-1",
           "title": "Libélulas 1 (2026)",
-          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas-1.jpg"
+          "medium": "",
+          "dimensions": "",
+          "year": "2026",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas/libelulas-1.webp"
         },
         {
           "id": "libelulas-2",
           "title": "Libélulas 2 (2026)",
-          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas-2.jpg"
+          "medium": "",
+          "dimensions": "",
+          "year": "2026",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas/libelulas-2.webp"
         },
         {
           "id": "libelulas-3",
           "title": "Libélulas 3 (2026)",
-          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas-3.jpg",
+          "medium": "",
+          "dimensions": "",
+          "year": "2026",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas/libelulas-3.webp",
           "description": "Fotografía realizada por Francisco del Corral del Campo."
         },
         {
           "id": "libelulas-4",
           "title": "Libélulas 4 (2026)",
-          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas-4.jpg",
+          "medium": "",
+          "dimensions": "",
+          "year": "2026",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas/libelulas-4.webp",
           "description": "Fotografía realizada por Rebeca de Jorge Huertas."
         }
       ]
@@ -93,40 +105,62 @@
         {
           "id": "perspectiva-1",
           "title": "Perspectiva 1 (2026)",
-          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-1.jpg"
+          "medium": "",
+          "dimensions": "",
+          "year": "2026",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-1.webp"
         },
         {
           "id": "perspectiva-2",
           "title": "Perspectiva 2 (2026)",
-          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-2.jpg"
+          "medium": "",
+          "dimensions": "",
+          "year": "2026",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-2.webp"
         },
         {
           "id": "perspectiva-3",
           "title": "Perspectiva 3 (2026)",
-          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-3.jpg"
+          "medium": "",
+          "dimensions": "",
+          "year": "2026",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-3.webp"
         },
         {
           "id": "perspectiva-4",
           "title": "Perspectiva 4 (2026)",
-          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-4.jpg"
+          "medium": "",
+          "dimensions": "",
+          "year": "2026",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-4.webp"
         },
         {
           "id": "perspectiva-5",
           "title": "Perspectiva 5 (2026)",
-          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-5.jpg"
+          "medium": "",
+          "dimensions": "",
+          "year": "2026",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-5.webp"
         },
         {
           "id": "perspectiva-6",
           "title": "Perspectiva 6 (2026)",
-          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva-6.jpg"
-        }
-      ],
-      "videos": [
+          "medium": "",
+          "dimensions": "",
+          "year": "2026",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-6.webp"
+        },
         {
-          "id": "perspectiva-video-io",
+          "id": "perspectiva-video",
           "title": "Vídeo realizado por IO",
-          "src": "/content/artistas/virginia-de-jorge-huertas/videos/perspectiva-io.mov",
-          "type": "video/quicktime",
+          "medium": "Vídeo",
+          "dimensions": "",
+          "year": "2026",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-video.mov",
+          "mediaType": "video",
+          "mimeType": "video/quicktime",
+          "thumbnailImage": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-1.webp",
+          "fallbackText": "Tu navegador no soporta la reproducción de este vídeo.",
           "description": "Vídeo realizado por IO"
         }
       ]
@@ -136,9 +170,12 @@
       "title": "Serie: Autorretrato",
       "artworks": [
         {
-          "id": "autorretrato",
+          "id": "autorretrato-2023",
           "title": "Autorretrato (2023)",
-          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/autorretrato.jpg"
+          "medium": "",
+          "dimensions": "",
+          "year": "2023",
+          "image": "/content/artistas/virginia-de-jorge-huertas/artworks/autorretrato/autorretrato-2023.webp"
         }
       ]
     },
