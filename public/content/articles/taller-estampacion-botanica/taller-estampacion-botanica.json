@@ -1,0 +1,56 @@
+{
+  "id": "taller-estampacion-botanica",
+  "title": "TALLER DE ESTAMPACIÓN BOTÁNICA",
+  "slug": "taller-estampacion-botanica",
+  "featuredImage": "/content/articles/taller-estampacion-botanica/images/taller-estampacion-botanica-featured.webp",
+  "excerpt": "Los pasados días 11 y 18 de marzo, Living Museum Madrid se convirtió en un espacio de encuentro, aprendizaje e intercambio artístico gracias al Taller de Estampación Botánica, liderado por el artista Darío José Esteban González.",
+  "date": "2026-03-11",
+  "dateFormatted": "marzo, 2026",
+  "category": "talleres",
+  "tags": ["taller", "estampación", "botánica", "arte", "educación artística", "UCM", "arteterapia", "inclusión"],
+  "url": "/actualidad/taller-estampacion-botanica",
+  "content": [
+    "Días 11 y 18 de Marzo de 2026",
+    "Living Museum Madrid participa en el Taller de Estampación Botánica realizado por el artista Darío Esteban González.",
+    "Los pasados días 11 y 18 de marzo, Living Museum Madrid se convirtió en un espacio de encuentro, aprendizaje e intercambio artístico gracias al Taller de Estampación Botánica, liderado por el artista Darío José Esteban González.",
+    "La propuesta formó parte del Proyecto de Aprendizaje Servicio CASI (Colaboración Artística para la Inclusión), una iniciativa propuesta desde la Facultad de Educación de la Universidad Complutense de Madrid (UCM), a través de la cual compartimos el taller con el alumnado del Máster de Arteterapia y Educación Artística para la Inclusión Social (UCM).",
+    "A lo largo de las dos sesiones, el grupo trabajó con técnicas y materiales poco convencionales. Las planchas de gel, la tinta, los rodillos, las plantas y otros diversos recursos relacionados con la estampación, fueron como anillo para compartir el proceso creativo, permitiendo compartir la sensibilidad de las creaciones y exponer los resultados durante la pausa del café."
+  ],
+  "gallery": [
+    {
+      "image": "/content/articles/taller-estampacion-botanica/images/taller-estampacion-botanica-gallery-1.webp",
+      "caption": "Taller de Estampación Botánica realizado por el artista Darío Esteban González",
+      "alt": "Participantes del Taller de Estampación Botánica trabajando con técnicas de estampación"
+    },
+    {
+      "image": "/content/articles/taller-estampacion-botanica/images/taller-estampacion-botanica-gallery-2.webp",
+      "caption": "Taller de Estampación Botánica realizado por el artista Darío Esteban González",
+      "alt": "Participantes observando las estampaciones botánicas expuestas en el suelo"
+    },
+    {
+      "image": "/content/articles/taller-estampacion-botanica/images/taller-estampacion-botanica-gallery-3.webp",
+      "caption": "Taller de Estampación Botánica realizado por el artista Darío Esteban González",
+      "alt": "Colección de estampaciones botánicas creadas durante el taller"
+    },
+    {
+      "image": "/content/articles/taller-estampacion-botanica/images/taller-estampacion-botanica-gallery-4.webp",
+      "caption": "Taller de Estampación Botánica realizado por el artista Darío Esteban González",
+      "alt": "Materiales y tintas utilizados en el Taller de Estampación Botánica"
+    },
+    {
+      "image": "/content/articles/taller-estampacion-botanica/images/taller-estampacion-botanica-gallery-5.webp",
+      "caption": "Taller de Estampación Botánica realizado por el artista Darío Esteban González",
+      "alt": "Participantes trabajando con planchas de gel y plantas en el taller de estampación"
+    },
+    {
+      "image": "/content/articles/taller-estampacion-botanica/images/taller-estampacion-botanica-gallery-6.webp",
+      "caption": "Taller de Estampación Botánica realizado por el artista Darío Esteban González",
+      "alt": "Proceso creativo del Taller de Estampación Botánica"
+    },
+    {
+      "image": "/content/articles/taller-estampacion-botanica/images/taller-estampacion-botanica-gallery-7.webp",
+      "caption": "Taller de Estampación Botánica realizado por el artista Darío Esteban González",
+      "alt": "Resultado final de las estampaciones botánicas del taller"
+    }
+  ]
+}
