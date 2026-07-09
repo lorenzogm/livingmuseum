@@ -98,11 +98,23 @@ const allArtists: ArtistProfile[] = [
   zarcoData
 ] as ArtistProfile[];
 
+const normalizeArtwork = (artwork: Artwork): Artwork => ({
+  ...artwork,
+  medium: artwork.medium || '',
+  dimensions: artwork.dimensions || '',
+  year: artwork.year || ''
+});
+
 // Process artists to handle null profile images
 const processedArtists: ArtistProfile[] = allArtists.map(artist => ({
   ...artist,
   featuredImage: artist.featuredImage || '/placeholder-profile.svg',
-  profileImage: artist.profileImage || '/placeholder-profile.svg'
+  profileImage: artist.profileImage || '/placeholder-profile.svg',
+  artworks: (artist.artworks || []).map(normalizeArtwork),
+  artworkSections: artist.artworkSections?.map(section => ({
+    ...section,
+    artworks: section.artworks?.map(normalizeArtwork)
+  }))
 }));
 
 // Artists content loader

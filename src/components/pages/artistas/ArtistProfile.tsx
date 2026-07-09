@@ -11,6 +11,9 @@ interface ArtistProfileProps {
   artist: ArtistType;
 }
 
+const artistWebsiteLabel = 'Visitar la web de la artista';
+const unsupportedVideoMessage = 'Tu navegador no soporta el elemento de video.';
+
 export default function ArtistProfile({ artist }: ArtistProfileProps) {
   const artworkSections = artist.artworkSections?.filter((section) => {
     const artworkCount = section.artworks?.length || 0;
@@ -58,7 +61,8 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
                   {artist.quoteAuthor && (
                     <Text
                       variant="body"
-                      className="mt-4 text-gray-700"
+                      as="cite"
+                      className="mt-4 block text-gray-700 not-italic"
                     >
                       — {artist.quoteAuthor}
                     </Text>
@@ -136,7 +140,7 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Visitar la web de la artista
+                {artistWebsiteLabel}
               </Button>
             </div>
           )}
@@ -175,9 +179,15 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
                         {section.videos.map((video) => (
                           <figure key={video.id} className="space-y-4">
                             <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg bg-gray-100">
-                              <video controls className="w-full h-full">
+                              <video
+                                controls
+                                preload="metadata"
+                                title={video.title}
+                                aria-label={video.title}
+                                className="w-full h-full"
+                              >
                                 <source src={video.src} type={video.type} />
-                                Tu navegador no soporta el elemento de video.
+                                {unsupportedVideoMessage}
                               </video>
                             </div>
                             <figcaption className="text-center">
