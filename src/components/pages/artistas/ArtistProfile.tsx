@@ -12,6 +12,9 @@ interface ArtistProfileProps {
 }
 
 export default function ArtistProfile({ artist }: ArtistProfileProps) {
+  const hasArtworkSeries = artist.artworkSeries && artist.artworkSeries.length > 0;
+  const hasStandaloneArtworks = artist.artworks && artist.artworks.length > 0;
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -46,6 +49,14 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
                   >
                     &ldquo;{artist.quote}&rdquo;
                   </Text>
+                  {artist.quoteAuthor && (
+                    <Text
+                      variant="body"
+                      className="mt-4 text-gray-600"
+                    >
+                      — {artist.quoteAuthor}
+                    </Text>
+                  )}
                 </blockquote>
               )}
 
@@ -112,11 +123,23 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
               </Text>
             ))}
           </div>
+          {artist.websiteUrl && (
+            <div className="mt-10">
+              <Button
+                href={artist.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="secondary"
+              >
+                Visitar la web de la artista
+              </Button>
+            </div>
+          )}
         </div>
       </section>
 
       {/* Artworks Section */}
-      {artist.artworks && artist.artworks.length > 0 && (
+      {(hasArtworkSeries || hasStandaloneArtworks) && (
         <section className="py-20 px-6 bg-white">
           <div className="max-w-7xl mx-auto">
             <Text
@@ -127,7 +150,24 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
             >
               Obras
             </Text>
-            <ArtworkSlider artworks={artist.artworks} />
+            <div className="space-y-16">
+              {hasArtworkSeries ? (
+                artist.artworkSeries?.map((series) => (
+                  <div key={series.id} className="space-y-8">
+                    <Text
+                      variant="heading"
+                      as="h3"
+                      className="text-center text-gray-900"
+                    >
+                      {series.title}
+                    </Text>
+                    <ArtworkSlider artworks={series.artworks} />
+                  </div>
+                ))
+              ) : (
+                <ArtworkSlider artworks={artist.artworks} />
+              )}
+            </div>
           </div>
         </section>
       )}

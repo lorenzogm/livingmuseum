@@ -75,6 +75,7 @@ export default function FullscreenModal({
   if (!isOpen) return null;
 
   const currentArtwork = artworks[currentIndex];
+  const currentArtworkIsVideo = currentArtwork.mediaType === 'video';
 
   return (
     <div 
@@ -100,13 +101,24 @@ export default function FullscreenModal({
         {/* Main Image Area */}
         <div className="flex-1 flex items-center justify-center min-h-0 mb-4">
           <div className="relative w-full h-full max-h-[calc(100vh-200px)]">
-            <Image
-              src={currentArtwork.image}
-              alt={currentArtwork.title}
-              className="w-full h-full object-contain"
-              fill
-              priority
-            />
+            {currentArtworkIsVideo ? (
+              <video
+                controls
+                className="h-full w-full object-contain"
+                aria-label={currentArtwork.title}
+              >
+                <source src={currentArtwork.image} type="video/quicktime" />
+                Tu navegador no soporta la reproducción de este vídeo.
+              </video>
+            ) : (
+              <Image
+                src={currentArtwork.image}
+                alt={currentArtwork.title}
+                className="w-full h-full object-contain"
+                fill
+                priority
+              />
+            )}
             
             {/* Navigation Arrows */}
             {artworks.length > 1 && (
@@ -163,13 +175,31 @@ export default function FullscreenModal({
                   }`}
                   aria-label={`Ver ${artwork.title}`}
                 >
-                  <Image
-                    src={artwork.image}
-                    alt={artwork.title}
-                    className="w-full h-full object-cover"
-                    fill
-                    sizes="64px"
-                  />
+                  {artwork.mediaType === 'video' ? (
+                    artwork.thumbnailImage ? (
+                      <Image
+                        src={artwork.thumbnailImage}
+                        alt={artwork.title}
+                        className="w-full h-full object-cover"
+                        fill
+                        sizes="64px"
+                      />
+                    ) : (
+                      <div className="flex h-full w-full items-center justify-center bg-gray-900 text-white">
+                        <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M8 5v14l11-7z" />
+                        </svg>
+                      </div>
+                    )
+                  ) : (
+                    <Image
+                      src={artwork.image}
+                      alt={artwork.title}
+                      className="w-full h-full object-cover"
+                      fill
+                      sizes="64px"
+                    />
+                  )}
                   
                   {/* Overlay for active thumbnail */}
                   {index === currentIndex && (

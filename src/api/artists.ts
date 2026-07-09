@@ -29,7 +29,15 @@ export interface Artwork {
   dimensions: string;
   year: string;
   image: string;
+  mediaType?: 'image' | 'video';
+  thumbnailImage?: string;
   description?: string;
+}
+
+export interface ArtworkSeries {
+  id: string;
+  title: string;
+  artworks: Artwork[];
 }
 
 export interface ArtistProfile {
@@ -40,9 +48,12 @@ export interface ArtistProfile {
   profileImage: string;
   imagePosition?: 'center' | 'top' | 'bottom';
   quote?: string;
+  quoteAuthor?: string;
   biography: string[];
   artworks: Artwork[];
+  artworkSeries?: ArtworkSeries[];
   profileUrl: string;
+  websiteUrl?: string;
   social?: {
     instagram?: string;
     linkedin?: string;

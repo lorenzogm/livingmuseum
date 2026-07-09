@@ -135,7 +135,8 @@ export type {
 export type {
   ArtistsPageContent,
   ArtistProfile,
-  Artwork
+  Artwork,
+  ArtworkSeries
 } from './artists';
 
 export type {
