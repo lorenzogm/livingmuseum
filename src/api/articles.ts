@@ -1,8 +1,10 @@
 // Articles content and types
 
 // Import individual article data (chronologically sorted - newest first)
+import caleidoscopicaExposicionFinalData from '../../public/content/articles/caleidoscopica-exposicion-final-terceras-residencias-artisticas/caleidoscopica-exposicion-final-terceras-residencias-artisticas.json';
 import iiiResidenciasArtisticasData from '../../public/content/articles/iii-residencias-artisticas-living-museum-25-26/iii-residencias-artisticas-living-museum-25-26.json';
 import convocatoriaResidenciasData from '../../public/content/articles/convocatoria-residencias-living-museum-25-26/convocatoria-residencias-living-museum-25-26.json';
+import microcosmosEcotonosUniversosData from '../../public/content/articles/microcosmos-ecotonos-universos-exposicion-final/microcosmos-ecotonos-universos-exposicion-final.json';
 import elDespliegueDeLaPausaData from '../../public/content/articles/el-despliegue-de-la-pausa-exposicion-final/el-despliegue-de-la-pausa-exposicion-final.json';
 import premioRetoSolidarioData from '../../public/content/articles/premio-reto-solidario/premio-reto-solidario.json';
 import entrevistaRadioData from '../../public/content/articles/entrevista-en-radio-onda-cero/entrevista-en-radio-onda-cero.json';
@@ -41,8 +43,10 @@ export interface ArticlesPageContent {
 
 // Combine all articles (chronologically sorted - newest first)
 const allArticles: Article[] = [
+  caleidoscopicaExposicionFinalData as Article,
   iiiResidenciasArtisticasData as Article,
   convocatoriaResidenciasData as Article,
+  microcosmosEcotonosUniversosData as Article,
   elDespliegueDeLaPausaData as Article,
   premioRetoSolidarioData as Article,
   entrevistaRadioData as Article,
@@ -80,8 +84,10 @@ export const getFeaturedArticles = (limit: number = 4): Article[] => {
 
 // Export data for use in other modules
 export {
+  caleidoscopicaExposicionFinalData,
   iiiResidenciasArtisticasData,
   convocatoriaResidenciasData,
+  microcosmosEcotonosUniversosData,
   elDespliegueDeLaPausaData,
   premioRetoSolidarioData,
   entrevistaRadioData,
