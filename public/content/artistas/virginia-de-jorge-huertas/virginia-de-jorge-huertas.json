@@ -8,6 +8,52 @@
   "biography": [
     "Virginia De Jorge Huertas es artista participante de Living Museum Madrid, donde explora la creación como espacio de libertad y transformación personal."
   ],
-  "artworks": [],
+  "artworks": [
+    {
+      "id": "taller-estampacion-1",
+      "title": "Taller de estampación con Darío José Esteban González en las III Residencias de Arte de Living Museum Madrid, Centro de Cultura Contemporánea Condeduque (Madrid) I",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/virginia-de-jorge-huertas/artworks/taller-estampacion-1.webp",
+      "description": "Taller de Estampación"
+    },
+    {
+      "id": "taller-estampacion-2",
+      "title": "Taller de estampación con Darío José Esteban González en las III Residencias de Arte de Living Museum Madrid, Centro de Cultura Contemporánea Condeduque (Madrid) II",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/virginia-de-jorge-huertas/artworks/taller-estampacion-2.webp",
+      "description": "Taller de Estampación"
+    },
+    {
+      "id": "taller-estampacion-3",
+      "title": "Taller de estampación con Darío José Esteban González en las III Residencias de Arte de Living Museum Madrid, Centro de Cultura Contemporánea Condeduque (Madrid) III",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/virginia-de-jorge-huertas/artworks/taller-estampacion-3.webp",
+      "description": "Taller de Estampación"
+    },
+    {
+      "id": "taller-estampacion-4",
+      "title": "Taller de estampación con Darío José Esteban González en las III Residencias de Arte de Living Museum Madrid, Centro de Cultura Contemporánea Condeduque (Madrid) IV",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/virginia-de-jorge-huertas/artworks/taller-estampacion-4.webp",
+      "description": "Taller de Estampación"
+    },
+    {
+      "id": "taller-estampacion-5",
+      "title": "Taller de estampación con Darío José Esteban González en las III Residencias de Arte de Living Museum Madrid, Centro de Cultura Contemporánea Condeduque (Madrid) V",
+      "medium": "",
+      "dimensions": "",
+      "year": "",
+      "image": "/content/artistas/virginia-de-jorge-huertas/artworks/taller-estampacion-5.webp",
+      "description": "Taller de Estampación"
+    }
+  ],
   "profileUrl": "/artistas/virginia-de-jorge-huertas"
 }
