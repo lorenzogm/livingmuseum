@@ -15,7 +15,7 @@ const artistWebsiteLabel = 'Visitar la web de la artista';
 
 export default function ArtistProfile({ artist }: ArtistProfileProps) {
   const artworkSections = artist.artworkSections?.filter((section) => {
-    return (section.artworks?.length || 0) > 0;
+    return (section.artworks?.length || 0) > 0 || (section.videos?.length || 0) > 0;
   }) || [];
 
   const hasArtworkSections = artworkSections.length > 0;

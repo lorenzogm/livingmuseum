@@ -109,6 +109,8 @@ const normalizeArtwork = (artwork: Artwork): Artwork => ({
   year: artwork.year || ''
 });
 
+const unsupportedVideoFallbackText = 'Tu navegador no soporta la reproducción de este vídeo.';
+
 const normalizeVideo = (video: ArtistVideo): Artwork => ({
   id: video.id,
   title: video.title,
@@ -118,7 +120,7 @@ const normalizeVideo = (video: ArtistVideo): Artwork => ({
   image: video.src,
   mediaType: 'video',
   mimeType: video.type,
-  fallbackText: 'Tu navegador no soporta la reproducción de este vídeo.',
+  fallbackText: unsupportedVideoFallbackText,
   description: video.description
 });
 
