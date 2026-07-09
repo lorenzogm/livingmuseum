@@ -11,9 +11,14 @@ interface ArtistProfileProps {
   artist: ArtistType;
 }
 
+const artistWebsiteLabel = 'Visitar la web de la artista';
+
 export default function ArtistProfile({ artist }: ArtistProfileProps) {
-  const hasArtworkSeries = artist.artworkSeries && artist.artworkSeries.length > 0;
-  const hasStandaloneArtworks = artist.artworks && artist.artworks.length > 0;
+  const artworkSections = artist.artworkSections?.filter((section) => {
+    return (section.artworks?.length || 0) > 0;
+  }) || [];
+
+  const hasArtworkSections = artworkSections.length > 0;
 
   return (
     <div className="min-h-screen bg-white">
@@ -52,7 +57,8 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
                   {artist.quoteAuthor && (
                     <Text
                       variant="body"
-                      className="mt-4 text-gray-600"
+                      as="cite"
+                      className="mt-4 block text-gray-700 not-italic"
                     >
                       — {artist.quoteAuthor}
                     </Text>
@@ -124,14 +130,14 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
             ))}
           </div>
           {artist.websiteUrl && (
-            <div className="mt-10">
+            <div className="mt-8">
               <Button
                 href={artist.websiteUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 variant="secondary"
               >
-                Visitar la web de la artista
+                {artistWebsiteLabel}
               </Button>
             </div>
           )}
@@ -139,7 +145,7 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
       </section>
 
       {/* Artworks Section */}
-      {(hasArtworkSeries || hasStandaloneArtworks) && (
+      {(hasArtworkSections || (artist.artworks && artist.artworks.length > 0)) && (
         <section className="py-20 px-6 bg-white">
           <div className="max-w-7xl mx-auto">
             <Text
@@ -151,17 +157,19 @@ export default function ArtistProfile({ artist }: ArtistProfileProps) {
               Obras
             </Text>
             <div className="space-y-16">
-              {hasArtworkSeries ? (
-                artist.artworkSeries?.map((series) => (
-                  <div key={series.id} className="space-y-8">
+              {hasArtworkSections ? (
+                artworkSections.map((section) => (
+                  <div key={section.id} className="space-y-8">
                     <Text
                       variant="heading"
                       as="h3"
                       className="text-center text-gray-900"
                     >
-                      {series.title}
+                      {section.title}
                     </Text>
-                    <ArtworkSlider artworks={series.artworks} />
+                    {section.artworks && section.artworks.length > 0 && (
+                      <ArtworkSlider artworks={section.artworks} />
+                    )}
                   </div>
                 ))
               ) : (

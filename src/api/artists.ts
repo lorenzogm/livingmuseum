@@ -36,10 +36,19 @@ export interface Artwork {
   description?: string;
 }
 
-export interface ArtworkSeries {
+export interface ArtistVideo {
   id: string;
   title: string;
-  artworks: Artwork[];
+  src: string;
+  type: string;
+  description?: string;
+}
+
+export interface ArtworkSection {
+  id: string;
+  title: string;
+  artworks?: Artwork[];
+  videos?: ArtistVideo[];
 }
 
 export interface ArtistProfile {
@@ -53,7 +62,7 @@ export interface ArtistProfile {
   quoteAuthor?: string;
   biography: string[];
   artworks: Artwork[];
-  artworkSeries?: ArtworkSeries[];
+  artworkSections?: ArtworkSection[];
   profileUrl: string;
   websiteUrl?: string;
   social?: {
@@ -93,11 +102,39 @@ const allArtists: ArtistProfile[] = [
   zarcoData
 ] as ArtistProfile[];
 
+const normalizeArtwork = (artwork: Artwork): Artwork => ({
+  ...artwork,
+  medium: artwork.medium || '',
+  dimensions: artwork.dimensions || '',
+  year: artwork.year || ''
+});
+
+const normalizeVideo = (video: ArtistVideo): Artwork => ({
+  id: video.id,
+  title: video.title,
+  medium: 'Vídeo',
+  dimensions: '',
+  year: '',
+  image: video.src,
+  mediaType: 'video',
+  mimeType: video.type,
+  fallbackText: 'Tu navegador no soporta la reproducción de este vídeo.',
+  description: video.description
+});
+
 // Process artists to handle null profile images
 const processedArtists: ArtistProfile[] = allArtists.map(artist => ({
   ...artist,
   featuredImage: artist.featuredImage || '/placeholder-profile.svg',
-  profileImage: artist.profileImage || '/placeholder-profile.svg'
+  profileImage: artist.profileImage || '/placeholder-profile.svg',
+  artworks: (artist.artworks || []).map(normalizeArtwork),
+  artworkSections: artist.artworkSections?.map(section => ({
+    ...section,
+    artworks: [
+      ...(section.artworks?.map(normalizeArtwork) || []),
+      ...(section.videos?.map(normalizeVideo) || [])
+    ]
+  }))
 }));
 
 // Artists content loader
