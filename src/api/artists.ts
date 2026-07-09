@@ -30,7 +30,9 @@ export interface Artwork {
   year: string;
   image: string;
   mediaType?: 'image' | 'video';
+  mimeType?: string;
   thumbnailImage?: string;
+  fallbackText?: string;
   description?: string;
 }
 

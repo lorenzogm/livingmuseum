@@ -12,6 +12,22 @@ interface FullscreenModalProps {
   onIndexChange: (index: number) => void;
 }
 
+function getVideoMimeType(artwork: Artwork) {
+  if (artwork.mimeType) {
+    return artwork.mimeType;
+  }
+
+  if (artwork.image.endsWith('.mov')) {
+    return 'video/quicktime';
+  }
+
+  if (artwork.image.endsWith('.webm')) {
+    return 'video/webm';
+  }
+
+  return 'video/mp4';
+}
+
 export default function FullscreenModal({ 
   isOpen, 
   onClose, 
@@ -107,8 +123,8 @@ export default function FullscreenModal({
                 className="h-full w-full object-contain"
                 aria-label={currentArtwork.title}
               >
-                <source src={currentArtwork.image} type="video/quicktime" />
-                Tu navegador no soporta la reproducción de este vídeo.
+                <source src={currentArtwork.image} type={getVideoMimeType(currentArtwork)} />
+                {currentArtwork.fallbackText}
               </video>
             ) : (
               <Image

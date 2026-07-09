@@ -22,7 +22,7 @@
           "title": "Libélulas 1 (2026)",
           "medium": "",
           "dimensions": "",
-          "year": "",
+          "year": "2026",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas/libelulas-1.webp"
         },
         {
@@ -30,7 +30,7 @@
           "title": "Libélulas 2 (2026)",
           "medium": "",
           "dimensions": "",
-          "year": "",
+          "year": "2026",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas/libelulas-2.webp"
         },
         {
@@ -38,7 +38,7 @@
           "title": "Libélulas 3 (2026)",
           "medium": "",
           "dimensions": "",
-          "year": "",
+          "year": "2026",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas/libelulas-3.webp",
           "description": "Fotografía realizada por Francisco del Corral del Campo."
         },
@@ -47,7 +47,7 @@
           "title": "Libélulas 4 (2026)",
           "medium": "",
           "dimensions": "",
-          "year": "",
+          "year": "2026",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/libelulas/libelulas-4.webp",
           "description": "Fotografía realizada por Rebeca de Jorge Huertas."
         }
@@ -62,7 +62,7 @@
           "title": "Perspectiva 1 (2026)",
           "medium": "",
           "dimensions": "",
-          "year": "",
+          "year": "2026",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-1.webp"
         },
         {
@@ -70,7 +70,7 @@
           "title": "Perspectiva 2 (2026)",
           "medium": "",
           "dimensions": "",
-          "year": "",
+          "year": "2026",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-2.webp"
         },
         {
@@ -78,7 +78,7 @@
           "title": "Perspectiva 3 (2026)",
           "medium": "",
           "dimensions": "",
-          "year": "",
+          "year": "2026",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-3.webp"
         },
         {
@@ -86,7 +86,7 @@
           "title": "Perspectiva 4 (2026)",
           "medium": "",
           "dimensions": "",
-          "year": "",
+          "year": "2026",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-4.webp"
         },
         {
@@ -94,7 +94,7 @@
           "title": "Perspectiva 5 (2026)",
           "medium": "",
           "dimensions": "",
-          "year": "",
+          "year": "2026",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-5.webp"
         },
         {
@@ -102,18 +102,20 @@
           "title": "Perspectiva 6 (2026)",
           "medium": "",
           "dimensions": "",
-          "year": "",
+          "year": "2026",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-6.webp"
         },
         {
           "id": "perspectiva-video",
           "title": "Vídeo realizado por IO",
-          "medium": "",
+          "medium": "Vídeo",
           "dimensions": "",
-          "year": "",
+          "year": "2026",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-video.mov",
           "mediaType": "video",
-          "thumbnailImage": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-1.webp"
+          "mimeType": "video/quicktime",
+          "thumbnailImage": "/content/artistas/virginia-de-jorge-huertas/artworks/perspectiva/perspectiva-1.webp",
+          "fallbackText": "Tu navegador no soporta la reproducción de este vídeo."
         }
       ]
     },
@@ -126,7 +128,7 @@
           "title": "Autorretrato (2023)",
           "medium": "",
           "dimensions": "",
-          "year": "",
+          "year": "2023",
           "image": "/content/artistas/virginia-de-jorge-huertas/artworks/autorretrato/autorretrato-2023.webp"
         }
       ]

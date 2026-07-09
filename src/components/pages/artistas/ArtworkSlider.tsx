@@ -10,6 +10,22 @@ interface ArtworkSliderProps {
   artworks: Artwork[];
 }
 
+function getVideoMimeType(artwork: Artwork) {
+  if (artwork.mimeType) {
+    return artwork.mimeType;
+  }
+
+  if (artwork.image.endsWith('.mov')) {
+    return 'video/quicktime';
+  }
+
+  if (artwork.image.endsWith('.webm')) {
+    return 'video/webm';
+  }
+
+  return 'video/mp4';
+}
+
 export default function ArtworkSlider({ artworks }: ArtworkSliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -117,8 +133,8 @@ export default function ArtworkSlider({ artworks }: ArtworkSliderProps) {
                 className="h-full w-full object-contain"
                 aria-label={currentArtwork.title}
               >
-                <source src={currentArtwork.image} type="video/quicktime" />
-                Tu navegador no soporta la reproducción de este vídeo.
+                <source src={currentArtwork.image} type={getVideoMimeType(currentArtwork)} />
+                {currentArtwork.fallbackText}
               </video>
             </div>
           ) : (
