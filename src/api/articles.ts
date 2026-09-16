@@ -1,6 +1,7 @@
 // Articles content and types
 
 // Import individual article data (chronologically sorted - newest first)
+import convocatoriaResidenciasArtisticas2627Data from '../../public/content/articles/convocatoria-residencias-artisticas-living-museum-26-27/convocatoria-residencias-artisticas-living-museum-26-27.json';
 import caleidoscopicaExposicionFinalData from '../../public/content/articles/caleidoscopica-exposicion-final-terceras-residencias-artisticas/caleidoscopica-exposicion-final-terceras-residencias-artisticas.json';
 import tallerEstampacionBotanicaData from '../../public/content/articles/taller-estampacion-botanica/taller-estampacion-botanica.json';
 import iiiResidenciasArtisticasData from '../../public/content/articles/iii-residencias-artisticas-living-museum-25-26/iii-residencias-artisticas-living-museum-25-26.json';
@@ -44,6 +45,7 @@ export interface ArticlesPageContent {
 
 // Combine all articles (chronologically sorted - newest first)
 const allArticles: Article[] = [
+  convocatoriaResidenciasArtisticas2627Data as Article,
   caleidoscopicaExposicionFinalData as Article,
   tallerEstampacionBotanicaData as Article,
   iiiResidenciasArtisticasData as Article,
@@ -86,6 +88,7 @@ export const getFeaturedArticles = (limit: number = 4): Article[] => {
 
 // Export data for use in other modules
 export {
+  convocatoriaResidenciasArtisticas2627Data,
   caleidoscopicaExposicionFinalData,
   tallerEstampacionBotanicaData,
   iiiResidenciasArtisticasData,
