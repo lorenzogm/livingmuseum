@@ -4,7 +4,6 @@
 import convocatoriaResidenciasArtisticas2627Data from '../../public/content/articles/convocatoria-residencias-artisticas-living-museum-26-27/convocatoria-residencias-artisticas-living-museum-26-27.json';
 import caleidoscopicaExposicionFinalData from '../../public/content/articles/caleidoscopica-exposicion-final-terceras-residencias-artisticas/caleidoscopica-exposicion-final-terceras-residencias-artisticas.json';
 import tallerEstampacionBotanicaData from '../../public/content/articles/taller-estampacion-botanica/taller-estampacion-botanica.json';
-import iiiResidenciasArtisticasData from '../../public/content/articles/iii-residencias-artisticas-living-museum-25-26/iii-residencias-artisticas-living-museum-25-26.json';
 import convocatoriaResidenciasData from '../../public/content/articles/convocatoria-residencias-living-museum-25-26/convocatoria-residencias-living-museum-25-26.json';
 import microcosmosEcotonosUniversosData from '../../public/content/articles/microcosmos-ecotonos-universos-exposicion-final/microcosmos-ecotonos-universos-exposicion-final.json';
 import elDespliegueDeLaPausaData from '../../public/content/articles/el-despliegue-de-la-pausa-exposicion-final/el-despliegue-de-la-pausa-exposicion-final.json';
@@ -48,7 +47,6 @@ const allArticles: Article[] = [
   convocatoriaResidenciasArtisticas2627Data as Article,
   caleidoscopicaExposicionFinalData as Article,
   tallerEstampacionBotanicaData as Article,
-  iiiResidenciasArtisticasData as Article,
   convocatoriaResidenciasData as Article,
   microcosmosEcotonosUniversosData as Article,
   elDespliegueDeLaPausaData as Article,
@@ -91,7 +89,6 @@ export {
   convocatoriaResidenciasArtisticas2627Data,
   caleidoscopicaExposicionFinalData,
   tallerEstampacionBotanicaData,
-  iiiResidenciasArtisticasData,
   convocatoriaResidenciasData,
   microcosmosEcotonosUniversosData,
   elDespliegueDeLaPausaData,
