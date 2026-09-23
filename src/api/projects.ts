@@ -1,6 +1,7 @@
 // Projects content and types
 
 // Import individual project data (chronologically sorted - newest first)
+import iiiResidenciasArtisticasData from '../../public/content/articles/iii-residencias-artisticas-living-museum-25-26/iii-residencias-artisticas-living-museum-25-26.json';
 import segundasResidenciasData from '../../public/content/proyectos/segundas-residencias-artisticas-living-museum-madrid/segundas-residencias-artisticas-living-museum-madrid.json';
 import primerasResidenciasData from '../../public/content/proyectos/primeras-residencias-artisticas-living-museum-madrid/primeras-residencias-artisticas-living-museum-madrid.json';
 import arteIAData from '../../public/content/proyectos/arte-inteligencia-artificial-diversidad-y-salud-mental/arte-inteligencia-artificial-diversidad-y-salud-mental.json';
@@ -38,6 +39,10 @@ export interface ProjectsPageContent {
 
 // Combine all projects (chronologically sorted - newest first)
 const allProjects: Project[] = [
+  {
+    ...(iiiResidenciasArtisticasData as Project),
+    url: '/proyectos/iii-residencias-artisticas-living-museum-25-26',
+  },
   segundasResidenciasData as Project,
   primerasResidenciasData as Project,
   arteIAData as Project,
@@ -74,6 +79,7 @@ export const getFeaturedProjects = (limit: number = 4): Project[] => {
 
 // Export data for use in other modules
 export {
+  iiiResidenciasArtisticasData,
   segundasResidenciasData,
   primerasResidenciasData,
   arteIAData,

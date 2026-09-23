@@ -1,6 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import { apiSdk } from '../../../api/apiSdk';
 import { ArticleDetailPage } from '@/components/shared/ArticleDetailPage';
 
@@ -10,18 +10,38 @@ interface ArticlePageProps {
   }>;
 }
 
+const movedArticleRoutes: Record<string, string> = {
+  'iii-residencias-artisticas-living-museum-25-26': '/proyectos/iii-residencias-artisticas-living-museum-25-26',
+};
+
 export async function generateStaticParams() {
   const articles = apiSdk.content.articles.getAll();
+  const movedArticleSlugs = Object.keys(movedArticleRoutes);
   
-  return articles.map((article) => ({
-    slug: article.slug,
-  }));
+  return [
+    ...articles.map((article) => ({
+      slug: article.slug,
+    })),
+    ...movedArticleSlugs.map((slug) => ({
+      slug,
+    })),
+  ];
 }
 
 export async function generateMetadata({ params }: ArticlePageProps): Promise<Metadata> {
   const { slug } = await params;
+  const movedRoute = movedArticleRoutes[slug];
   const article = apiSdk.content.articles.get(slug);
   
+  if (movedRoute) {
+    return {
+      title: 'Proyecto trasladado - Living Museum Madrid',
+      alternates: {
+        canonical: movedRoute,
+      },
+    };
+  }
+
   if (!article) {
     return {
       title: 'Artículo no encontrado - Living Museum Madrid',
@@ -66,7 +86,12 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
 
 export default async function ArticlePage({ params }: ArticlePageProps) {
   const { slug } = await params;
+  const movedRoute = movedArticleRoutes[slug];
   const article = apiSdk.content.articles.get(slug);
+
+  if (movedRoute) {
+    permanentRedirect(movedRoute);
+  }
 
   if (!article) {
     notFound();
