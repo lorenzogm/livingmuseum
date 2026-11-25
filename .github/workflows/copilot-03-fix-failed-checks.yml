@@ -1,0 +1,50 @@
+name: Copilot 03 - Fix failed checks
+
+on:
+  workflow_run:
+    workflows: ["Copilot 02 - Pull request checks"]
+    types: [completed]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: copilot-fix-pr-${{ github.event.workflow_run.pull_requests[0].number }}
+  cancel-in-progress: false
+
+jobs:
+  request-fix:
+    if: >-
+      github.event.workflow_run.conclusion == 'failure' &&
+      github.event.workflow_run.pull_requests[0].number != null &&
+      github.event.workflow_run.pull_requests[0].base.ref == 'main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ask Copilot to fix the failed checks
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT_TOKEN }}
+          PR_NUMBER: ${{ github.event.workflow_run.pull_requests[0].number }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+        run: |
+          PR_STATE=$(gh pr view "$PR_NUMBER" --repo "$REPO" --json state --jq '.state')
+          if [ "$PR_STATE" != "OPEN" ]; then
+            echo "Pull request is no longer open."
+            exit 0
+          fi
+
+          ATTEMPTS=$(gh api --paginate "repos/$REPO/issues/$PR_NUMBER/comments" \
+            --jq '.[].body' | grep -c '<!-- copilot-autofix-attempt-[1-5] -->' || true)
+
+          if [ "$ATTEMPTS" -ge 5 ]; then
+            echo "Copilot has already been asked to fix this pull request five times."
+            exit 0
+          fi
+
+          ATTEMPT=$((ATTEMPTS + 1))
+          gh pr comment "$PR_NUMBER" --repo "$REPO" --body \
+            "@copilot Please investigate and fix the failing checks in this pull request, then push a commit to this same branch. This is automatic repair attempt $ATTEMPT/5. Failed workflow run: $RUN_URL. Do not merge; automatic merging will happen only after the checks pass.
+
+          <!-- copilot-autofix-attempt-$ATTEMPT -->"
