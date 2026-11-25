@@ -134,7 +134,8 @@ export const getQuienesSomosContent = (): QuienesSomosContent => {
   const filteredTeamMembers = getFilteredTeamMembers([
     "Piedad García-Murga", 
     "Javier Lapuerta Laorden",
-    "Máriam Cáliz Cáceres"
+    "Máriam Cáliz Cáceres",
+    "Begoña Valía"
   ]);
   
   return {
