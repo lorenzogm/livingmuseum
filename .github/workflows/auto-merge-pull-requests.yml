@@ -2,21 +2,51 @@ name: auto-merge-pull-requests
 
 on:
   pull_request_target:
-    types: [opened, reopened, synchronize, ready_for_review]
+    types: [opened, reopened, converted_to_draft]
     branches: [main]
+  workflow_run:
+    workflows: ["Copilot 02 - Pull request checks"]
+    types: [completed]
 
 permissions:
   contents: write
   pull-requests: write
 
 jobs:
+  mark-ready-for-review:
+    if: github.event_name == 'pull_request_target' && github.event.pull_request.draft
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mark pull request ready for review
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: gh pr ready "$PR_NUMBER" --repo "$REPO"
+
   enable-auto-merge:
-    if: github.event.pull_request.draft == false
+    if: >-
+      github.event_name == 'workflow_run' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.pull_requests[0].number != null &&
+      github.event.workflow_run.pull_requests[0].base.ref == 'main'
     runs-on: ubuntu-latest
     steps:
       - name: Enable automatic merge
         env:
           GH_TOKEN: ${{ secrets.GH_PAT_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_NUMBER: ${{ github.event.workflow_run.pull_requests[0].number }}
           REPO: ${{ github.repository }}
-        run: gh pr merge "$PR_NUMBER" --repo "$REPO" --auto --squash --delete-branch
+          WORKFLOW_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          PR_DETAILS=$(gh pr view "$PR_NUMBER" --repo "$REPO" --json headRefOid,isDraft,state)
+          PR_HEAD_SHA=$(echo "$PR_DETAILS" | jq -r '.headRefOid')
+          PR_IS_DRAFT=$(echo "$PR_DETAILS" | jq -r '.isDraft')
+          PR_STATE=$(echo "$PR_DETAILS" | jq -r '.state')
+
+          if [ "$PR_HEAD_SHA" != "$WORKFLOW_SHA" ] || [ "$PR_IS_DRAFT" = "true" ] || [ "$PR_STATE" != "OPEN" ]; then
+            echo "Pull request head changed, is a draft, or is no longer open."
+            exit 0
+          fi
+
+          gh pr merge "$PR_NUMBER" --repo "$REPO" --auto --squash --delete-branch
